@@ -20,10 +20,48 @@ rule browsedata
 
 
 #Build steps
+build Dio_Cfg.pbi : index Dio_Cfg.xcl
+build Port_Cfg.pbi : index Port_Cfg.xcl
+build Port_PBcfg.pbi : index Port_PBcfg.xcl
+build Det.pbi : index Det.xcl
+build Dio.pbi : index Dio.xcl
+build Dio_Gpio.pbi : index Dio_Gpio.xcl
+build Port.pbi : index Port.xcl
+build Port_Ipw.pbi : index Port_Ipw.xcl
+build Port_Port_Ci.pbi : index Port_Port_Ci.xcl
+build SchM_Adc.pbi : index SchM_Adc.xcl
+build SchM_Can.pbi : index SchM_Can.xcl
+build SchM_Crcu.pbi : index SchM_Crcu.xcl
+build SchM_Dio.pbi : index SchM_Dio.xcl
+build SchM_Eep.pbi : index SchM_Eep.xcl
+build SchM_Eth.pbi : index SchM_Eth.xcl
+build SchM_Fee.pbi : index SchM_Fee.xcl
+build SchM_Fls.pbi : index SchM_Fls.xcl
+build SchM_Fr.pbi : index SchM_Fr.xcl
+build SchM_Gpt.pbi : index SchM_Gpt.xcl
+build SchM_I2c.pbi : index SchM_I2c.xcl
+build SchM_Icu.pbi : index SchM_Icu.xcl
+build SchM_Iseled.pbi : index SchM_Iseled.xcl
+build SchM_Lin.pbi : index SchM_Lin.xcl
+build SchM_Mcem.pbi : index SchM_Mcem.xcl
+build SchM_Mcl.pbi : index SchM_Mcl.xcl
+build SchM_Mcu.pbi : index SchM_Mcu.xcl
+build SchM_Ocu.pbi : index SchM_Ocu.xcl
+build SchM_Port.pbi : index SchM_Port.xcl
+build SchM_Pwm.pbi : index SchM_Pwm.xcl
+build SchM_RamTst.pbi : index SchM_RamTst.xcl
+build SchM_Spi.pbi : index SchM_Spi.xcl
+build SchM_Wdg.pbi : index SchM_Wdg.xcl
 build system_S32K148.pbi : index system_S32K148.xcl
 build startup.pbi : index startup.xcl
 build main.pbi : index main.xcl
-build S32K1x_Project.pbd : link system_S32K148.pbi startup.pbi main.pbi
+build S32K1x_Project_part0.pbi : link Dio_Cfg.pbi Port_Cfg.pbi Port_PBcfg.pbi Det.pbi Dio.pbi Dio_Gpio.pbi
+build S32K1x_Project_part1.pbi : link Port.pbi Port_Ipw.pbi Port_Port_Ci.pbi SchM_Adc.pbi SchM_Can.pbi SchM_Crcu.pbi
+build S32K1x_Project_part2.pbi : link SchM_Dio.pbi SchM_Eep.pbi SchM_Eth.pbi SchM_Fee.pbi SchM_Fls.pbi SchM_Fr.pbi
+build S32K1x_Project_part3.pbi : link SchM_Gpt.pbi SchM_I2c.pbi SchM_Icu.pbi SchM_Iseled.pbi SchM_Lin.pbi SchM_Mcem.pbi
+build S32K1x_Project_part4.pbi : link SchM_Mcl.pbi SchM_Mcu.pbi SchM_Ocu.pbi SchM_Port.pbi SchM_Pwm.pbi SchM_RamTst.pbi
+build S32K1x_Project_part5.pbi : link SchM_Spi.pbi SchM_Wdg.pbi system_S32K148.pbi startup.pbi main.pbi
+build S32K1x_Project.pbd : link S32K1x_Project_part0.pbi S32K1x_Project_part1.pbi S32K1x_Project_part2.pbi S32K1x_Project_part3.pbi S32K1x_Project_part4.pbi S32K1x_Project_part5.pbi
 build S32K1x_Project.pbw : browsedata S32K1x_Project.pbd
 
 

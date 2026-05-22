@@ -1,24 +1,56 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.40.2.214/W32 for ARM                  22/May/2026  22:44:14
+# IAR ELF Linker V8.40.2.214/W32 for ARM                  23/May/2026  01:09:58
 # Copyright 2007-2019 IAR Systems AB.
 #
 #    Output file  =
-#        F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Exe\S32K1x_Project.out
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Exe\S32K1x_Project.out
 #    Map file     =
-#        F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\List\S32K1x_Project.map
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\List\S32K1x_Project.map
 #    Command line =
-#        -f C:\Users\UsrLi\AppData\Local\Temp\EW451D.tmp
-#        (F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\main.o
-#        F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\startup.o
-#        F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\startup_S32K148.o
-#        F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\system_S32K148.o
+#        -f C:\Users\UsrLi\AppData\Local\Temp\EWB405.tmp
+#        (F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\Det.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\Dio.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\Dio_Cfg.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\Dio_Gpio.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\main.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\Port.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\Port_Cfg.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\Port_Ipw.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\Port_PBcfg.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\Port_Port_Ci.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\SchM_Adc.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\SchM_Can.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\SchM_Crcu.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\SchM_Dio.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\SchM_Eep.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\SchM_Eth.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\SchM_Fee.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\SchM_Fls.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\SchM_Fr.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\SchM_Gpt.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\SchM_I2c.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\SchM_Icu.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\SchM_Iseled.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\SchM_Lin.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\SchM_Mcem.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\SchM_Mcl.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\SchM_Mcu.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\SchM_Ocu.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\SchM_Port.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\SchM_Pwm.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\SchM_RamTst.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\SchM_Spi.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\SchM_Wdg.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\startup.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\startup_S32K148.o
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\system_S32K148.o
 #        --no_out_extension -o
-#        F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Exe\S32K1x_Project.out
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Exe\S32K1x_Project.out
 #        --map
-#        F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\List\S32K1x_Project.map
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\List\S32K1x_Project.map
 #        --config
-#        F:\PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\Linker_Files\S32K148_256_flash.icf
+#        F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Linker_Files\S32K148_256_flash.icf
 #        --semihosting --entry __iar_program_start --vfe --text_out locale)
 #
 ###############################################################################
@@ -135,7 +167,7 @@ command line/config:
     --------------------------------------------
     Total:
 
-F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj: [1]
+F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj: [1]
     main.o                   4
     startup.o              212        4
     startup_S32K148.o    1'122
@@ -222,7 +254,7 @@ main                          0x569   0x4  Code  Gb  main.o [1]
 s_vectors                     0x5e4   0x4  Data  Lc  startup.o [1]
 
 
-[1] = F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj
+[1] = F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj
 [2] = dl7M_tln.a
 [3] = m7M_tls.a
 [4] = rt7M_tl.a

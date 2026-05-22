@@ -18,6 +18,18 @@ F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\StartUp_Code\devices
 -I
 F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\StartUp_Code\devices\common
 -I
+F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Cfg\MCAL_Cfg\include
+-I
+F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Base\include
+-I
+F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Dio\include
+-I
+F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Port\include
+-I
+F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\SchM\include
+-I
+F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Det\include
+-I
 E:\Programs\IAR Systems\Embedded Workbench 8.3\arm\inc
 -I
 E:\Programs\IAR Systems\Embedded Workbench 8.3\arm\inc\c
@@ -29,6 +41,18 @@ F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\StartUp_Code\devices
 F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\StartUp_Code\devices\S32K148\startup
 -I
 F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\StartUp_Code\devices\common
+-I
+F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Cfg\MCAL_Cfg\include
+-I
+F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Base\include
+-I
+F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Dio\include
+-I
+F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Port\include
+-I
+F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\SchM\include
+-I
+F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Det\include
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
@@ -322,6 +346,7 @@ F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\StartUp_Code\devices
 -D__EDG_INT128_EXTENSIONS_ALLOWED=0
 -DSTART_FROM_FLASH=1
 -DCPU_S32K148=1
+-DAUTOSAR_OS_NOT_USED=1
 -D_DLIB_CONFIG_FILE_HEADER_NAME="E:\\Programs\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Config_Normal.h"
 -D_DLIB_CONFIG_FILE_STRING="E:\\Programs\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Config_Normal.h"
 -D__VERSION__="IAR ANSI C/C++ Compiler V8.40.2.214/W32 for ARM"
