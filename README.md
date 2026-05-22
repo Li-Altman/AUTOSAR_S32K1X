@@ -1,0 +1,2 @@
+# AUTOSAR_S32K1X
+S32K1X AUTOSAR minmum system
