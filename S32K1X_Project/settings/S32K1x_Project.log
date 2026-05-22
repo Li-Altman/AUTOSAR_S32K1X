@@ -1,0 +1,111 @@
+
+2026-05-17T16:11:33.200Z -+ ++++++++++++ IAR EWPtool 4.2.7 started.
+2026-05-17T16:11:33.200Z -- Arguments: -p F:\PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace -n S32K1x_Project -c Debug -f true -i false -l true 
+2026-05-17T16:11:33.200Z -+ cfg::retrieveSettings(): no previous settings file.
+2026-05-17T16:11:36.172Z -+ cfg::saveSettings(): no previous settings file.
+2026-05-17T16:11:36.173Z -+ cfg::deduplifyPath():
+                            --> F:\PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\
+2026-05-17T16:11:36.174Z -+ fs::getAllHeadersDir():
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\devices
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\devices\S32K148\include
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\devices\S32K148\startup
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\devices\common
+2026-05-17T16:11:36.195Z -+ fs::getAllSourceFilesInDir():
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\devices\S32K148\startup\system_S32K148.c
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\devices\startup.c
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\startup_S32K148.S
+2026-05-17T16:11:36.196Z -- ewp::setCCincludes(): inserting C/C++ Header Path(s)... 
+                            --> ewp::setOptions(): $PROJ_DIR$\StartUp_Code\devices
+                            --> ewp::setOptions(): $PROJ_DIR$\StartUp_Code\devices\S32K148\include
+                            --> ewp::setOptions(): $PROJ_DIR$\StartUp_Code\devices\S32K148\startup
+                            --> ewp::setOptions(): $PROJ_DIR$\StartUp_Code\devices\common
+2026-05-17T16:11:36.197Z -- ewp::setAUserIncludes(): inserting Assembler Header Path(s)... 
+                            --> ewp::setOptions(): $PROJ_DIR$\StartUp_Code\devices
+                            --> ewp::setOptions(): $PROJ_DIR$\StartUp_Code\devices\S32K148\include
+                            --> ewp::setOptions(): $PROJ_DIR$\StartUp_Code\devices\S32K148\startup
+                            --> ewp::setOptions(): $PROJ_DIR$\StartUp_Code\devices\common
+2026-05-17T16:11:36.197Z -+ ewp::setFiles():
+                            --> $PROJ_DIR$\StartUp_Code\devices\S32K148\startup\system_S32K148.c
+                            --> $PROJ_DIR$\StartUp_Code\devices\startup.c
+                            --> $PROJ_DIR$\StartUp_Code\startup_S32K148.S
+2026-05-17T16:11:36.223Z -+ ++++++++++++ IAR EWPtool 4.2.7 finished.
+
+2026-05-17T16:13:41.448Z -+ ++++++++++++ IAR EWPtool 4.2.7 started.
+2026-05-17T16:13:41.448Z -- Arguments: -p F:\PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace -n S32K1x_Project -c Debug -f true -i false -l true 
+2026-05-17T16:13:41.448Z -- cfg::retrieveSettings(): F:\PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\settings\S32K1x_Project.cfg
+                            --> $PROJ_DIR$\.
+2026-05-17T16:13:45.838Z -+ cfg::deduplifyPath():
+                            --> F:\PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\
+2026-05-17T16:13:45.839Z -+ fs::getAllHeadersDir():
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\devices
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\devices\S32K148\include
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\devices\S32K148\startup
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\devices\common
+2026-05-17T16:13:45.846Z -+ fs::getAllSourceFilesInDir():
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\devices\S32K148\startup\system_S32K148.c
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\devices\startup.c
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\startup_S32K148.S
+2026-05-17T16:13:45.846Z -- ewp::setCCincludes(): inserting C/C++ Header Path(s)... 
+                            --> ewp::setOptions(): no changes detected.
+2026-05-17T16:13:45.847Z -- ewp::setAUserIncludes(): inserting Assembler Header Path(s)... 
+                            --> ewp::setOptions(): no changes detected.
+2026-05-17T16:13:45.847Z -+ ewp::setFiles():
+                            --> ewp::detectFileChanges() : no changes detected.
+2026-05-17T16:13:45.872Z -+ ++++++++++++ IAR EWPtool 4.2.7 finished.
+
+2026-05-17T16:16:26.312Z -+ ++++++++++++ IAR EWPtool 4.2.7 started.
+2026-05-17T16:16:26.312Z -- Arguments: -p F:\PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace -n S32K1x_Project -c Debug -f true -i false -l true 
+2026-05-17T16:16:26.313Z -- cfg::retrieveSettings(): F:\PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\settings\S32K1x_Project.cfg
+                            --> $PROJ_DIR$\.
+                            --> $PROJ_DIR$\Linker_Files
+2026-05-17T16:16:30.421Z -+ cfg::deduplifyPath():
+                            --> F:\PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\
+2026-05-17T16:16:30.422Z -+ fs::getAllHeadersDir():
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\devices
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\devices\S32K148\include
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\devices\S32K148\startup
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\devices\common
+2026-05-17T16:16:30.428Z -+ fs::getAllSourceFilesInDir():
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\devices\S32K148\startup\system_S32K148.c
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\devices\startup.c
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\startup_S32K148.S
+2026-05-17T16:16:30.429Z -- ewp::setCCincludes(): inserting C/C++ Header Path(s)... 
+                            --> ewp::setOptions(): no changes detected.
+2026-05-17T16:16:30.430Z -- ewp::setAUserIncludes(): inserting Assembler Header Path(s)... 
+                            --> ewp::setOptions(): no changes detected.
+2026-05-17T16:16:30.430Z -+ ewp::setFiles():
+                            --> ewp::detectFileChanges() : no changes detected.
+2026-05-17T16:16:30.458Z -+ ++++++++++++ IAR EWPtool 4.2.7 finished.
+
+2026-05-17T16:16:42.680Z -+ ++++++++++++ IAR EWPtool 4.2.7 started.
+2026-05-17T16:16:42.680Z -- Arguments: -p F:\PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace -n S32K1x_Project -c Debug -f true -i false -l true 
+2026-05-17T16:16:42.681Z -- cfg::retrieveSettings(): F:\PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\settings\S32K1x_Project.cfg
+                            --> $PROJ_DIR$\.
+                            --> $PROJ_DIR$\Linker_Files
+                            --> $PROJ_DIR$\StartUp_Code
+2026-05-17T16:16:47.501Z -+ cfg::deduplifyPath():
+                            --> F:\PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\
+2026-05-17T16:16:47.503Z -+ fs::getAllHeadersDir():
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\devices
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\devices\S32K148\include
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\devices\S32K148\startup
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\devices\common
+2026-05-17T16:16:47.509Z -+ fs::getAllSourceFilesInDir():
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\devices\S32K148\startup\system_S32K148.c
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\devices\startup.c
+                            --> PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\StartUp_Code\startup_S32K148.S
+2026-05-17T16:16:47.509Z -- ewp::setCCincludes(): inserting C/C++ Header Path(s)... 
+                            --> ewp::setOptions(): no changes detected.
+2026-05-17T16:16:47.510Z -- ewp::setAUserIncludes(): inserting Assembler Header Path(s)... 
+                            --> ewp::setOptions(): no changes detected.
+2026-05-17T16:16:47.511Z -+ ewp::setFiles():
+                            --> ewp::detectFileChanges() : no changes detected.
+2026-05-17T16:16:47.538Z -+ ++++++++++++ IAR EWPtool 4.2.7 finished.
+
+2026-05-17T16:17:15.736Z -+ ++++++++++++ IAR EWPtool 4.2.7 started.
+2026-05-17T16:17:15.736Z -- Arguments: -p F:\PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace -n S32K1x_Project -c Debug -f true -i false -l true 
+2026-05-17T16:17:15.737Z -- cfg::retrieveSettings(): F:\PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\settings\S32K1x_Project.cfg
+                            --> $PROJ_DIR$\.
+                            --> $PROJ_DIR$\Linker_Files
+                            --> $PROJ_DIR$\StartUp_Code
+                            --> $PROJ_DIR$\StartUp_Code\devices

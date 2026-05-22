@@ -1,0 +1,236 @@
+###############################################################################
+#
+# IAR ELF Linker V8.40.2.214/W32 for ARM                  22/May/2026  22:44:14
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =
+#        F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Exe\S32K1x_Project.out
+#    Map file     =
+#        F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\List\S32K1x_Project.map
+#    Command line =
+#        -f C:\Users\UsrLi\AppData\Local\Temp\EW451D.tmp
+#        (F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\main.o
+#        F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\startup.o
+#        F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\startup_S32K148.o
+#        F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj\system_S32K148.o
+#        --no_out_extension -o
+#        F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Exe\S32K1x_Project.out
+#        --map
+#        F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\List\S32K1x_Project.map
+#        --config
+#        F:\PROJ_TEST\IARWorkSpace\S32K1x_WorkSpace\Linker_Files\S32K148_256_flash.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x400 to 0x40f] { section FlashConfig };
+"P2":  place in [from 0x0 to 0x3ff] |
+                [from 0x410 to 0x17'ffff] { ro };
+define block __CODE_ROM { section .textrw_init };
+"P3":  place in [from 0x0 to 0x3ff] |
+                [from 0x410 to 0x17'ffff] { block __CODE_ROM };
+define block RW { rw };
+"P4":  place in [from 0x1ffe'0400 to 0x1fff'ffff] { block RW };
+define block __CODE_RAM { section .textrw };
+"P5":  place in [from 0x1ffe'0400 to 0x1fff'ffff] { block __CODE_RAM };
+define block CSTACK with size = 1K, alignment = 8 { };
+"P9":  place in [from 0x2001'ec00 to 0x2001'efff] { block CSTACK };
+
+No sections matched the following patterns:
+
+  rw                        in block RW
+  section .customSection    in block customSectionBlock
+  section .textrw           in block __CODE_RAM
+  section .textrw_init      in block __CODE_ROM
+  section m_interrupts_ram  in "P10"
+  zi                        in block ZI
+
+
+  Section      Kind         Address   Size  Object
+  -------      ----         -------   ----  ------
+"A0":                                0x400
+  .intvec      ro code          0x0  0x400  startup_S32K148.o [1]
+                            - 0x400  0x400
+
+"P1":                                 0x10
+  FlashConfig  ro code        0x400   0x10  startup_S32K148.o [1]
+                            - 0x410   0x10
+
+"P2-P3", part 1 of 2:                0x1e8
+  .text        ro code        0x410   0xd4  startup.o [1]
+  .text        ro code        0x4e4   0x48  system_S32K148.o [1]
+  .text        ro code        0x52c   0x3c  startup_S32K148.o [1]
+  .text        ro code        0x568    0x4  main.o [1]
+  .text        ro code        0x56c   0x22  fpinit_M.o [3]
+  .text        ro code        0x58e    0x2  startup_S32K148.o [1]
+  .text        ro code        0x590   0x1e  cmain.o [4]
+  .text        ro code        0x5ae    0x4  low_level_init.o [2]
+  .text        ro code        0x5b2    0x4  exit.o [2]
+  .text        ro code        0x5b6    0x2  startup_S32K148.o [1]
+  .text        ro code        0x5b8    0xa  cexit.o [4]
+  .text        ro code        0x5c2    0x2  startup_S32K148.o [1]
+  .text        ro code        0x5c4   0x14  exit.o [5]
+  .text        ro code        0x5d8    0xc  cstartup_M.o [4]
+  .rodata      const          0x5e4    0x4  startup.o [1]
+  .text        ro code        0x5e8    0x4  startup_S32K148.o [1]
+  .text        ro code        0x5ec    0x2  startup_S32K148.o [1]
+  .text        ro code        0x5ee    0x2  startup_S32K148.o [1]
+  .text        ro code        0x5f0    0x2  startup_S32K148.o [1]
+  .text        ro code        0x5f2    0x2  startup_S32K148.o [1]
+  .text        ro code        0x5f4    0x2  startup_S32K148.o [1]
+  .text        ro code        0x5f6    0x2  startup_S32K148.o [1]
+                            - 0x5f8  0x1e8
+
+"P2-P3", part 2 of 2:                  0x0
+  __CODE_ROM                  0x5f8    0x0  <Block>
+
+"P4-P5":                               0x0
+  __CODE_RAM            0x1ffe'0400    0x0  <Block>
+
+"P9":                                0x400
+  CSTACK                0x2001'ec00  0x400  <Block>
+    CSTACK     uninit   0x2001'ec00  0x400  <Block tail>
+                      - 0x2001'f000  0x400
+
+Unused ranges:
+
+         From           To       Size
+         ----           --       ----
+        0x5f8    0x17'ffff  0x17'fa08
+  0x1ffe'0400  0x1fff'ffff   0x1'fc00
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module             ro code  ro data  rw data
+    ------             -------  -------  -------
+command line/config:
+    --------------------------------------------
+    Total:
+
+F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj: [1]
+    main.o                   4
+    startup.o              212        4
+    startup_S32K148.o    1'122
+    system_S32K148.o        72
+    --------------------------------------------
+    Total:               1'410        4
+
+dl7M_tln.a: [2]
+    exit.o                   4
+    low_level_init.o         4
+    --------------------------------------------
+    Total:                   8
+
+m7M_tls.a: [3]
+    fpinit_M.o              34
+    --------------------------------------------
+    Total:                  34
+
+rt7M_tl.a: [4]
+    cexit.o                 10
+    cmain.o                 30
+    cstartup_M.o            12
+    --------------------------------------------
+    Total:                  52
+
+shb_l.a: [5]
+    exit.o                  20
+    --------------------------------------------
+    Total:                  20
+
+    Linker created                         1'024
+------------------------------------------------
+    Grand Total:         1'524        4    1'024
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+.bss$$Base                      0x0         --   Gb  - Linker created -
+.bss$$Limit                     0x0         --   Gb  - Linker created -
+.customSection$$Base            0x0         --   Gb  - Linker created -
+.customSection_init$$Base
+                                0x0         --   Gb  - Linker created -
+.customSection_init$$Limit
+                                0x0         --   Gb  - Linker created -
+.data$$Base                     0x0         --   Gb  - Linker created -
+.data_init$$Base                0x0         --   Gb  - Linker created -
+.data_init$$Limit               0x0         --   Gb  - Linker created -
+?main                         0x591        Code  Gb  cmain.o [4]
+CSTACK$$Base            0x2001'ec00         --   Gb  - Linker created -
+CSTACK$$Limit           0x2001'f000         --   Gb  - Linker created -
+Region$$Table$$Base             0x0         --   Gb  - Linker created -
+Region$$Table$$Limit            0x0         --   Gb  - Linker created -
+SystemInit                    0x4e5  0x2e  Code  Gb  system_S32K148.o [1]
+__CODE_RAM$$Base        0x1ffe'0400         --   Gb  - Linker created -
+__CODE_RAM$$Limit       0x1ffe'0400         --   Gb  - Linker created -
+__CODE_ROM$$Base              0x5f8         --   Gb  - Linker created -
+__CODE_ROM$$Limit             0x5f8         --   Gb  - Linker created -
+__RAM_END {Abs}         0x2001'efff        Data  Gb  <internal module>
+__RAM_START {Abs}       0x1ffe'0000        Data  Gb  <internal module>
+__RAM_VECTOR_TABLE_SIZE {Abs}
+                              0x400        Data  Gb  <internal module>
+__VECTOR_RAM {Abs}      0x1ffe'0000        Data  Gb  <internal module>
+__VECTOR_TABLE {Abs}            0x0        Data  Gb  <internal module>
+__Vectors                       0x0         --   Gb  startup_S32K148.o [1]
+__Vectors_End                 0x400        Data  Gb  startup_S32K148.o [1]
+__Vectors_Size {Abs}          0x400         --   Gb  startup_S32K148.o [1]
+__cmain                       0x591        Code  Gb  cmain.o [4]
+__exit                        0x5c5  0x14  Code  Gb  exit.o [5]
+__iar_init_vfp                0x56d        Code  Gb  fpinit_M.o [3]
+__iar_program_start           0x5d9        Code  Gb  cstartup_M.o [4]
+__low_level_init              0x5af   0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0        Data  Gb  startup_S32K148.o [1]
+__vector_table_0x1c            0x1c        Data  Gb  startup_S32K148.o [1]
+_call_main                    0x59d        Code  Gb  cmain.o [4]
+_exit                         0x5b9        Code  Gb  cexit.o [4]
+_main                         0x5ab        Code  Gb  cmain.o [4]
+exit                          0x5b3   0x4  Code  Gb  exit.o [2]
+init_data_bss                 0x411  0xd4  Code  Gb  startup.o [1]
+main                          0x569   0x4  Code  Gb  main.o [1]
+s_vectors                     0x5e4   0x4  Data  Lc  startup.o [1]
+
+
+[1] = F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  1'524 bytes of readonly  code memory
+      4 bytes of readonly  data memory
+  1'024 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,15 @@
+startup.pbi: \
+  F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\StartUp_Code\devices\startup.c \
+  F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\StartUp_Code\devices/startup.h \
+  E:\Programs\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdint.h \
+  E:\Programs\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ycheck.h \
+  E:\Programs\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\yvals.h \
+  E:\Programs\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Defaults.h \
+  E:\\Programs\\IAR\ Systems\\Embedded\ Workbench\ 8.3\\arm\\inc\\c\\DLib_Config_Normal.h \
+  E:\Programs\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product.h \
+  F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\StartUp_Code\devices/device_registers.h \
+  F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\StartUp_Code\devices/common/s32_core_cm4.h \
+  F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\StartUp_Code\devices/S32K148/include/S32K148.h \
+  F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\StartUp_Code\devices/S32K148/include/S32K148_features.h \
+  F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\StartUp_Code\devices/devassert.h \
+  E:\Programs\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdbool.h
