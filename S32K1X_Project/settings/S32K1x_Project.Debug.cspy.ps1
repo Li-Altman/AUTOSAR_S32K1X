@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "E:\Programs\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\settings\S32K1x_Project.Debug.general.xcl" --backend -f "F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\settings\S32K1x_Project.Debug.driver.xcl" 
+& "E:\Programs\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\settings\S32K1x_Project.Debug.general.xcl" --backend -f "F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\settings\S32K1x_Project.Debug.driver.xcl" 
 }
 else
 {
-& "E:\Programs\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\settings\S32K1x_Project.Debug.general.xcl" --debug_file=$debugfile --backend -f "F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\settings\S32K1x_Project.Debug.driver.xcl" 
+& "E:\Programs\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\settings\S32K1x_Project.Debug.general.xcl" --debug_file=$debugfile --backend -f "F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\settings\S32K1x_Project.Debug.driver.xcl" 
 }

@@ -44,13 +44,14 @@
             <file>$PROJ_DIR$\StartUp_Code\devices\startup.h</file>
             <file>$PROJ_DIR$\Debug\Exe\S32K1x_Project.out</file>
             <file>$PROJ_DIR$\StartUp_Code\devices\common\s32_core_cm4.h</file>
+            <file>$PROJ_DIR$\..\..\S32K1x_WorkSpace\Linker_Files\S32K148_256_flash.icf</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 34 37</file>
+                    <file> 37 34</file>
                 </tool>
             </outputs>
         </file>
@@ -141,14 +142,10 @@
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 16 10 18 33 21 29 30 19 14</file>
+                    <file> 39 10 18 33 21 29 30 19 14</file>
                 </tool>
             </inputs>
         </file>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\Debug\Exe\S32K1x_Project.out</name>
-            <tool>OBJCOPY</tool>
-        </forcedrebuild>
         <forcedrebuild>
             <name>$PROJ_DIR$\StartUp_Code\devices\S32K148\startup\system_S32K148.c</name>
             <tool>C-STAT</tool>

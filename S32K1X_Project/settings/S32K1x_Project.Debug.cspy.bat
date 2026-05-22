@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"E:\Programs\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\settings\S32K1x_Project.Debug.general.xcl" --backend -f "F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\settings\S32K1x_Project.Debug.driver.xcl" 
+"E:\Programs\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\settings\S32K1x_Project.Debug.general.xcl" --backend -f "F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\settings\S32K1x_Project.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"E:\Programs\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\settings\S32K1x_Project.Debug.general.xcl" "--debug_file=%~1" --backend -f "F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\settings\S32K1x_Project.Debug.driver.xcl" 
+"E:\Programs\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\settings\S32K1x_Project.Debug.general.xcl" "--debug_file=%~1" --backend -f "F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\settings\S32K1x_Project.Debug.driver.xcl" 
 
 @echo off 
 :end

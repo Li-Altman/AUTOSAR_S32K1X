@@ -1,1 +1,2 @@
-main.pbi: F:\PROJ_TEST\IARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\main.c
+main.pbi: \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\main.c
