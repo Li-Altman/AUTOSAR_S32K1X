@@ -2387,6 +2387,9 @@
                     <name>$PROJ_DIR$\S32K1X_Cfg\MCAL_Cfg\include\Dio_Cfg.h</name>
                 </file>
                 <file>
+                    <name>$PROJ_DIR$\S32K1X_Cfg\MCAL_Cfg\include\Mcu_Cfg.h</name>
+                </file>
+                <file>
                     <name>$PROJ_DIR$\S32K1X_Cfg\MCAL_Cfg\include\modules.h</name>
                 </file>
                 <file>
@@ -2402,6 +2405,12 @@
                     <name>$PROJ_DIR$\S32K1X_Cfg\MCAL_Cfg\src\Dio_Cfg.c</name>
                 </file>
                 <file>
+                    <name>$PROJ_DIR$\S32K1X_Cfg\MCAL_Cfg\src\Mcu_Cfg.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\S32K1X_Cfg\MCAL_Cfg\src\Mcu_PBcfg.c</name>
+                </file>
+                <file>
                     <name>$PROJ_DIR$\S32K1X_Cfg\MCAL_Cfg\src\Port_Cfg.c</name>
                 </file>
                 <file>
@@ -2414,6 +2423,144 @@
         <name>S32K1X_Core</name>
         <group>
             <name>MCAL_Core</name>
+            <group>
+                <name>Mcu</name>
+                <group>
+                    <name>include</name>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Mcu.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_CMU.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_CMU_IPVersion.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_CMU_Types.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_CortexM4.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_EnvCfg.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_IPW.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_IPW_Irq.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_IPW_Types.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_PCC.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_PCC_Types.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_PMC.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_PMC_IPVersion.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_PMC_Types.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_RCM.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_RCM_Types.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_SCG.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_SCG_Types.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_SIM.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_SIM_Types.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_SMC.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_SMC_Types.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Reg_eSys_CMU.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Reg_eSys_CortexM4.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Reg_eSys_PCC.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Reg_eSys_PMC.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Reg_eSys_RCM.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Reg_eSys_SCG.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Reg_eSys_SIM.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\include\Reg_eSys_SMC.h</name>
+                    </file>
+                </group>
+                <group>
+                    <name>src</name>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_CMU.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_CMU_Irq.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_CortexM4.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_IPW.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_IPW_Irq.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_PCC.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_PMC.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_PMC_Irq.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_RCM.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_SCG.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_SIM.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_SMC.c</name>
+                    </file>
+                </group>
+            </group>
             <group>
                 <name>Base</name>
                 <group>
@@ -2581,6 +2728,9 @@
                         <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Dio\src\Dio_Gpio.c</name>
                     </file>
                 </group>
+            </group>
+            <group>
+                <name>Mcu</name>
             </group>
             <group>
                 <name>Port</name>

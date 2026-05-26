@@ -21,8 +21,23 @@ rule browsedata
 
 #Build steps
 build Dio_Cfg.pbi : index Dio_Cfg.xcl
+build Mcu_Cfg.pbi : index Mcu_Cfg.xcl
+build Mcu_PBcfg.pbi : index Mcu_PBcfg.xcl
 build Port_Cfg.pbi : index Port_Cfg.xcl
 build Port_PBcfg.pbi : index Port_PBcfg.xcl
+build Mcu.pbi : index Mcu.xcl
+build Mcu_CMU.pbi : index Mcu_CMU.xcl
+build Mcu_CMU_Irq.pbi : index Mcu_CMU_Irq.xcl
+build Mcu_CortexM4.pbi : index Mcu_CortexM4.xcl
+build Mcu_IPW.pbi : index Mcu_IPW.xcl
+build Mcu_IPW_Irq.pbi : index Mcu_IPW_Irq.xcl
+build Mcu_PCC.pbi : index Mcu_PCC.xcl
+build Mcu_PMC.pbi : index Mcu_PMC.xcl
+build Mcu_PMC_Irq.pbi : index Mcu_PMC_Irq.xcl
+build Mcu_RCM.pbi : index Mcu_RCM.xcl
+build Mcu_SCG.pbi : index Mcu_SCG.xcl
+build Mcu_SIM.pbi : index Mcu_SIM.xcl
+build Mcu_SMC.pbi : index Mcu_SMC.xcl
 build Det.pbi : index Det.xcl
 build Dio.pbi : index Dio.xcl
 build Dio_Gpio.pbi : index Dio_Gpio.xcl
@@ -55,13 +70,15 @@ build SchM_Wdg.pbi : index SchM_Wdg.xcl
 build system_S32K148.pbi : index system_S32K148.xcl
 build startup.pbi : index startup.xcl
 build main.pbi : index main.xcl
-build S32K1x_Project_part0.pbi : link Dio_Cfg.pbi Port_Cfg.pbi Port_PBcfg.pbi Det.pbi Dio.pbi Dio_Gpio.pbi
-build S32K1x_Project_part1.pbi : link Port.pbi Port_Ipw.pbi Port_Port_Ci.pbi SchM_Adc.pbi SchM_Can.pbi SchM_Crcu.pbi
-build S32K1x_Project_part2.pbi : link SchM_Dio.pbi SchM_Eep.pbi SchM_Eth.pbi SchM_Fee.pbi SchM_Fls.pbi SchM_Fr.pbi
-build S32K1x_Project_part3.pbi : link SchM_Gpt.pbi SchM_I2c.pbi SchM_Icu.pbi SchM_Iseled.pbi SchM_Lin.pbi SchM_Mcem.pbi
-build S32K1x_Project_part4.pbi : link SchM_Mcl.pbi SchM_Mcu.pbi SchM_Ocu.pbi SchM_Port.pbi SchM_Pwm.pbi SchM_RamTst.pbi
-build S32K1x_Project_part5.pbi : link SchM_Spi.pbi SchM_Wdg.pbi system_S32K148.pbi startup.pbi main.pbi
-build S32K1x_Project.pbd : link S32K1x_Project_part0.pbi S32K1x_Project_part1.pbi S32K1x_Project_part2.pbi S32K1x_Project_part3.pbi S32K1x_Project_part4.pbi S32K1x_Project_part5.pbi
+build S32K1x_Project_part0.pbi : link Dio_Cfg.pbi Mcu_Cfg.pbi Mcu_PBcfg.pbi Port_Cfg.pbi Port_PBcfg.pbi Mcu.pbi Mcu_CMU.pbi
+build S32K1x_Project_part1.pbi : link Mcu_CMU_Irq.pbi Mcu_CortexM4.pbi Mcu_IPW.pbi Mcu_IPW_Irq.pbi Mcu_PCC.pbi Mcu_PMC.pbi Mcu_PMC_Irq.pbi
+build S32K1x_Project_part2.pbi : link Mcu_RCM.pbi Mcu_SCG.pbi Mcu_SIM.pbi Mcu_SMC.pbi Det.pbi Dio.pbi Dio_Gpio.pbi
+build S32K1x_Project_part3.pbi : link Port.pbi Port_Ipw.pbi Port_Port_Ci.pbi SchM_Adc.pbi SchM_Can.pbi SchM_Crcu.pbi SchM_Dio.pbi
+build S32K1x_Project_part4.pbi : link SchM_Eep.pbi SchM_Eth.pbi SchM_Fee.pbi SchM_Fls.pbi SchM_Fr.pbi SchM_Gpt.pbi SchM_I2c.pbi
+build S32K1x_Project_part5.pbi : link SchM_Icu.pbi SchM_Iseled.pbi SchM_Lin.pbi SchM_Mcem.pbi SchM_Mcl.pbi SchM_Mcu.pbi SchM_Ocu.pbi
+build S32K1x_Project_part6.pbi : link SchM_Port.pbi SchM_Pwm.pbi SchM_RamTst.pbi SchM_Spi.pbi SchM_Wdg.pbi system_S32K148.pbi startup.pbi
+build S32K1x_Project_part7.pbi : link main.pbi
+build S32K1x_Project.pbd : link S32K1x_Project_part0.pbi S32K1x_Project_part1.pbi S32K1x_Project_part2.pbi S32K1x_Project_part3.pbi S32K1x_Project_part4.pbi S32K1x_Project_part5.pbi S32K1x_Project_part6.pbi S32K1x_Project_part7.pbi
 build S32K1x_Project.pbw : browsedata S32K1x_Project.pbd
 
 

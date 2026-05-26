@@ -30,6 +30,8 @@ F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Cor
 -I
 F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Det\include
 -I
+F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Mcu\include
+-I
 E:\Programs\IAR Systems\Embedded Workbench 8.3\arm\inc
 -I
 E:\Programs\IAR Systems\Embedded Workbench 8.3\arm\inc\c
@@ -53,6 +55,8 @@ F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Cor
 F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\SchM\include
 -I
 F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Det\include
+-I
+F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Mcu\include
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
