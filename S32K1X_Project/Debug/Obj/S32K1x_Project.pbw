@@ -301995,13 +301995,27 @@
     "scope": null
   },
   {
+    "ID": "c:main.c@iDioWriteChannelFlg_Dbg",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "iDioWriteChannelFlg_Dbg",
+    "location": {
+      "column": "14",
+      "line": "9",
+      "path": "F:\\PROJ_TEST\\AutoSARWorkSpace\\AUTOSAR_S32K1X\\S32K1X_Project\\main.c"
+    },
+    "name": "iDioWriteChannelFlg_Dbg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "10",
+      "line": "11",
       "path": "F:\\PROJ_TEST\\AutoSARWorkSpace\\AUTOSAR_S32K1X\\S32K1X_Project\\main.c"
     },
     "name": "main",

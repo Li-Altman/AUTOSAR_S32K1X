@@ -1,2 +1,36 @@
 main.pbi: \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Base\include\Dio_MemMap.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Dio\include\Dio_EnvCfg.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Cfg\MCAL_Cfg\include\Dio_Cfg.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Dio\include\Dio.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Base\include\Port_MemMap.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Port\include\Port_Reg_eSys_Port_Ci.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Port\include\Port_Port_Ci_Types.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Port\include\Port_EnvCfg.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Cfg\MCAL_Cfg\include\Port_Cfg.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Port\include\Port.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Base\include\Mcu_MemMap.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_CMU_IPVersion.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Mcu\include\Reg_eSys_CMU.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_CMU_Types.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_SMC_Types.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_SIM_Types.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_SCG_Types.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_RCM_Types.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_PMC_IPVersion.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Cfg\MCAL_Cfg\include\Reg_eSys.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Mcu\include\Reg_eSys_PMC.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_PMC_Types.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_PCC_Types.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_IPW_Types.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Mcu\include\Mcu_EnvCfg.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Base\include\Soc_Ips.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Base\include\Std_Types.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Base\include\CompilerDefinition.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Base\include\Compiler_Cfg.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Base\include\Compiler.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Base\include\Mcal.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Cfg\MCAL_Cfg\include\Mcu_Cfg.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Mcu\include\Mcu.h \
+  F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\S32K1X_Core\MCAL_Core\Base\include\Platform_Types.h \
   F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Project\main.c

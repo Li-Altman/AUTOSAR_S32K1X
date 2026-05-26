@@ -371,7 +371,7 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 53 57</file>
+                    <file> 57 53</file>
                 </tool>
             </outputs>
         </file>
@@ -390,7 +390,7 @@
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 4 111 67 63 59 39 61 41 6 50 60 117 114 108 109 11 29 22 12 32 28 33 19 23 20 13 7 14 9 15 90 91 30 25 51 66 44 46 43 48 54</file>
+                    <file> 4 111 67 63 59 39 286 292 288 285 284 287 289 305 290 310 297 312 308 311 307 61 41 6 50 60 117 114 108 109 11 29 22 12 32 28 33 19 23 20 13 7 14 9 15 90 91 30 25 51 66 44 46 43 48 54</file>
                 </tool>
             </inputs>
         </file>
@@ -594,6 +594,12 @@
                     <file> 39</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 154 333 263 141 128 140 123 160 165 317 320 322 323 246 2 329 332 326 335 252 321 251 316 152 167 1 157 180 174 182 162 5 168 125</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\SchM\src\SchM_Iseled.c</name>
@@ -1195,6 +1201,12 @@
                     <file> 290</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 318 322 263 141 128 140 123 160 154 165 317 152 253 2 184 161 176</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_IPW_Irq.c</name>
@@ -1212,6 +1224,12 @@
                     <file> 289</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 327 320 322 263 141 128 140 123 160 154 165 323 246 2 329 332 326 335 252 321 251 316 317 152 319 325 324 328</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_RCM.c</name>
@@ -1229,6 +1247,12 @@
                     <file> 312</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 331 332 263 141 128 140 123 160 154 165 317 152 250 2 184 161 176</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_SIM.c</name>
@@ -1246,6 +1270,12 @@
                     <file> 311</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 334 335 263 141 128 140 123 160 154 165 317 152 249 2 184 161 176</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_SMC.c</name>
@@ -1263,6 +1293,12 @@
                     <file> 307</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 336 252 263 141 128 140 123 160 154 165 317 152 248 2 184 161 176</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_IPW.c</name>
@@ -1280,6 +1316,12 @@
                     <file> 287</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 327 320 322 263 141 128 140 123 160 154 165 323 246 2 329 332 326 335 252 321 251 316 317 152 319 318 325 331 324 334 336 328 253 254 330 247</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_CMU_Irq.c</name>
@@ -1300,7 +1342,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 141 128 140 123 160 154 165</file>
+                    <file> 141 128 140 123 160 154 165 328 321 263 251 2 316 317 152</file>
                 </tool>
             </inputs>
         </file>
@@ -1320,6 +1362,12 @@
                     <file> 308</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 324 326 263 141 128 140 123 160 154 165 317 152 254 2 184 161 176</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_PMC.c</name>
@@ -1337,6 +1385,12 @@
                     <file> 310</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 325 323 263 141 128 140 123 160 154 165 246 2 329 317 152 333 320 322 332 326 335 252 321 251 316 184 161 176</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_CortexM4.c</name>
@@ -1357,7 +1411,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 263 141 128 140 123 160 154 165</file>
+                    <file> 263 141 128 140 123 160 154 165 330 247 152 161</file>
                 </tool>
             </inputs>
         </file>
@@ -1377,6 +1431,12 @@
                     <file> 288</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 328 321 263 141 128 140 123 160 154 165 251 2 316 317 152 333 320 322 323 246 329 332 326 335 252 184 161 176</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu.c</name>
@@ -1397,7 +1457,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 141 128 140 123 160 154 165</file>
+                    <file> 141 128 140 123 160 154 165 333 263 317 320 322 323 246 2 329 332 326 335 252 321 251 316 152 327</file>
                 </tool>
             </inputs>
         </file>
@@ -1420,7 +1480,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 141 128 140 123 160 154 165</file>
+                    <file> 141 128 140 123 160 154 165 325 323 263 246 2 329 317 152</file>
                 </tool>
             </inputs>
         </file>
@@ -1440,6 +1500,12 @@
                     <file> 292</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 333 263 141 128 140 123 160 154 165 317 320 322 323 246 2 329 332 326 335 252 321 251 316 152</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\S32K1X_Cfg\MCAL_Cfg\src\Mcu_PBcfg.c</name>
@@ -1457,217 +1523,16 @@
                     <file> 305</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 333 263 141 128 140 123 160 154 165 317 320 322 323 246 2 329 332 326 335 252 321 251 316 152 253 250 254 249 248</file>
+                </tool>
+            </inputs>
         </file>
-        <forcedrebuild>
-            <name>[MULTI_TOOL]</name>
-            <tool>ILINK</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Cfg\MCAL_Cfg\src\Dio_Cfg.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Cfg\MCAL_Cfg\src\Port_Cfg.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Cfg\MCAL_Cfg\src\Port_PBcfg.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Dio\src\Dio.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Port\src\Port_Ipw.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Port\src\Port_Port_Ci.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Det\src\Det.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Dio\src\Dio_Gpio.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Port\src\Port.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\main.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\SchM\src\SchM_Iseled.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\SchM\src\SchM_Mcu.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\SchM\src\SchM_Lin.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\StartUp_Code\devices\S32K148\startup\system_S32K148.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\SchM\src\SchM_RamTst.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\SchM\src\SchM_Mcl.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\SchM\src\SchM_Port.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\SchM\src\SchM_Spi.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\StartUp_Code\devices\startup.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\SchM\src\SchM_Ocu.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\SchM\src\SchM_Mcem.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\SchM\src\SchM_Wdg.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\SchM\src\SchM_Icu.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\SchM\src\SchM_Pwm.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\SchM\src\SchM_Eth.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\SchM\src\SchM_Fls.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\SchM\src\SchM_Fr.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\SchM\src\SchM_Crcu.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\SchM\src\SchM_Gpt.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\SchM\src\SchM_I2c.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\SchM\src\SchM_Dio.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\SchM\src\SchM_Can.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\SchM\src\SchM_Eep.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\SchM\src\SchM_Fee.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\SchM\src\SchM_Adc.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_PCC.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_IPW_Irq.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_RCM.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_SIM.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_SMC.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_IPW.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_CMU_Irq.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_SCG.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_PMC.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_CortexM4.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_CMU.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Core\MCAL_Core\Mcu\src\Mcu_PMC_Irq.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Cfg\MCAL_Cfg\src\Mcu_Cfg.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\S32K1X_Cfg\MCAL_Cfg\src\Mcu_PBcfg.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
         <forcedrebuild>
             <name>$PROJ_DIR$\StartUp_Code\devices\S32K148\startup\system_S32K148.c</name>
             <tool>C-STAT</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>[REBUILD_ALL]</name>
         </forcedrebuild>
     </configuration>
     <configuration>

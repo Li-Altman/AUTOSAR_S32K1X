@@ -1,12 +1,44 @@
-/*
- * @Author: L_TGo yunfei_li@tju.edu.cn
- * @Date: 2026-05-22 22:17:52
- * @LastEditors: L_TGo yunfei_li@tju.edu.cn
- * @LastEditTime: 2026-05-22 22:23:23
- * @FilePath: \S32K1x_WorkSpace\main.c
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
- */
+#include "Platform_Types.h"
+#include "Mcu.h"
+#include "Mcu_Cfg.h"
+#include "Port.h"
+#include "Port_Cfg.h"
+#include "Dio.h"
+#include "Port_Cfg.h"
 
-int main(void) {
+static uint8 iDioWriteChannelFlg_Dbg = 0U;
+
+int main(void)
+{
+    /* Mcu Module Init */
+    Mcu_Init(&McuModuleConfiguration);
+    Mcu_InitClock(McuConf_McuClockSettingConfig_McuClockSettingConfig_0);
+    while (MCU_PLL_LOCKED != Mcu_GetPllStatus())
+    {
+        /* code */
+    }
+    Mcu_DistributePllClock();
+
+    /* Port Module Init */
+    Port_Init(&PortConfigSet);
+
+    /* main */
+    while (1)
+    {
+        /* Dio Module use */
+        if (iDioWriteChannelFlg_Dbg == 0U)
+        {
+            Dio_WriteChannel(DioConf_DioChannel_DioChannel_PTE20, STD_LOW);
+            Dio_WriteChannel(DioConf_DioChannel_DioChannel_PTE21, STD_HIGH);
+            // iDioWriteChannelFlg_Dbg = 1U;
+        }
+        else
+        {
+            Dio_WriteChannel(DioConf_DioChannel_DioChannel_PTE20, STD_HIGH);
+            Dio_WriteChannel(DioConf_DioChannel_DioChannel_PTE21, STD_LOW);
+            // iDioWriteChannelFlg_Dbg = 0U;
+        }
+    }
+
     return 0;
 }
