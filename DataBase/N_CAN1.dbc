@@ -33,11 +33,14 @@ NS_ :
 
 BS_:
 
-BU_: BCM
+BU_: Gateway BCM
 
 
-BO_ 512 BCM1_1: 1 BCM
- SG_ Sig_Light_1_Sts : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+BO_ 256 Gateway_1: 8 Gateway
+ SG_ Sig_Light_1_Ctrl : 7|8@0+ (1,0) [0|255] ""  BCM
+
+BO_ 512 BCM1_1: 8 BCM
+ SG_ Sig_Light_1_Sts : 7|8@0+ (1,0) [0|255] ""  Gateway
 
 
 
@@ -78,7 +81,6 @@ BA_DEF_ BO_  "GenMsgCycleTime" INT 0 65535;
 BA_DEF_  "MultiplexExtEnabled" ENUM  "No","Yes";
 BA_DEF_  "BusType" STRING ;
 BA_DEF_REL_ BU_SG_REL_  "GenSigTimeoutTime" INT 0 65535;
-BA_DEF_DEF_REL_ "GenSigTimeoutTime" 0;
 BA_DEF_DEF_  "GenSigCycleTimeActive" 0;
 BA_DEF_DEF_  "GenSigInactiveValue" 0;
 BA_DEF_DEF_  "GenSigStartValue" 0;
@@ -115,5 +117,6 @@ BA_DEF_DEF_  "Manufacturer" "Vector";
 BA_DEF_DEF_  "GenMsgCycleTime" 100;
 BA_DEF_DEF_  "MultiplexExtEnabled" "No";
 BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_REL_ "GenSigTimeoutTime" 0;
 BA_ "DBName" "N_CAN1";
 
