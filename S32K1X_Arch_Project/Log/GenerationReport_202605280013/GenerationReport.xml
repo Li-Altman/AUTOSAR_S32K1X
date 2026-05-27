@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DaVinciExecutionReport name="Generation Execution Report">
+    <ValidationResults fatalerrors="0" errors="0" warnings="22" improvements="3" infos="1">
+        <ValidationResultId id="00034" message="Deviation from Published Information Default" origin="AR-BSWMD">
+            <ValidationResult severity="Warning" ondemandresult="false">
+                <Description>The parameter /ActiveEcuC/Mcu/CommonPublishedInformation[0:VendorApiInfix](value=) differs from published information default value&#xD;
+.&#xD;
+This may be ok when value is provided by external tooling.&#xD;
+Look into these locations for published information default values:&#xD;
+file:/D:/AutoSAR_Learning/AUTOSAR视频课程和工具及资料/Autosar_S32K1/Tools/ImportantTools/S32K1_SIP/MICROSAR/CBD1800257_D01_S32K1xx/BSWMD/Mcal_S32k/Copy_Mcu_s32k148_lqfp144.arxml</Description>
+                <ErroneousCEs>
+                    <CE>
+                        <Object>/ActiveEcuC/Mcu/CommonPublishedInformation[0:VendorApiInfix]</Object>
+                        <Definition>/TS_T40D2M10I1R0/Mcu/CommonPublishedInformation/VendorApiInfix</Definition>
+                        <Type>parameter</Type>
+                    </CE>
+                </ErroneousCEs>
+            </ValidationResult>
+            <ValidationResult severity="Warning" ondemandresult="false">
+                <Description>The parameter /ActiveEcuC/Mcu/McuPublishedInformation/MCU_CMU_LOC_RESET[0:McuResetReason](value=14) differs from published information default value 5.&#xD;
+This may be ok when value is provided by external tooling.&#xD;
+Look into these locations for published information default values:&#xD;
+file:/D:/AutoSAR_Learning/AUTOSAR视频课程和工具及资料/Autosar_S32K1/Tools/ImportantTools/S32K1_SIP/MICROSAR/CBD1800257_D01_S32K1xx/BSWMD/Mcal_S32k/Copy_Mcu_s32k148_lqfp144.arxml</Description>
+                <ErroneousCEs>
+                    <CE>
+                        <Object>/ActiveEcuC/Mcu/McuPublishedInformation/MCU_CMU_LOC_RESET[0:McuResetReason]</Object>
+                        <Definition>/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf/McuResetReason</Definition>
+                        <Type>parameter</Type>
+                    </CE>
+                </ErroneousCEs>
+            </ValidationResult>
+            <ValidationResult severity="Warning" ondemandresult="false">
+                <Description>The parameter /ActiveEcuC/Mcu/McuPublishedInformation/MCU_CORE_LOCKUP_RESET[0:McuResetReason](value=3) differs from published information default value 5.&#xD;
+This may be ok when value is provided by external tooling.&#xD;
+Look into these locations for published information default values:&#xD;
+file:/D:/AutoSAR_Learning/AUTOSAR视频课程和工具及资料/Autosar_S32K1/Tools/ImportantTools/S32K1_SIP/MICROSAR/CBD1800257_D01_S32K1xx/BSWMD/Mcal_S32k/Copy_Mcu_s32k148_lqfp144.arxml</Description>
+                <ErroneousCEs>
+                    <CE>
+                        <Object>/ActiveEcuC/Mcu/McuPublishedInformation/MCU_CORE_LOCKUP_RESET[0:McuResetReason]</Object>
+                        <Definition>/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf/McuResetReason</Definition>
+                        <Type>parameter</Type>
+                    </CE>
+                </ErroneousCEs>
+            </ValidationResult>
+            <ValidationResult severity="Warning" ondemandresult="false">
+                <Description>The parameter /ActiveEcuC/Mcu/McuPublishedInformation/MCU_EXTERNAL_PIN_RESET[0:McuResetReason](value=6) differs from published information default value 5.&#xD;
+This may be ok when value is provided by external tooling.&#xD;
+Look into these locations for published information default values:&#xD;
+file:/D:/AutoSAR_Learning/AUTOSAR视频课程和工具及资料/Autosar_S32K1/Tools/ImportantTools/S32K1_SIP/MICROSAR/CBD1800257_D01_S32K1xx/BSWMD/Mcal_S32k/Copy_Mcu_s32k148_lqfp144.arxml</Description>
+                <ErroneousCEs>
+                    <CE>
+                        <Object>/ActiveEcuC/Mcu/McuPublishedInformation/MCU_EXTERNAL_PIN_RESET[0:McuResetReason]</Object>
+                        <Definition>/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf/McuResetReason</Definition>
+                        <Type>parameter</Type>
+                    </CE>
+                </ErroneousCEs>
+            </ValidationResult>
+            <ValidationResult severity="Warning" ondemandresult="false">
+                <Description>The parameter /ActiveEcuC/Mcu/McuPublishedInformation/MCU_JTAG_RESET[0:McuResetReason](value=4) differs from published information default value 5.&#xD;
+This may be ok when value is provided by external tooling.&#xD;
+Look into these locations for published information default values:&#xD;
+file:/D:/AutoSAR_Learning/AUTOSAR视频课程和工具及资料/Autosar_S32K1/Tools/ImportantTools/S32K1_SIP/MICROSAR/CBD1800257_D01_S32K1xx/BSWMD/Mcal_S32k/Copy_Mcu_s32k148_lqfp144.arxml</Description>
+                <ErroneousCEs>
+                    <CE>
+                        <Object>/ActiveEcuC/Mcu/McuPublishedInformation/MCU_JTAG_RESET[0:McuResetReason]</Object>
+                        <Definition>/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf/McuResetReason</Definition>
+                        <Type>parameter</Type>
+                    </CE>
+                </ErroneousCEs>
+            </ValidationResult>
+            <ValidationResult severity="Warning" ondemandresult="false">
+                <Description>The parameter /ActiveEcuC/Mcu/McuPublishedInformation/MCU_LOSS_OF_CLOCK_RESET[0:McuResetReason](value=9) differs from published information default value 5.&#xD;
+This may be ok when value is provided by external tooling.&#xD;
+Look into these locations for published information default values:&#xD;
+file:/D:/AutoSAR_Learning/AUTOSAR视频课程和工具及资料/Autosar_S32K1/Tools/ImportantTools/S32K1_SIP/MICROSAR/CBD1800257_D01_S32K1xx/BSWMD/Mcal_S32k/Copy_Mcu_s32k148_lqfp144.arxml</Description>
+                <ErroneousCEs>
+                    <CE>
+                        <Object>/ActiveEcuC/Mcu/McuPublishedInformation/MCU_LOSS_OF_CLOCK_RESET[0:McuResetReason]</Object>
+                        <Definition>/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf/McuResetReason</Definition>
+                        <Type>parameter</Type>
+                    </CE>
+                </ErroneousCEs>
+            </ValidationResult>
+            <ValidationResult severity="Warning" ondemandresult="false">
+                <Description>The parameter /ActiveEcuC/Mcu/McuPublishedInformation/MCU_LOSS_OF_LOCK_RESET[0:McuResetReason](value=8) differs from published information default value 5.&#xD;
+This may be ok when value is provided by external tooling.&#xD;
+Look into these locations for published information default values:&#xD;
+file:/D:/AutoSAR_Learning/AUTOSAR视频课程和工具及资料/Autosar_S32K1/Tools/ImportantTools/S32K1_SIP/MICROSAR/CBD1800257_D01_S32K1xx/BSWMD/Mcal_S32k/Copy_Mcu_s32k148_lqfp144.arxml</Description>
+                <ErroneousCEs>
+                    <CE>
+                        <Object>/ActiveEcuC/Mcu/McuPublishedInformation/MCU_LOSS_OF_LOCK_RESET[0:McuResetReason]</Object>
+                        <Definition>/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf/McuResetReason</Definition>
+                        <Type>parameter</Type>
+                    </CE>
+                </ErroneousCEs>
+            </ValidationResult>
+            <ValidationResult severity="Warning" ondemandresult="false">
+                <Description>The parameter /ActiveEcuC/Mcu/McuPublishedInformation/MCU_LOW_OR_HIGH_VOLTAGE_DETECT_RESET[0:McuResetReason](value=10) differs from published information default value 5.&#xD;
+This may be ok when value is provided by external tooling.&#xD;
+Look into these locations for published information default values:&#xD;
+file:/D:/AutoSAR_Learning/AUTOSAR视频课程和工具及资料/Autosar_S32K1/Tools/ImportantTools/S32K1_SIP/MICROSAR/CBD1800257_D01_S32K1xx/BSWMD/Mcal_S32k/Copy_Mcu_s32k148_lqfp144.arxml</Description>
+                <ErroneousCEs>
+                    <CE>
+                        <Object>/ActiveEcuC/Mcu/McuPublishedInformation/MCU_LOW_OR_HIGH_VOLTAGE_DETECT_RESET[0:McuResetReason]</Object>
+                        <Definition>/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf/McuResetReason</Definition>
+                        <Type>parameter</Type>
+                    </CE>
+                </ErroneousCEs>
+            </ValidationResult>
+            <ValidationResult severity="Warning" ondemandresult="false">
+                <Description>The parameter /ActiveEcuC/Mcu/McuPublishedInformation/MCU_MDM_AP_SYSTEM_RESET[0:McuResetReason](value=1) differs from published information default value 5.&#xD;
+This may be ok when value is provided by external tooling.&#xD;
+Look into these locations for published information default values:&#xD;
+file:/D:/AutoSAR_Learning/AUTOSAR视频课程和工具及资料/Autosar_S32K1/Tools/ImportantTools/S32K1_SIP/MICROSAR/CBD1800257_D01_S32K1xx/BSWMD/Mcal_S32k/Copy_Mcu_s32k148_lqfp144.arxml</Description>
+                <ErroneousCEs>
+                    <CE>
+                        <Object>/ActiveEcuC/Mcu/McuPublishedInformation/MCU_MDM_AP_SYSTEM_RESET[0:McuResetReason]</Object>
+                        <Definition>/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf/McuResetReason</Definition>
+                        <Type>parameter</Type>
+                    </CE>
+                </ErroneousCEs>
+            </ValidationResult>
+            <ValidationResult severity="Warning" ondemandresult="false">
+                <Description>The parameter /ActiveEcuC/Mcu/McuPublishedInformation/MCU_MULTIPLE_RESET_REASON[0:McuResetReason](value=12) differs from published information default value 5.&#xD;
+This may be ok when value is provided by external tooling.&#xD;
+Look into these locations for published information default values:&#xD;
+file:/D:/AutoSAR_Learning/AUTOSAR视频课程和工具及资料/Autosar_S32K1/Tools/ImportantTools/S32K1_SIP/MICROSAR/CBD1800257_D01_S32K1xx/BSWMD/Mcal_S32k/Copy_Mcu_s32k148_lqfp144.arxml</Description>
+                <ErroneousCEs>
+                    <CE>
+                        <Object>/ActiveEcuC/Mcu/McuPublishedInformation/MCU_MULTIPLE_RESET_REASON[0:McuResetReason]</Object>
+                        <Definition>/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf/McuResetReason</Definition>
+                        <Type>parameter</Type>
+                    </CE>
+                </ErroneousCEs>
+            </ValidationResult>
+            <ValidationResult severity="Warning" ondemandresult="false">
+                <Description>The parameter /ActiveEcuC/Mcu/McuPublishedInformation/MCU_NO_RESET_REASON[0:McuResetReason](value=11) differs from published information default value 5.&#xD;
+This may be ok when value is provided by external tooling.&#xD;
+Look into these locations for published information default values:&#xD;
+file:/D:/AutoSAR_Learning/AUTOSAR视频课程和工具及资料/Autosar_S32K1/Tools/ImportantTools/S32K1_SIP/MICROSAR/CBD1800257_D01_S32K1xx/BSWMD/Mcal_S32k/Copy_Mcu_s32k148_lqfp144.arxml</Description>
+                <ErroneousCEs>
+                    <CE>
+                        <Object>/ActiveEcuC/Mcu/McuPublishedInformation/MCU_NO_RESET_REASON[0:McuResetReason]</Object>
+                        <Definition>/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf/McuResetReason</Definition>
+                        <Type>parameter</Type>
+                    </CE>
+                </ErroneousCEs>
+            </ValidationResult>
+            <ValidationResult severity="Warning" ondemandresult="false">
+                <Description>The parameter /ActiveEcuC/Mcu/McuPublishedInformation/MCU_RESET_UNDEFINED[0:McuResetReason](value=13) differs from published information default value 5.&#xD;
+This may be ok when value is provided by external tooling.&#xD;
+Look into these locations for published information default values:&#xD;
+file:/D:/AutoSAR_Learning/AUTOSAR视频课程和工具及资料/Autosar_S32K1/Tools/ImportantTools/S32K1_SIP/MICROSAR/CBD1800257_D01_S32K1xx/BSWMD/Mcal_S32k/Copy_Mcu_s32k148_lqfp144.arxml</Description>
+                <ErroneousCEs>
+                    <CE>
+                        <Object>/ActiveEcuC/Mcu/McuPublishedInformation/MCU_RESET_UNDEFINED[0:McuResetReason]</Object>
+                        <Definition>/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf/McuResetReason</Definition>
+                        <Type>parameter</Type>
+                    </CE>
+                </ErroneousCEs>
+            </ValidationResult>
+            <ValidationResult severity="Warning" ondemandresult="false">
+                <Description>The parameter /ActiveEcuC/Mcu/McuPublishedInformation/MCU_STOP_ACKNOWLEDGE_ERROR_RESET[0:McuResetReason](value=0) differs from published information default value 5.&#xD;
+This may be ok when value is provided by external tooling.&#xD;
+Look into these locations for published information default values:&#xD;
+file:/D:/AutoSAR_Learning/AUTOSAR视频课程和工具及资料/Autosar_S32K1/Tools/ImportantTools/S32K1_SIP/MICROSAR/CBD1800257_D01_S32K1xx/BSWMD/Mcal_S32k/Copy_Mcu_s32k148_lqfp144.arxml</Description>
+                <ErroneousCEs>
+                    <CE>
+                        <Object>/ActiveEcuC/Mcu/McuPublishedInformation/MCU_STOP_ACKNOWLEDGE_ERROR_RESET[0:McuResetReason]</Object>
+                        <Definition>/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf/McuResetReason</Definition>
+                        <Type>parameter</Type>
+                    </CE>
+                </ErroneousCEs>
+            </ValidationResult>
+            <ValidationResult severity="Warning" ondemandresult="false">
+                <Description>The parameter /ActiveEcuC/Mcu/McuPublishedInformation/MCU_SW_RESET[0:McuResetReason](value=2) differs from published information default value 5.&#xD;
+This may be ok when value is provided by external tooling.&#xD;
+Look into these locations for published information default values:&#xD;
+file:/D:/AutoSAR_Learning/AUTOSAR视频课程和工具及资料/Autosar_S32K1/Tools/ImportantTools/S32K1_SIP/MICROSAR/CBD1800257_D01_S32K1xx/BSWMD/Mcal_S32k/Copy_Mcu_s32k148_lqfp144.arxml</Description>
+                <ErroneousCEs>
+                    <CE>
+                        <Object>/ActiveEcuC/Mcu/McuPublishedInformation/MCU_SW_RESET[0:McuResetReason]</Object>
+                        <Definition>/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf/McuResetReason</Definition>
+                        <Type>parameter</Type>
+                    </CE>
+                </ErroneousCEs>
+            </ValidationResult>
+            <ValidationResult severity="Warning" ondemandresult="false">
+                <Description>The parameter /ActiveEcuC/Mcu/McuPublishedInformation/MCU_WATCHDOG_RESET[0:McuResetReason](value=7) differs from published information default value 5.&#xD;
+This may be ok when value is provided by external tooling.&#xD;
+Look into these locations for published information default values:&#xD;
+file:/D:/AutoSAR_Learning/AUTOSAR视频课程和工具及资料/Autosar_S32K1/Tools/ImportantTools/S32K1_SIP/MICROSAR/CBD1800257_D01_S32K1xx/BSWMD/Mcal_S32k/Copy_Mcu_s32k148_lqfp144.arxml</Description>
+                <ErroneousCEs>
+                    <CE>
+                        <Object>/ActiveEcuC/Mcu/McuPublishedInformation/MCU_WATCHDOG_RESET[0:McuResetReason]</Object>
+                        <Definition>/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf/McuResetReason</Definition>
+                        <Type>parameter</Type>
+                    </CE>
+                </ErroneousCEs>
+            </ValidationResult>
+        </ValidationResultId>
+        <ValidationResultId id="02217" message="Incorrect setting of PduR routing path transmission confirmation." origin="COM">
+            <ValidationResult severity="Warning" ondemandresult="false">
+                <Description>Transmit confirmation not required by the Com module.</Description>
+                <ErroneousCEs>
+                    <CE>
+                        <Object>/ActiveEcuC/PduR/PduRRoutingTables/PduRRoutingTable/BCM1_1_oN_CAN1_44e7d6dd_Tx/BCM1_1_oN_CAN1_1aba8317_Tx[0:PduRTransmissionConfirmation]</Object>
+                        <Definition>/MICROSAR/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRDestPdu/PduRTransmissionConfirmation</Definition>
+                        <Type>parameter</Type>
+                    </CE>
+                </ErroneousCEs>
+            </ValidationResult>
+        </ValidationResultId>
+        <ValidationResultId id="02325" message="Inconsistent signal access property" origin="COM">
+            <ValidationResult severity="Improvement" ondemandresult="false">
+                <Description>Neither a data mapping nor a gateway mapping was found</Description>
+                <ErroneousCEs>
+                    <CE>
+                        <Object>/ActiveEcuC/Com/ComConfig/Sig_Light_1_Ctrl_oGateway_1_oN_CAN1_1104c004_Rx[0:ComSignalAccess]</Object>
+                        <Definition>/MICROSAR/Com/ComConfig/ComSignal/ComSignalAccess</Definition>
+                        <Type>parameter</Type>
+                    </CE>
+                </ErroneousCEs>
+            </ValidationResult>
+            <ValidationResult severity="Improvement" ondemandresult="false">
+                <Description>Neither a data mapping nor a gateway mapping was found</Description>
+                <ErroneousCEs>
+                    <CE>
+                        <Object>/ActiveEcuC/Com/ComConfig/Sig_Light_1_Sts_oBCM1_1_oN_CAN1_e6c4aa46_Tx[0:ComSignalAccess]</Object>
+                        <Definition>/MICROSAR/Com/ComConfig/ComSignal/ComSignalAccess</Definition>
+                        <Type>parameter</Type>
+                    </CE>
+                </ErroneousCEs>
+            </ValidationResult>
+        </ValidationResultId>
+        <ValidationResultId id="02413" message="There is a more optimal value for the ComTxCycleCounterTimeBase parameter." origin="COM">
+            <ValidationResult severity="Improvement" ondemandresult="false">
+                <Description>Add the parameter ComTxCycleCounterTimeBase to reduce the runtime within the Com_MainFunctionTx.</Description>
+                <ErroneousCEs>
+                    <CE>
+                        <Object>/ActiveEcuC/Com/ComConfig/ComTimeBase</Object>
+                        <Definition>/MICROSAR/Com/ComConfig/ComTimeBase</Definition>
+                        <Type>container</Type>
+                    </CE>
+                </ErroneousCEs>
+            </ValidationResult>
+        </ValidationResultId>
+        <ValidationResultId id="02027" message="No ComMGlobalNvMBlockDescriptor has been configured." origin="COMM">
+            <ValidationResult severity="Warning" ondemandresult="false">
+                <Description>'ComMModeLimitationEnabled' or 'ComMWakeupInhibitionEnabled' is true, but 'ComMGlobalNvMBlockDescriptor' is not set.&#xD;
+The following values will not be stored in NvM data:&#xD;
+- the state of Wake-up Inhibition if changed at run-time via ComM_PreventWakeUp()&#xD;
+- the ECU Group Classification if changed at run-time via ComM_SetECUGroupClassification()&#xD;
+- the number of inhibited requests of FULL_COM by ComM users assigned to channels which have Mode Limitation or Wake-up Inhibition activated</Description>
+                <ErroneousCEs>
+                    <CE>
+                        <Definition>/MICROSAR/ComM/ComMGeneral/ComMGlobalNvMBlockDescriptor</Definition>
+                        <Type></Type>
+                    </CE>
+                    <CE>
+                        <Object>/ActiveEcuC/ComM/ComMGeneral[0:ComMModeLimitationEnabled]</Object>
+                        <Definition>/MICROSAR/ComM/ComMGeneral/ComMModeLimitationEnabled</Definition>
+                        <Type>parameter</Type>
+                    </CE>
+                </ErroneousCEs>
+            </ValidationResult>
+        </ValidationResultId>
+        <ValidationResultId id="01055" message="Tresos generator message" origin="Tresos">
+            <ValidationResult severity="Warning" ondemandresult="true">
+                <Description>Removed node "EcuMEnableDefBehaviour": The schema does not define a parameter with name "EcuMEnableDefBehaviour" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMFlexGeneral".</Description>
+                <ErroneousCEs>
+                    <CE>
+                        <Object>/ActiveEcuC/Base</Object>
+                        <Definition>/TS_T40D2M10I1R0/Base</Definition>
+                        <Type>moduleConfiguration</Type>
+                    </CE>
+                    <CE>
+                        <Object>/ActiveEcuC/Dio</Object>
+                        <Definition>/TS_T40D2M10I1R0/Dio</Definition>
+                        <Type>moduleConfiguration</Type>
+                    </CE>
+                    <CE>
+                        <Object>/ActiveEcuC/Mcu</Object>
+                        <Definition>/TS_T40D2M10I1R0/Mcu</Definition>
+                        <Type>moduleConfiguration</Type>
+                    </CE>
+                    <CE>
+                        <Object>/ActiveEcuC/Port</Object>
+                        <Definition>/TS_T40D2M10I1R0/Port</Definition>
+                        <Type>moduleConfiguration</Type>
+                    </CE>
+                </ErroneousCEs>
+            </ValidationResult>
+            <ValidationResult severity="Warning" ondemandresult="true">
+                <Description>Removed node "IMPLEMENTATION_CONFIG_VARIANT": The schema does not define a parameter with name "IMPLEMENTATION_CONFIG_VARIANT" in container "/TS_T40D2M10I1R0/Base".</Description>
+            </ValidationResult>
+            <ValidationResult severity="Warning" ondemandresult="true">
+                <Description>Removed node "IMPLEMENTATION_CONFIG_VARIANT": The schema does not define a parameter with name "IMPLEMENTATION_CONFIG_VARIANT" in container "/TS_T40D2M10I1R0/Resource".</Description>
+            </ValidationResult>
+        </ValidationResultId>
+        <ValidationResultId id="01648" message="Tresos generator message" origin="Tresos">
+            <ValidationResult severity="Warning" ondemandresult="true">
+                <Description>Created required node "/ActiveEcuC/EcuM/CommonPublishedInformation" in container "/ActiveEcuC/EcuM"</Description>
+                <ErroneousCEs>
+                    <CE>
+                        <Object>/ActiveEcuC/EcuM</Object>
+                        <Definition>/MICROSAR/EcuM</Definition>
+                        <Type>moduleConfiguration</Type>
+                    </CE>
+                </ErroneousCEs>
+            </ValidationResult>
+        </ValidationResultId>
+        <ValidationResultId id="79007" message="Combined non module specifc tresos warnings" origin="Tresos">
+            <ValidationResult severity="Warning" ondemandresult="true">
+                <Description>23 Messages&#xD;
+Message: 1055Removed node "IMPLEMENTATION_CONFIG_VARIANT": The schema does not define a parameter with name "IMPLEMENTATION_CONFIG_VARIANT" in container "/TS_T40D2M10I1R0/Base".&#xD;Message: 1055Removed node "EcuMFlexModuleConfigurationRef": The schema does not define a parameter with name "EcuMFlexModuleConfigurationRef" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMConfiguration/EcuMFlexConfiguration".&#xD;Message: 1055Removed node "EcuMIncludeDem": The schema does not define a parameter with name "EcuMIncludeDem" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;Message: 1055Removed node "EcuMDeferredBswMNotification": The schema does not define a parameter with name "EcuMDeferredBswMNotification" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;Message: 1055Removed node "EcuMSlaveCoreHandling": The schema does not define a parameter with name "EcuMSlaveCoreHandling" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;Message: 1055Removed node "EcuMEnableFixBehavior": The schema does not define a parameter with name "EcuMEnableFixBehavior" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;Message: 1055Removed node "EcuMNonChannelWakeupInRun": The schema does not define a parameter with name "EcuMNonChannelWakeupInRun" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;Message: 1055Removed node "EcuMGeneration": The schema does not define a parameter with name "EcuMGeneration" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;Message: 1055Removed node "EcuMEnableDefBehaviour": The schema does not define a parameter with name "EcuMEnableDefBehaviour" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMFlexGeneral".&#xD;Message: 1648Created required node "/ActiveEcuC/EcuM/CommonPublishedInformation" in container "/ActiveEcuC/EcuM"&#xD;Message: 1055Removed node "OsPublishedInformation": The schema does not define a parameter with name "OsPublishedInformation" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;Message: 1055Removed node "OsAppMode": The schema does not define a parameter with name "OsAppMode" in container "/TS_T40D2M10I1R0/Os".&#xD;Message: 1055Removed node "OsOS": The schema does not define a parameter with name "OsOS" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;Message: 1055Removed node "OsIsr": The schema does not define a parameter with name "OsIsr" in container "/TS_T40D2M10I1R0/Os".&#xD;Message: 1055Removed node "OsCore0": The schema does not define a parameter with name "OsCore" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;Message: 1055Removed node "OsTask": The schema does not define a parameter with name "OsTask" in container "/TS_T40D2M10I1R0/Os".&#xD;Message: 1055Removed node "SystemApplication_OsCore0": The schema does not define a parameter with name "OsApplication" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;Message: 1055Removed node "OsCounterAccessingApplication": The schema does not define a parameter with name "OsCounterAccessingApplication" in container "ASPath:/TS_T40D2M10I1R0/Os/OsCounter".&#xD;Message: 1055Removed node "OsDriver": The schema does not define a parameter with name "OsDriver" in container "ASPath:/TS_T40D2M10I1R0/Os/OsCounter".&#xD;Message: 1055Removed node "OsResource": The schema does not define a parameter with name "OsResource" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;Message: 1055Removed node "OsAlarm": The schema does not define a parameter with name "OsAlarm" in container "/TS_T40D2M10I1R0/Os".&#xD;Message: 1055Removed node "OsEvent": The schema does not define a parameter with name "OsEvent" in container "/TS_T40D2M10I1R0/Os".&#xD;Message: 1055Removed node "IMPLEMENTATION_CONFIG_VARIANT": The schema does not define a parameter with name "IMPLEMENTATION_CONFIG_VARIANT" in container "/TS_T40D2M10I1R0/Resource".&#xD;</Description>
+                <ErroneousCEs>
+                    <CE>
+                        <Object>/ActiveEcuC/Base</Object>
+                        <Definition>/TS_T40D2M10I1R0/Base</Definition>
+                        <Type>moduleConfiguration</Type>
+                    </CE>
+                    <CE>
+                        <Object>/ActiveEcuC/Dio</Object>
+                        <Definition>/TS_T40D2M10I1R0/Dio</Definition>
+                        <Type>moduleConfiguration</Type>
+                    </CE>
+                    <CE>
+                        <Object>/ActiveEcuC/EcuM</Object>
+                        <Definition>/MICROSAR/EcuM</Definition>
+                        <Type>moduleConfiguration</Type>
+                    </CE>
+                    <CE>
+                        <Object>/ActiveEcuC/Mcu</Object>
+                        <Definition>/TS_T40D2M10I1R0/Mcu</Definition>
+                        <Type>moduleConfiguration</Type>
+                    </CE>
+                    <CE>
+                        <Object>/ActiveEcuC/Port</Object>
+                        <Definition>/TS_T40D2M10I1R0/Port</Definition>
+                        <Type>moduleConfiguration</Type>
+                    </CE>
+                </ErroneousCEs>
+            </ValidationResult>
+        </ValidationResultId>
+        <ValidationResultId id="79009" message="Tresos generator is in 'Performance optimized' mode" origin="Tresos">
+            <ValidationResult severity="Info" ondemandresult="true">
+                <Description>In this mode the DaVinci Configurator calls the external tool tresos only once for all selected modules. This results in an improved performance. As downside the validation results for all generated modules are structured below the elements with origin 'Tresos' instead of the MSN for the particular module.</Description>
+            </ValidationResult>
+        </ValidationResultId>
+    </ValidationResults>
+    <GenerationProcessResult result="WARNING" lastexecutiontime="2026-05-28 00:13:04" lastexecutionduration="19.492">
+        <GenerationResult generationtype="GENERATOR">
+            <Name>BswM</Name>
+            <State>SUCCESSFUL</State>
+            <Phases>
+                <Phase type="CALCULATION" state="SUCCESSFUL"/>
+                <Phase type="VALIDATION" state="SUCCESSFUL"/>
+                <Phase type="GENERATION" state="SUCCESSFUL">
+                    <GeneratedFiles>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\Source\BswM_Callout_Stubs.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\BswM_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\BswM_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\BswM_PBcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\BswM_Private_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\BswM_XMI21.xml</File>
+                    </GeneratedFiles>
+                </Phase>
+            </Phases>
+            <Generator>
+                <Name>MICROSAR BswM Generator</Name>
+                <Version>14.1.1.1</Version>
+                <MSN>BswM</MSN>
+                <Definition>/MICROSAR/BswM</Definition>
+            </Generator>
+            <ModulConfigurations>
+                <ModuleConfiguration>
+                    <Name>BswM</Name>
+                    <Definition>/MICROSAR/BswM</Definition>
+                    <ObjectLink>/ActiveEcuC/BswM</ObjectLink>
+                    <ConfigurationVariant>VARIANT_PRE_COMPILE</ConfigurationVariant>
+                    <SupportsPostBuildVariance>false</SupportsPostBuildVariance>
+                </ModuleConfiguration>
+            </ModulConfigurations>
+        </GenerationResult>
+        <GenerationResult generationtype="GENERATOR">
+            <Name>CanIf</Name>
+            <State>SUCCESSFUL</State>
+            <Phases>
+                <Phase type="CALCULATION" state="SUCCESSFUL"/>
+                <Phase type="VALIDATION" state="SUCCESSFUL"/>
+                <Phase type="GENERATION" state="SUCCESSFUL">
+                    <GeneratedFiles>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\CanIf_CanTrcv.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\CanIf_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\CanIf_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\CanIf_PBcfg.c</File>
+                    </GeneratedFiles>
+                </Phase>
+            </Phases>
+            <Generator>
+                <Name>MICROSAR Can Interface Generator</Name>
+                <Version>4.9.0</Version>
+                <MSN>CanIf</MSN>
+                <Definition>/MICROSAR/CanIf</Definition>
+            </Generator>
+            <ModulConfigurations>
+                <ModuleConfiguration>
+                    <Name>CanIf</Name>
+                    <Definition>/MICROSAR/CanIf</Definition>
+                    <ObjectLink>/ActiveEcuC/CanIf</ObjectLink>
+                    <ConfigurationVariant>VARIANT_PRE_COMPILE</ConfigurationVariant>
+                    <SupportsPostBuildVariance>false</SupportsPostBuildVariance>
+                </ModuleConfiguration>
+            </ModulConfigurations>
+        </GenerationResult>
+        <GenerationResult generationtype="GENERATOR">
+            <Name>CanSM</Name>
+            <State>SUCCESSFUL</State>
+            <Phases>
+                <Phase type="CALCULATION" state="SUCCESSFUL"/>
+                <Phase type="VALIDATION" state="SUCCESSFUL"/>
+                <Phase type="GENERATION" state="SUCCESSFUL">
+                    <GeneratedFiles>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\CanSM_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\CanSM_Lcfg.c</File>
+                    </GeneratedFiles>
+                </Phase>
+            </Phases>
+            <Generator>
+                <Name>MICROSAR CanSM Generator</Name>
+                <Version>5.0.0</Version>
+                <MSN>CanSM</MSN>
+                <Definition>/MICROSAR/CanSM</Definition>
+            </Generator>
+            <ModulConfigurations>
+                <ModuleConfiguration>
+                    <Name>CanSM</Name>
+                    <Definition>/MICROSAR/CanSM</Definition>
+                    <ObjectLink>/ActiveEcuC/CanSM</ObjectLink>
+                    <ConfigurationVariant>VARIANT_PRE_COMPILE</ConfigurationVariant>
+                    <SupportsPostBuildVariance>false</SupportsPostBuildVariance>
+                </ModuleConfiguration>
+            </ModulConfigurations>
+        </GenerationResult>
+        <GenerationResult generationtype="GENERATOR">
+            <Name>Can</Name>
+            <State>SUCCESSFUL</State>
+            <Phases>
+                <Phase type="CALCULATION" state="SUCCESSFUL"/>
+                <Phase type="VALIDATION" state="SUCCESSFUL"/>
+                <Phase type="GENERATION" state="SUCCESSFUL">
+                    <GeneratedFiles>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Can_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Can_DrvGeneralTypes.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Can_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Can_PBcfg.c</File>
+                    </GeneratedFiles>
+                </Phase>
+            </Phases>
+            <Generator>
+                <Name>MICROSAR Can Flexcan3 driver Generator</Name>
+                <Version>3.8.1</Version>
+                <MSN>Can</MSN>
+                <Definition>/MICROSAR/Can_ImxFlexcan3/Can</Definition>
+            </Generator>
+            <ModulConfigurations>
+                <ModuleConfiguration>
+                    <Name>Can</Name>
+                    <Definition>/MICROSAR/Can_ImxFlexcan3/Can</Definition>
+                    <ObjectLink>/ActiveEcuC/Can</ObjectLink>
+                    <ConfigurationVariant>VARIANT_PRE_COMPILE</ConfigurationVariant>
+                    <SupportsPostBuildVariance>false</SupportsPostBuildVariance>
+                </ModuleConfiguration>
+            </ModulConfigurations>
+        </GenerationResult>
+        <GenerationResult generationtype="GENERATOR">
+            <Name>Com</Name>
+            <State>SUCCESSFUL</State>
+            <Phases>
+                <Phase type="CALCULATION" state="SUCCESSFUL"/>
+                <Phase type="VALIDATION" state="SUCCESSFUL"/>
+                <Phase type="GENERATION" state="SUCCESSFUL">
+                    <GeneratedFiles>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Appl_Cbk.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Log\Com_ACTS.xml</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Com_Cbk.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Com_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Com_Cot.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Com_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Com_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Com_PBcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Com_PBcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Com_Types.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Log\Com_XMI21.xml</File>
+                    </GeneratedFiles>
+                </Phase>
+            </Phases>
+            <Generator>
+                <Name>MICROSAR Com Generator</Name>
+                <Version>15.2.0</Version>
+                <MSN>Com</MSN>
+                <Definition>/MICROSAR/Com</Definition>
+            </Generator>
+            <ModulConfigurations>
+                <ModuleConfiguration>
+                    <Name>Com</Name>
+                    <Definition>/MICROSAR/Com</Definition>
+                    <ObjectLink>/ActiveEcuC/Com</ObjectLink>
+                    <ConfigurationVariant>VARIANT_PRE_COMPILE</ConfigurationVariant>
+                    <SupportsPostBuildVariance>false</SupportsPostBuildVariance>
+                </ModuleConfiguration>
+            </ModulConfigurations>
+        </GenerationResult>
+        <GenerationResult generationtype="GENERATOR">
+            <Name>ComM</Name>
+            <State>SUCCESSFUL</State>
+            <Phases>
+                <Phase type="CALCULATION" state="SUCCESSFUL"/>
+                <Phase type="VALIDATION" state="SUCCESSFUL"/>
+                <Phase type="GENERATION" state="SUCCESSFUL">
+                    <GeneratedFiles>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\ComM_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\ComM_GenTypes.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\ComM_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\ComM_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\ComM_PBcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\ComM_PBcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\ComM_Private_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\ComM_XMI21.xml</File>
+                    </GeneratedFiles>
+                </Phase>
+            </Phases>
+            <Generator>
+                <Name>MICROSAR ComM Generator</Name>
+                <Version>9.0.3</Version>
+                <MSN>ComM</MSN>
+                <Definition>/MICROSAR/ComM</Definition>
+            </Generator>
+            <ModulConfigurations>
+                <ModuleConfiguration>
+                    <Name>ComM</Name>
+                    <Definition>/MICROSAR/ComM</Definition>
+                    <ObjectLink>/ActiveEcuC/ComM</ObjectLink>
+                    <ConfigurationVariant>VARIANT_PRE_COMPILE</ConfigurationVariant>
+                    <SupportsPostBuildVariance>false</SupportsPostBuildVariance>
+                </ModuleConfiguration>
+            </ModulConfigurations>
+        </GenerationResult>
+        <GenerationResult generationtype="GENERATOR">
+            <Name>Det</Name>
+            <State>SUCCESSFUL</State>
+            <Phases>
+                <Phase type="CALCULATION" state="SUCCESSFUL"/>
+                <Phase type="VALIDATION" state="SUCCESSFUL"/>
+                <Phase type="GENERATION" state="SUCCESSFUL">
+                    <GeneratedFiles>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Det_Cfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Det_Cfg.h</File>
+                    </GeneratedFiles>
+                </Phase>
+            </Phases>
+            <Generator>
+                <Name>MICROSAR Det Generator</Name>
+                <Version>11.0.0.02</Version>
+                <MSN>Det</MSN>
+                <Definition>/MICROSAR/Det</Definition>
+            </Generator>
+            <ModulConfigurations>
+                <ModuleConfiguration>
+                    <Name>Det</Name>
+                    <Definition>/MICROSAR/Det</Definition>
+                    <ObjectLink>/ActiveEcuC/Det</ObjectLink>
+                    <ConfigurationVariant>VARIANT_PRE_COMPILE</ConfigurationVariant>
+                    <SupportsPostBuildVariance>false</SupportsPostBuildVariance>
+                </ModuleConfiguration>
+            </ModulConfigurations>
+        </GenerationResult>
+        <GenerationResult generationtype="GENERATOR">
+            <Name>EcuC</Name>
+            <State>SUCCESSFUL</State>
+            <Phases>
+                <Phase type="CALCULATION" state="NONE"/>
+                <Phase type="VALIDATION" state="SUCCESSFUL"/>
+                <Phase type="GENERATION" state="SUCCESSFUL">
+                    <GeneratedFiles>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\ComStack_Cfg.h</File>
+                    </GeneratedFiles>
+                </Phase>
+            </Phases>
+            <Generator>
+                <Name>MICROSAR EcuC Generator</Name>
+                <Version>5.1.0</Version>
+                <MSN>EcuC</MSN>
+                <Definition>/MICROSAR/EcuC</Definition>
+            </Generator>
+            <ModulConfigurations>
+                <ModuleConfiguration>
+                    <Name>EcuC</Name>
+                    <Definition>/MICROSAR/EcuC</Definition>
+                    <ObjectLink>/ActiveEcuC/EcuC</ObjectLink>
+                    <ConfigurationVariant>VARIANT_PRE_COMPILE</ConfigurationVariant>
+                    <SupportsPostBuildVariance>false</SupportsPostBuildVariance>
+                </ModuleConfiguration>
+            </ModulConfigurations>
+        </GenerationResult>
+        <GenerationResult generationtype="GENERATOR">
+            <Name>EcuM</Name>
+            <State>SUCCESSFUL</State>
+            <Phases>
+                <Phase type="CALCULATION" state="SUCCESSFUL"/>
+                <Phase type="VALIDATION" state="SUCCESSFUL"/>
+                <Phase type="GENERATION" state="SUCCESSFUL">
+                    <GeneratedFiles>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\Source\EcuM_Callout_Stubs.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\EcuM_Cfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\EcuM_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\EcuM_Generated_Types.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\EcuM_Init_Cfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\EcuM_Init_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\EcuM_Init_PBcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\EcuM_Init_PBcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\EcuM_PBcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\EcuM_PrivateCfg.h</File>
+                    </GeneratedFiles>
+                </Phase>
+            </Phases>
+            <Generator>
+                <Name>MICROSAR EcuM Generator</Name>
+                <Version>9.1.0.1</Version>
+                <MSN>EcuM</MSN>
+                <Definition>/MICROSAR/EcuM</Definition>
+            </Generator>
+            <ModulConfigurations>
+                <ModuleConfiguration>
+                    <Name>EcuM</Name>
+                    <Definition>/MICROSAR/EcuM</Definition>
+                    <ObjectLink>/ActiveEcuC/EcuM</ObjectLink>
+                    <ConfigurationVariant>VARIANT_PRE_COMPILE</ConfigurationVariant>
+                    <SupportsPostBuildVariance>false</SupportsPostBuildVariance>
+                </ModuleConfiguration>
+            </ModulConfigurations>
+        </GenerationResult>
+        <GenerationResult generationtype="GENERATOR">
+            <Name>ARXML to A2L Converter</Name>
+            <State>SUCCESSFUL</State>
+            <Phases>
+                <Phase type="CALCULATION" state="NONE"/>
+                <Phase type="VALIDATION" state="SUCCESSFUL"/>
+                <Phase type="GENERATION" state="SUCCESSFUL"/>
+            </Phases>
+            <Generator>
+                <Name>ARXML to A2L Converter</Name>
+                <Version>2.2.0</Version>
+                <MSN>McDataConv</MSN>
+                <Definition>/MICROSAR/McDataConv</Definition>
+            </Generator>
+        </GenerationResult>
+        <GenerationResult generationtype="GENERATOR">
+            <Name>Os</Name>
+            <State>SUCCESSFUL</State>
+            <Phases>
+                <Phase type="CALCULATION" state="NONE"/>
+                <Phase type="VALIDATION" state="SUCCESSFUL"/>
+                <Phase type="GENERATION" state="SUCCESSFUL">
+                    <GeneratedFiles>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Ioc.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_AccessCheck_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_AccessCheck_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_AccessCheck_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Alarm_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Alarm_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Application_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Application_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Application_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Barrier_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Barrier_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Barrier_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\Source\Os_Callout_Stubs.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Compiler_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Core_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Core_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Core_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Counter_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Counter_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Counter_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Error_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Error_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Error_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Hal_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Hal_Context_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Hal_Context_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Hal_Core_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Hal_Core_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Hal_Core_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Hal_EntryAsm_Lcfg.asm</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Hal_Entry_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Hal_Entry_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Hal_Entry_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Hal_Interrupt_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Hal_Interrupt_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Hal_Interrupt_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Hal_Kernel_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Hal_Kernel_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Hal_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Hal_MemoryProtection_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Hal_MemoryProtection_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Hal_MemoryProtection_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Hal_Timer_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Hal_Timer_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Hook_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Hook_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Hook_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Interrupt_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Ioc_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Ioc_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Ioc_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Isr_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Isr_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Link.icf</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Link_Core0.icf</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Link_Core0_Stacks.icf</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_MemMap.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_MemMap_OsCodeInt.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_MemMap_OsSectionsInt.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_MemMap_StacksInt.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_MemoryProtection_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_MemoryProtection_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_MemoryProtection_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Peripheral_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Peripheral_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Resource_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Resource_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_ScheduleTable_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_ScheduleTable_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_ScheduleTable_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Scheduler_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Scheduler_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Scheduler_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_ServiceFunction_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_ServiceFunction_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_ServiceFunction_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Spinlock_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Spinlock_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Stack_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Stack_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Stack_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Task_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Task_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_TimingProtection_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_TimingProtection_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_TimingProtection_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Trace_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Trace_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Trace_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_Types_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_XSignal_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_XSignal_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Os_XSignal_Lcfg.h</File>
+                    </GeneratedFiles>
+                </Phase>
+            </Phases>
+            <Generator>
+                <Name>MICROSAR OS</Name>
+                <Version>2.16.0</Version>
+                <MSN>Os</MSN>
+                <Definition>/MICROSAR/Os</Definition>
+            </Generator>
+            <ModulConfigurations>
+                <ModuleConfiguration>
+                    <Name>Os</Name>
+                    <Definition>/MICROSAR/Os</Definition>
+                    <ObjectLink>/ActiveEcuC/Os</ObjectLink>
+                    <ConfigurationVariant>VARIANT_PRE_COMPILE</ConfigurationVariant>
+                    <SupportsPostBuildVariance>false</SupportsPostBuildVariance>
+                </ModuleConfiguration>
+            </ModulConfigurations>
+        </GenerationResult>
+        <GenerationResult generationtype="GENERATOR">
+            <Name>PduR</Name>
+            <State>SUCCESSFUL</State>
+            <Phases>
+                <Phase type="CALCULATION" state="SUCCESSFUL"/>
+                <Phase type="VALIDATION" state="SUCCESSFUL"/>
+                <Phase type="GENERATION" state="SUCCESSFUL">
+                    <GeneratedFiles>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\PduR_CanIf.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\PduR_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\PduR_Com.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\PduR_Lcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\PduR_Lcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\PduR_PBcfg.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\PduR_PBcfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\PduR_Types.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Log\PduR_XMI21.xml</File>
+                    </GeneratedFiles>
+                </Phase>
+            </Phases>
+            <Generator>
+                <Name>MICROSAR Pdu Router Generator</Name>
+                <Version>14.3.1</Version>
+                <MSN>PduR</MSN>
+                <Definition>/MICROSAR/PduR</Definition>
+            </Generator>
+            <ModulConfigurations>
+                <ModuleConfiguration>
+                    <Name>PduR</Name>
+                    <Definition>/MICROSAR/PduR</Definition>
+                    <ObjectLink>/ActiveEcuC/PduR</ObjectLink>
+                    <ConfigurationVariant>VARIANT_PRE_COMPILE</ConfigurationVariant>
+                    <SupportsPostBuildVariance>false</SupportsPostBuildVariance>
+                </ModuleConfiguration>
+            </ModulConfigurations>
+        </GenerationResult>
+        <GenerationResult generationtype="GENERATOR">
+            <Name>Rte</Name>
+            <State>SUCCESSFUL</State>
+            <Phases>
+                <Phase type="CALCULATION" state="SUCCESSFUL"/>
+                <Phase type="VALIDATION" state="SUCCESSFUL"/>
+                <Phase type="GENERATION" state="SUCCESSFUL">
+                    <GeneratedFiles>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Components\Rte_BswM.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Components\Rte_ComM.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Components\Rte_Det.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Components\Rte_EcuM.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Components\Rte_Os_OsCore0_swc.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Components\Rte_BswM_Type.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Components\Rte_ComM_Type.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Components\Rte_Det_Type.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Components\Rte_EcuM_Type.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Components\Rte_Os_OsCore0_swc_Type.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Rte_Main.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Rte_Type.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Rte_DataHandleType.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Rte_UserTypes.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Rte_Hook.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Rte_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Rte.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Rte_Cbk.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Rte_MemMap.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Components\BswM_MemMap.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Components\ComM_MemMap.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Components\Det_MemMap.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Components\EcuM_MemMap.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Components\Os_OsCore0_swc_MemMap.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Rte_Compiler_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Rte.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\mak\Rte_cfg.mak</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\mak\Rte_check.mak</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\mak\Rte_defs.mak</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\mak\Rte_rules.mak</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\SchM_BswM.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\SchM_Can.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\SchM_CanIf.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\SchM_CanSM.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\SchM_Com.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\SchM_ComM.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\SchM_Det.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\SchM_Dio.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\SchM_EcuM.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\SchM_Mcu.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\SchM_PduR.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\SchM_Port.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\SchM_BswM_Type.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\SchM_Can_Type.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\SchM_CanIf_Type.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\SchM_CanSM_Type.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\SchM_Com_Type.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\SchM_ComM_Type.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\SchM_Det_Type.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\SchM_Dio_Type.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\SchM_EcuM_Type.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\SchM_Mcu_Type.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\SchM_PduR_Type.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\SchM_Port_Type.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Rte.oil</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\Rte_Needs.ecuc.arxml</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\LdCom_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\Com_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TestControl.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_BswM.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_ComM.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_Det.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_EcuM.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_Os_OsCore0_swc.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_BswM.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_ComM.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_Det.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_EcuM.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_Os_OsCore0_swc.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_SchM_BswM.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_SchM_Can.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_SchM_CanIf.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_SchM_CanSM.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_SchM_Com.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_SchM_ComM.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_SchM_Det.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_SchM_Dio.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_SchM_EcuM.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_SchM_Mcu.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_SchM_PduR.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_SchM_Port.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_SchM_BswM.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_SchM_Can.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_SchM_CanIf.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_SchM_CanSM.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_SchM_Com.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_SchM_ComM.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_SchM_Det.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_SchM_Dio.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_SchM_EcuM.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_SchM_Mcu.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_SchM_PduR.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\TSC_SchM_Port.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\Os_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\NvM_Cfg.h</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\BswM.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\ComM.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\Det.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\EcuM.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\Os_OsCore0_swc.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\Can.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\CanIf.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\CanSM.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\Com.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\Dio.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\Mcu.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\PduR.c</File>
+                        <File generationinfo="FILE_CREATED">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\RteAnalyzer\Source\Port.c</File>
+                    </GeneratedFiles>
+                </Phase>
+            </Phases>
+            <Generator>
+                <Name>MICROSAR RTE Generator</Name>
+                <Version>4.19.0</Version>
+                <MSN>Rte</MSN>
+                <Definition>/MICROSAR/Rte</Definition>
+            </Generator>
+            <ModulConfigurations>
+                <ModuleConfiguration>
+                    <Name>Rte</Name>
+                    <Definition>/MICROSAR/Rte</Definition>
+                    <ObjectLink>/ActiveEcuC/Rte</ObjectLink>
+                    <ConfigurationVariant>VARIANT_PRE_COMPILE</ConfigurationVariant>
+                    <SupportsPostBuildVariance>false</SupportsPostBuildVariance>
+                </ModuleConfiguration>
+            </ModulConfigurations>
+        </GenerationResult>
+        <GenerationResult generationtype="GENERATOR">
+            <Name>vSet</Name>
+            <State>SUCCESSFUL</State>
+            <Phases>
+                <Phase type="CALCULATION" state="NONE"/>
+                <Phase type="VALIDATION" state="SUCCESSFUL"/>
+                <Phase type="GENERATION" state="SUCCESSFUL"/>
+            </Phases>
+            <Generator>
+                <Name>MICROSAR vSet Generator</Name>
+                <Version>2.1.0</Version>
+                <MSN>vSet</MSN>
+                <Definition>/MICROSAR/vSet</Definition>
+            </Generator>
+            <ModulConfigurations>
+                <ModuleConfiguration>
+                    <Name>vSet</Name>
+                    <Definition>/MICROSAR/vSet</Definition>
+                    <ObjectLink>/ActiveEcuC/vSet</ObjectLink>
+                    <ConfigurationVariant>VARIANT_PRE_COMPILE</ConfigurationVariant>
+                    <SupportsPostBuildVariance>false</SupportsPostBuildVariance>
+                </ModuleConfiguration>
+            </ModulConfigurations>
+        </GenerationResult>
+        <GenerationResult generationtype="GENERATOR">
+            <Name>Base</Name>
+            <State>SUCCESSFUL</State>
+            <Phases>
+                <Phase type="CALCULATION" state="NONE"/>
+                <Phase type="VALIDATION" state="SUCCESSFUL">
+                    <ConsoleOutputs>
+                        <ConsoleOutput>EB tresos Studio 24.0.1 b180321-0610&#xD;
+Copyright 2003-2018 Elektrobit Automotive GmbH&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USDio_TS_T40D2M10I1R" instead of "EB_TS_MOD_USDio_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USDio_TS_T40D2M10I1R" instead of "EB_TS_MOD_USDio_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USDio_TS_T40D2M10I1R" instead of "EB_TS_MOD_USDio_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USBase_TS_T40D2M10I1" instead of "EB_TS_MOD_USBase_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USBase_TS_T40D2M10I1" instead of "EB_TS_MOD_USBase_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USBase_TS_T40D2M10I1" instead of "EB_TS_MOD_USBase_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+BUILD SUCCESSFUL&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+BUILD SUCCESSFUL&#xD;
+INFO 26-05-28,00:12:55 (12145) Using a shortened feature name ("EB_TS_MOD_USDio_TS_T40D2M10I1R" instead of "EB_TS_MOD_USDio_TS_T40D2M10I1R0") for license check.&#xD;
+BUILD SUCCESSFUL&#xD;
+INFO 26-05-28,00:12:55 (12145) Using a shortened feature name ("EB_TS_MOD_USBase_TS_T40D2M10I1" instead of "EB_TS_MOD_USBase_TS_T40D2M10I1R0") for license check.&#xD;
+BUILD SUCCESSFUL&#xD;
+INFO 26-05-28,00:12:52 (2202) Reading file "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\TRESOS_XSL_OUT_Tresos_ECUC_4.2.2_949555600701402264.arxml_7387585706849603492.arxml"&#xD;
+WARNING 26-05-28,00:12:52 (23022) The parameter value "15978670040411331493" can not exactly be represented in the internal format and will be rounded to "1.597867004041133E19".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "IMPLEMENTATION_CONFIG_VARIANT": The schema does not define a parameter with name "IMPLEMENTATION_CONFIG_VARIANT" in container "/TS_T40D2M10I1R0/Base".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMFlexModuleConfigurationRef": The schema does not define a parameter with name "EcuMFlexModuleConfigurationRef" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMConfiguration/EcuMFlexConfiguration".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMIncludeDem": The schema does not define a parameter with name "EcuMIncludeDem" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMDeferredBswMNotification": The schema does not define a parameter with name "EcuMDeferredBswMNotification" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMSlaveCoreHandling": The schema does not define a parameter with name "EcuMSlaveCoreHandling" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMEnableFixBehavior": The schema does not define a parameter with name "EcuMEnableFixBehavior" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMNonChannelWakeupInRun": The schema does not define a parameter with name "EcuMNonChannelWakeupInRun" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMGeneration": The schema does not define a parameter with name "EcuMGeneration" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMEnableDefBehaviour": The schema does not define a parameter with name "EcuMEnableDefBehaviour" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMFlexGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1648) Created required node "/ActiveEcuC/EcuM/CommonPublishedInformation" in container "/ActiveEcuC/EcuM"&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsPublishedInformation": The schema does not define a parameter with name "OsPublishedInformation" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsAppMode": The schema does not define a parameter with name "OsAppMode" in container "/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsOS": The schema does not define a parameter with name "OsOS" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsIsr": The schema does not define a parameter with name "OsIsr" in container "/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsCore0": The schema does not define a parameter with name "OsCore" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsTask": The schema does not define a parameter with name "OsTask" in container "/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "SystemApplication_OsCore0": The schema does not define a parameter with name "OsApplication" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsCounterAccessingApplication": The schema does not define a parameter with name "OsCounterAccessingApplication" in container "ASPath:/TS_T40D2M10I1R0/Os/OsCounter".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsDriver": The schema does not define a parameter with name "OsDriver" in container "ASPath:/TS_T40D2M10I1R0/Os/OsCounter".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsResource": The schema does not define a parameter with name "OsResource" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsAlarm": The schema does not define a parameter with name "OsAlarm" in container "/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsEvent": The schema does not define a parameter with name "OsEvent" in container "/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "IMPLEMENTATION_CONFIG_VARIANT": The schema does not define a parameter with name "IMPLEMENTATION_CONFIG_VARIANT" in container "/TS_T40D2M10I1R0/Resource".&#xD;
+INFO 26-05-28,00:12:53 (2164) Verify module "Base"&#xD;
+INFO 26-05-28,00:12:53 (2164) Verify module "Dio"&#xD;
+INFO 26-05-28,00:12:53 (2164) Verify module "Mcu"&#xD;
+INFO 26-05-28,00:12:53 (2164) Verify module "Port"&#xD;
+INFO 26-05-28,00:12:53 (13030) Running generator "plugin.tresosdb.api.verifygenerator" in mode "generate" for module ""&#xD;
+INFO 26-05-28,00:12:53 (13030) Running generator "Mcu_TS_T40D2M10I1R0" in mode "generate" for module "Mcu_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:53 (2213) Creating directory "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\output"&#xD;
+INFO 26-05-28,00:12:53 (20053) Generating file C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\output\Mcu.epc&#xD;
+INFO 26-05-28,00:12:53 (13030) Running generator "Mcu_TS_T40D2M10I1R0_GeneratorId" in mode "generate" for module "Mcu_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:53 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\src\Mcu_PBcfg.c"&#xD;
+INFO 26-05-28,00:12:53 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\src\Mcu_Cfg.c"&#xD;
+INFO 26-05-28,00:12:53 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\include\Mcu_Cfg.h"&#xD;
+INFO 26-05-28,00:12:53 (13030) Running generator "Port_TS_T40D2M10I1R0" in mode "generate" for module "Port_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:53 (20053) Generating file C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\output\Port.epc&#xD;
+INFO 26-05-28,00:12:53 (13030) Running generator "Port_TS_T40D2M10I1R0_GeneratorId" in mode "generate" for module "Port_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:53 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\src\Port_PBcfg.c"&#xD;
+INFO 26-05-28,00:12:53 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\src\Port_Cfg.c"&#xD;
+INFO 26-05-28,00:12:54 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\include\Port_Cfg.h"&#xD;
+INFO 26-05-28,00:12:54 (13030) Running generator "Dio_TS_T40D2M10I1R0" in mode "generate" for module "Dio_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:54 (20053) Generating file C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\output\Dio.epc&#xD;
+INFO 26-05-28,00:12:54 (13030) Running generator "Dio_TS_T40D2M10I1R0_GeneratorId" in mode "generate" for module "Dio_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:54 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\include\Dio_Cfg.h"&#xD;
+INFO 26-05-28,00:12:54 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\src\Dio_Cfg.c"&#xD;
+INFO 26-05-28,00:12:54 (13030) Running generator "Base_TS_T40D2M10I1R0" in mode "generate" for module "Base_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:54 (20053) Generating file C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\output\Base.epc&#xD;
+INFO 26-05-28,00:12:54 (13030) Running generator "Base_TS_T40D2M10I1R0_GeneratorId" in mode "generate" for module "Base_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:54 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\include\modules.h"&#xD;
+INFO 26-05-28,00:12:54 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\include\Reg_eSys.h"&#xD;
+INFO 26-05-28,00:12:54 (13030) Running generator "Mcu_TS_T40D2M10I1R0_UniqueNGGeneratorId" in mode "generate" for module "Mcu_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:54 (13030) Running generator "Port_TS_T40D2M10I1R0_UniqueNGGeneratorId" in mode "generate" for module "Port_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:55 (13030) Running generator "Dio_TS_T40D2M10I1R0_UniqueNGGeneratorId" in mode "generate" for module "Dio_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:55 (13030) Running generator "Base_TS_T40D2M10I1R0_UniqueNGGeneratorId" in mode "generate" for module "Base_TS_T40D2M10I1R0"&#xD;
+&#xD;
+Errors "0" Warnings "24"&#xD;
+</ConsoleOutput>
+                    </ConsoleOutputs>
+                </Phase>
+                <Phase type="GENERATION" state="SUCCESSFUL">
+                    <GeneratedFiles>
+                        <File generationinfo="FILE_IS_UP_TO_DATE">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\include</File>
+                        <File generationinfo="FILE_IS_UP_TO_DATE">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\output</File>
+                        <File generationinfo="FILE_IS_UP_TO_DATE">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\src</File>
+                    </GeneratedFiles>
+                </Phase>
+            </Phases>
+            <Generator>
+                <Name>Tresos proxy generator</Name>
+                <Version>3.8.1</Version>
+                <MSN>Base</MSN>
+                <Definition>/TS_T40D2M10I1R0/Base</Definition>
+            </Generator>
+            <ModulConfigurations>
+                <ModuleConfiguration>
+                    <Name>Base</Name>
+                    <Definition>/TS_T40D2M10I1R0/Base</Definition>
+                    <ObjectLink>/ActiveEcuC/Base</ObjectLink>
+                    <ConfigurationVariant>VARIANT_PRE_COMPILE</ConfigurationVariant>
+                    <SupportsPostBuildVariance>false</SupportsPostBuildVariance>
+                </ModuleConfiguration>
+            </ModulConfigurations>
+        </GenerationResult>
+        <GenerationResult generationtype="GENERATOR">
+            <Name>Dio</Name>
+            <State>SUCCESSFUL</State>
+            <Phases>
+                <Phase type="CALCULATION" state="NONE"/>
+                <Phase type="VALIDATION" state="SUCCESSFUL">
+                    <ConsoleOutputs>
+                        <ConsoleOutput>EB tresos Studio 24.0.1 b180321-0610&#xD;
+Copyright 2003-2018 Elektrobit Automotive GmbH&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USDio_TS_T40D2M10I1R" instead of "EB_TS_MOD_USDio_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USDio_TS_T40D2M10I1R" instead of "EB_TS_MOD_USDio_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USDio_TS_T40D2M10I1R" instead of "EB_TS_MOD_USDio_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USBase_TS_T40D2M10I1" instead of "EB_TS_MOD_USBase_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USBase_TS_T40D2M10I1" instead of "EB_TS_MOD_USBase_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USBase_TS_T40D2M10I1" instead of "EB_TS_MOD_USBase_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+BUILD SUCCESSFUL&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+BUILD SUCCESSFUL&#xD;
+INFO 26-05-28,00:12:55 (12145) Using a shortened feature name ("EB_TS_MOD_USDio_TS_T40D2M10I1R" instead of "EB_TS_MOD_USDio_TS_T40D2M10I1R0") for license check.&#xD;
+BUILD SUCCESSFUL&#xD;
+INFO 26-05-28,00:12:55 (12145) Using a shortened feature name ("EB_TS_MOD_USBase_TS_T40D2M10I1" instead of "EB_TS_MOD_USBase_TS_T40D2M10I1R0") for license check.&#xD;
+BUILD SUCCESSFUL&#xD;
+INFO 26-05-28,00:12:52 (2202) Reading file "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\TRESOS_XSL_OUT_Tresos_ECUC_4.2.2_949555600701402264.arxml_7387585706849603492.arxml"&#xD;
+WARNING 26-05-28,00:12:52 (23022) The parameter value "15978670040411331493" can not exactly be represented in the internal format and will be rounded to "1.597867004041133E19".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "IMPLEMENTATION_CONFIG_VARIANT": The schema does not define a parameter with name "IMPLEMENTATION_CONFIG_VARIANT" in container "/TS_T40D2M10I1R0/Base".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMFlexModuleConfigurationRef": The schema does not define a parameter with name "EcuMFlexModuleConfigurationRef" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMConfiguration/EcuMFlexConfiguration".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMIncludeDem": The schema does not define a parameter with name "EcuMIncludeDem" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMDeferredBswMNotification": The schema does not define a parameter with name "EcuMDeferredBswMNotification" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMSlaveCoreHandling": The schema does not define a parameter with name "EcuMSlaveCoreHandling" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMEnableFixBehavior": The schema does not define a parameter with name "EcuMEnableFixBehavior" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMNonChannelWakeupInRun": The schema does not define a parameter with name "EcuMNonChannelWakeupInRun" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMGeneration": The schema does not define a parameter with name "EcuMGeneration" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMEnableDefBehaviour": The schema does not define a parameter with name "EcuMEnableDefBehaviour" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMFlexGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1648) Created required node "/ActiveEcuC/EcuM/CommonPublishedInformation" in container "/ActiveEcuC/EcuM"&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsPublishedInformation": The schema does not define a parameter with name "OsPublishedInformation" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsAppMode": The schema does not define a parameter with name "OsAppMode" in container "/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsOS": The schema does not define a parameter with name "OsOS" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsIsr": The schema does not define a parameter with name "OsIsr" in container "/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsCore0": The schema does not define a parameter with name "OsCore" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsTask": The schema does not define a parameter with name "OsTask" in container "/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "SystemApplication_OsCore0": The schema does not define a parameter with name "OsApplication" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsCounterAccessingApplication": The schema does not define a parameter with name "OsCounterAccessingApplication" in container "ASPath:/TS_T40D2M10I1R0/Os/OsCounter".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsDriver": The schema does not define a parameter with name "OsDriver" in container "ASPath:/TS_T40D2M10I1R0/Os/OsCounter".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsResource": The schema does not define a parameter with name "OsResource" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsAlarm": The schema does not define a parameter with name "OsAlarm" in container "/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsEvent": The schema does not define a parameter with name "OsEvent" in container "/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "IMPLEMENTATION_CONFIG_VARIANT": The schema does not define a parameter with name "IMPLEMENTATION_CONFIG_VARIANT" in container "/TS_T40D2M10I1R0/Resource".&#xD;
+INFO 26-05-28,00:12:53 (2164) Verify module "Base"&#xD;
+INFO 26-05-28,00:12:53 (2164) Verify module "Dio"&#xD;
+INFO 26-05-28,00:12:53 (2164) Verify module "Mcu"&#xD;
+INFO 26-05-28,00:12:53 (2164) Verify module "Port"&#xD;
+INFO 26-05-28,00:12:53 (13030) Running generator "plugin.tresosdb.api.verifygenerator" in mode "generate" for module ""&#xD;
+INFO 26-05-28,00:12:53 (13030) Running generator "Mcu_TS_T40D2M10I1R0" in mode "generate" for module "Mcu_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:53 (2213) Creating directory "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\output"&#xD;
+INFO 26-05-28,00:12:53 (20053) Generating file C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\output\Mcu.epc&#xD;
+INFO 26-05-28,00:12:53 (13030) Running generator "Mcu_TS_T40D2M10I1R0_GeneratorId" in mode "generate" for module "Mcu_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:53 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\src\Mcu_PBcfg.c"&#xD;
+INFO 26-05-28,00:12:53 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\src\Mcu_Cfg.c"&#xD;
+INFO 26-05-28,00:12:53 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\include\Mcu_Cfg.h"&#xD;
+INFO 26-05-28,00:12:53 (13030) Running generator "Port_TS_T40D2M10I1R0" in mode "generate" for module "Port_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:53 (20053) Generating file C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\output\Port.epc&#xD;
+INFO 26-05-28,00:12:53 (13030) Running generator "Port_TS_T40D2M10I1R0_GeneratorId" in mode "generate" for module "Port_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:53 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\src\Port_PBcfg.c"&#xD;
+INFO 26-05-28,00:12:53 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\src\Port_Cfg.c"&#xD;
+INFO 26-05-28,00:12:54 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\include\Port_Cfg.h"&#xD;
+INFO 26-05-28,00:12:54 (13030) Running generator "Dio_TS_T40D2M10I1R0" in mode "generate" for module "Dio_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:54 (20053) Generating file C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\output\Dio.epc&#xD;
+INFO 26-05-28,00:12:54 (13030) Running generator "Dio_TS_T40D2M10I1R0_GeneratorId" in mode "generate" for module "Dio_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:54 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\include\Dio_Cfg.h"&#xD;
+INFO 26-05-28,00:12:54 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\src\Dio_Cfg.c"&#xD;
+INFO 26-05-28,00:12:54 (13030) Running generator "Base_TS_T40D2M10I1R0" in mode "generate" for module "Base_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:54 (20053) Generating file C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\output\Base.epc&#xD;
+INFO 26-05-28,00:12:54 (13030) Running generator "Base_TS_T40D2M10I1R0_GeneratorId" in mode "generate" for module "Base_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:54 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\include\modules.h"&#xD;
+INFO 26-05-28,00:12:54 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\include\Reg_eSys.h"&#xD;
+INFO 26-05-28,00:12:54 (13030) Running generator "Mcu_TS_T40D2M10I1R0_UniqueNGGeneratorId" in mode "generate" for module "Mcu_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:54 (13030) Running generator "Port_TS_T40D2M10I1R0_UniqueNGGeneratorId" in mode "generate" for module "Port_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:55 (13030) Running generator "Dio_TS_T40D2M10I1R0_UniqueNGGeneratorId" in mode "generate" for module "Dio_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:55 (13030) Running generator "Base_TS_T40D2M10I1R0_UniqueNGGeneratorId" in mode "generate" for module "Base_TS_T40D2M10I1R0"&#xD;
+&#xD;
+Errors "0" Warnings "24"&#xD;
+</ConsoleOutput>
+                    </ConsoleOutputs>
+                </Phase>
+                <Phase type="GENERATION" state="SUCCESSFUL">
+                    <GeneratedFiles>
+                        <File generationinfo="FILE_IS_UP_TO_DATE">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\include</File>
+                        <File generationinfo="FILE_IS_UP_TO_DATE">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\output</File>
+                        <File generationinfo="FILE_IS_UP_TO_DATE">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\src</File>
+                    </GeneratedFiles>
+                </Phase>
+            </Phases>
+            <Generator>
+                <Name>Tresos proxy generator</Name>
+                <Version>3.8.1</Version>
+                <MSN>Dio</MSN>
+                <Definition>/TS_T40D2M10I1R0/Dio</Definition>
+            </Generator>
+            <ModulConfigurations>
+                <ModuleConfiguration>
+                    <Name>Dio</Name>
+                    <Definition>/TS_T40D2M10I1R0/Dio</Definition>
+                    <ObjectLink>/ActiveEcuC/Dio</ObjectLink>
+                    <ConfigurationVariant>VARIANT_PRE_COMPILE</ConfigurationVariant>
+                    <SupportsPostBuildVariance>false</SupportsPostBuildVariance>
+                </ModuleConfiguration>
+            </ModulConfigurations>
+        </GenerationResult>
+        <GenerationResult generationtype="GENERATOR">
+            <Name>Mcu</Name>
+            <State>SUCCESSFUL</State>
+            <Phases>
+                <Phase type="CALCULATION" state="NONE"/>
+                <Phase type="VALIDATION" state="SUCCESSFUL">
+                    <ConsoleOutputs>
+                        <ConsoleOutput>EB tresos Studio 24.0.1 b180321-0610&#xD;
+Copyright 2003-2018 Elektrobit Automotive GmbH&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USDio_TS_T40D2M10I1R" instead of "EB_TS_MOD_USDio_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USDio_TS_T40D2M10I1R" instead of "EB_TS_MOD_USDio_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USDio_TS_T40D2M10I1R" instead of "EB_TS_MOD_USDio_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USBase_TS_T40D2M10I1" instead of "EB_TS_MOD_USBase_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USBase_TS_T40D2M10I1" instead of "EB_TS_MOD_USBase_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USBase_TS_T40D2M10I1" instead of "EB_TS_MOD_USBase_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+BUILD SUCCESSFUL&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+BUILD SUCCESSFUL&#xD;
+INFO 26-05-28,00:12:55 (12145) Using a shortened feature name ("EB_TS_MOD_USDio_TS_T40D2M10I1R" instead of "EB_TS_MOD_USDio_TS_T40D2M10I1R0") for license check.&#xD;
+BUILD SUCCESSFUL&#xD;
+INFO 26-05-28,00:12:55 (12145) Using a shortened feature name ("EB_TS_MOD_USBase_TS_T40D2M10I1" instead of "EB_TS_MOD_USBase_TS_T40D2M10I1R0") for license check.&#xD;
+BUILD SUCCESSFUL&#xD;
+INFO 26-05-28,00:12:52 (2202) Reading file "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\TRESOS_XSL_OUT_Tresos_ECUC_4.2.2_949555600701402264.arxml_7387585706849603492.arxml"&#xD;
+WARNING 26-05-28,00:12:52 (23022) The parameter value "15978670040411331493" can not exactly be represented in the internal format and will be rounded to "1.597867004041133E19".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "IMPLEMENTATION_CONFIG_VARIANT": The schema does not define a parameter with name "IMPLEMENTATION_CONFIG_VARIANT" in container "/TS_T40D2M10I1R0/Base".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMFlexModuleConfigurationRef": The schema does not define a parameter with name "EcuMFlexModuleConfigurationRef" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMConfiguration/EcuMFlexConfiguration".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMIncludeDem": The schema does not define a parameter with name "EcuMIncludeDem" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMDeferredBswMNotification": The schema does not define a parameter with name "EcuMDeferredBswMNotification" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMSlaveCoreHandling": The schema does not define a parameter with name "EcuMSlaveCoreHandling" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMEnableFixBehavior": The schema does not define a parameter with name "EcuMEnableFixBehavior" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMNonChannelWakeupInRun": The schema does not define a parameter with name "EcuMNonChannelWakeupInRun" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMGeneration": The schema does not define a parameter with name "EcuMGeneration" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMEnableDefBehaviour": The schema does not define a parameter with name "EcuMEnableDefBehaviour" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMFlexGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1648) Created required node "/ActiveEcuC/EcuM/CommonPublishedInformation" in container "/ActiveEcuC/EcuM"&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsPublishedInformation": The schema does not define a parameter with name "OsPublishedInformation" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsAppMode": The schema does not define a parameter with name "OsAppMode" in container "/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsOS": The schema does not define a parameter with name "OsOS" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsIsr": The schema does not define a parameter with name "OsIsr" in container "/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsCore0": The schema does not define a parameter with name "OsCore" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsTask": The schema does not define a parameter with name "OsTask" in container "/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "SystemApplication_OsCore0": The schema does not define a parameter with name "OsApplication" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsCounterAccessingApplication": The schema does not define a parameter with name "OsCounterAccessingApplication" in container "ASPath:/TS_T40D2M10I1R0/Os/OsCounter".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsDriver": The schema does not define a parameter with name "OsDriver" in container "ASPath:/TS_T40D2M10I1R0/Os/OsCounter".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsResource": The schema does not define a parameter with name "OsResource" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsAlarm": The schema does not define a parameter with name "OsAlarm" in container "/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsEvent": The schema does not define a parameter with name "OsEvent" in container "/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "IMPLEMENTATION_CONFIG_VARIANT": The schema does not define a parameter with name "IMPLEMENTATION_CONFIG_VARIANT" in container "/TS_T40D2M10I1R0/Resource".&#xD;
+INFO 26-05-28,00:12:53 (2164) Verify module "Base"&#xD;
+INFO 26-05-28,00:12:53 (2164) Verify module "Dio"&#xD;
+INFO 26-05-28,00:12:53 (2164) Verify module "Mcu"&#xD;
+INFO 26-05-28,00:12:53 (2164) Verify module "Port"&#xD;
+INFO 26-05-28,00:12:53 (13030) Running generator "plugin.tresosdb.api.verifygenerator" in mode "generate" for module ""&#xD;
+INFO 26-05-28,00:12:53 (13030) Running generator "Mcu_TS_T40D2M10I1R0" in mode "generate" for module "Mcu_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:53 (2213) Creating directory "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\output"&#xD;
+INFO 26-05-28,00:12:53 (20053) Generating file C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\output\Mcu.epc&#xD;
+INFO 26-05-28,00:12:53 (13030) Running generator "Mcu_TS_T40D2M10I1R0_GeneratorId" in mode "generate" for module "Mcu_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:53 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\src\Mcu_PBcfg.c"&#xD;
+INFO 26-05-28,00:12:53 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\src\Mcu_Cfg.c"&#xD;
+INFO 26-05-28,00:12:53 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\include\Mcu_Cfg.h"&#xD;
+INFO 26-05-28,00:12:53 (13030) Running generator "Port_TS_T40D2M10I1R0" in mode "generate" for module "Port_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:53 (20053) Generating file C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\output\Port.epc&#xD;
+INFO 26-05-28,00:12:53 (13030) Running generator "Port_TS_T40D2M10I1R0_GeneratorId" in mode "generate" for module "Port_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:53 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\src\Port_PBcfg.c"&#xD;
+INFO 26-05-28,00:12:53 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\src\Port_Cfg.c"&#xD;
+INFO 26-05-28,00:12:54 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\include\Port_Cfg.h"&#xD;
+INFO 26-05-28,00:12:54 (13030) Running generator "Dio_TS_T40D2M10I1R0" in mode "generate" for module "Dio_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:54 (20053) Generating file C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\output\Dio.epc&#xD;
+INFO 26-05-28,00:12:54 (13030) Running generator "Dio_TS_T40D2M10I1R0_GeneratorId" in mode "generate" for module "Dio_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:54 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\include\Dio_Cfg.h"&#xD;
+INFO 26-05-28,00:12:54 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\src\Dio_Cfg.c"&#xD;
+INFO 26-05-28,00:12:54 (13030) Running generator "Base_TS_T40D2M10I1R0" in mode "generate" for module "Base_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:54 (20053) Generating file C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\output\Base.epc&#xD;
+INFO 26-05-28,00:12:54 (13030) Running generator "Base_TS_T40D2M10I1R0_GeneratorId" in mode "generate" for module "Base_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:54 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\include\modules.h"&#xD;
+INFO 26-05-28,00:12:54 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\include\Reg_eSys.h"&#xD;
+INFO 26-05-28,00:12:54 (13030) Running generator "Mcu_TS_T40D2M10I1R0_UniqueNGGeneratorId" in mode "generate" for module "Mcu_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:54 (13030) Running generator "Port_TS_T40D2M10I1R0_UniqueNGGeneratorId" in mode "generate" for module "Port_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:55 (13030) Running generator "Dio_TS_T40D2M10I1R0_UniqueNGGeneratorId" in mode "generate" for module "Dio_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:55 (13030) Running generator "Base_TS_T40D2M10I1R0_UniqueNGGeneratorId" in mode "generate" for module "Base_TS_T40D2M10I1R0"&#xD;
+&#xD;
+Errors "0" Warnings "24"&#xD;
+</ConsoleOutput>
+                    </ConsoleOutputs>
+                </Phase>
+                <Phase type="GENERATION" state="SUCCESSFUL">
+                    <GeneratedFiles>
+                        <File generationinfo="FILE_IS_UP_TO_DATE">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\include</File>
+                        <File generationinfo="FILE_IS_UP_TO_DATE">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\output</File>
+                        <File generationinfo="FILE_IS_UP_TO_DATE">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\src</File>
+                    </GeneratedFiles>
+                </Phase>
+            </Phases>
+            <Generator>
+                <Name>Tresos proxy generator</Name>
+                <Version>3.8.1</Version>
+                <MSN>Mcu</MSN>
+                <Definition>/TS_T40D2M10I1R0/Mcu</Definition>
+            </Generator>
+            <ModulConfigurations>
+                <ModuleConfiguration>
+                    <Name>Mcu</Name>
+                    <Definition>/TS_T40D2M10I1R0/Mcu</Definition>
+                    <ObjectLink>/ActiveEcuC/Mcu</ObjectLink>
+                    <ConfigurationVariant>VARIANT_POST_BUILD_LOADABLE</ConfigurationVariant>
+                    <SupportsPostBuildVariance>false</SupportsPostBuildVariance>
+                </ModuleConfiguration>
+            </ModulConfigurations>
+        </GenerationResult>
+        <GenerationResult generationtype="GENERATOR">
+            <Name>Port</Name>
+            <State>SUCCESSFUL</State>
+            <Phases>
+                <Phase type="CALCULATION" state="NONE"/>
+                <Phase type="VALIDATION" state="SUCCESSFUL">
+                    <ConsoleOutputs>
+                        <ConsoleOutput>EB tresos Studio 24.0.1 b180321-0610&#xD;
+Copyright 2003-2018 Elektrobit Automotive GmbH&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:53 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USDio_TS_T40D2M10I1R" instead of "EB_TS_MOD_USDio_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USDio_TS_T40D2M10I1R" instead of "EB_TS_MOD_USDio_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USDio_TS_T40D2M10I1R" instead of "EB_TS_MOD_USDio_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USBase_TS_T40D2M10I1" instead of "EB_TS_MOD_USBase_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USBase_TS_T40D2M10I1" instead of "EB_TS_MOD_USBase_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USBase_TS_T40D2M10I1" instead of "EB_TS_MOD_USBase_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USMcu_TS_T40D2M10I1R" instead of "EB_TS_MOD_USMcu_TS_T40D2M10I1R0") for license check.&#xD;
+BUILD SUCCESSFUL&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+INFO 26-05-28,00:12:54 (12145) Using a shortened feature name ("EB_TS_MOD_USPort_TS_T40D2M10I1" instead of "EB_TS_MOD_USPort_TS_T40D2M10I1R0") for license check.&#xD;
+BUILD SUCCESSFUL&#xD;
+INFO 26-05-28,00:12:55 (12145) Using a shortened feature name ("EB_TS_MOD_USDio_TS_T40D2M10I1R" instead of "EB_TS_MOD_USDio_TS_T40D2M10I1R0") for license check.&#xD;
+BUILD SUCCESSFUL&#xD;
+INFO 26-05-28,00:12:55 (12145) Using a shortened feature name ("EB_TS_MOD_USBase_TS_T40D2M10I1" instead of "EB_TS_MOD_USBase_TS_T40D2M10I1R0") for license check.&#xD;
+BUILD SUCCESSFUL&#xD;
+INFO 26-05-28,00:12:52 (2202) Reading file "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\TRESOS_XSL_OUT_Tresos_ECUC_4.2.2_949555600701402264.arxml_7387585706849603492.arxml"&#xD;
+WARNING 26-05-28,00:12:52 (23022) The parameter value "15978670040411331493" can not exactly be represented in the internal format and will be rounded to "1.597867004041133E19".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "IMPLEMENTATION_CONFIG_VARIANT": The schema does not define a parameter with name "IMPLEMENTATION_CONFIG_VARIANT" in container "/TS_T40D2M10I1R0/Base".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMFlexModuleConfigurationRef": The schema does not define a parameter with name "EcuMFlexModuleConfigurationRef" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMConfiguration/EcuMFlexConfiguration".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMIncludeDem": The schema does not define a parameter with name "EcuMIncludeDem" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMDeferredBswMNotification": The schema does not define a parameter with name "EcuMDeferredBswMNotification" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMSlaveCoreHandling": The schema does not define a parameter with name "EcuMSlaveCoreHandling" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMEnableFixBehavior": The schema does not define a parameter with name "EcuMEnableFixBehavior" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMNonChannelWakeupInRun": The schema does not define a parameter with name "EcuMNonChannelWakeupInRun" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMGeneration": The schema does not define a parameter with name "EcuMGeneration" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1055) Removed node "EcuMEnableDefBehaviour": The schema does not define a parameter with name "EcuMEnableDefBehaviour" in container "ASPath:/TS_T40D2M10I1R0/EcuM/EcuMFlexGeneral".&#xD;
+WARNING 26-05-28,00:12:52 (1648) Created required node "/ActiveEcuC/EcuM/CommonPublishedInformation" in container "/ActiveEcuC/EcuM"&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsPublishedInformation": The schema does not define a parameter with name "OsPublishedInformation" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsAppMode": The schema does not define a parameter with name "OsAppMode" in container "/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsOS": The schema does not define a parameter with name "OsOS" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsIsr": The schema does not define a parameter with name "OsIsr" in container "/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsCore0": The schema does not define a parameter with name "OsCore" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsTask": The schema does not define a parameter with name "OsTask" in container "/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "SystemApplication_OsCore0": The schema does not define a parameter with name "OsApplication" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsCounterAccessingApplication": The schema does not define a parameter with name "OsCounterAccessingApplication" in container "ASPath:/TS_T40D2M10I1R0/Os/OsCounter".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsDriver": The schema does not define a parameter with name "OsDriver" in container "ASPath:/TS_T40D2M10I1R0/Os/OsCounter".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsResource": The schema does not define a parameter with name "OsResource" in container "ASPath:/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsAlarm": The schema does not define a parameter with name "OsAlarm" in container "/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "OsEvent": The schema does not define a parameter with name "OsEvent" in container "/TS_T40D2M10I1R0/Os".&#xD;
+WARNING 26-05-28,00:12:53 (1055) Removed node "IMPLEMENTATION_CONFIG_VARIANT": The schema does not define a parameter with name "IMPLEMENTATION_CONFIG_VARIANT" in container "/TS_T40D2M10I1R0/Resource".&#xD;
+INFO 26-05-28,00:12:53 (2164) Verify module "Base"&#xD;
+INFO 26-05-28,00:12:53 (2164) Verify module "Dio"&#xD;
+INFO 26-05-28,00:12:53 (2164) Verify module "Mcu"&#xD;
+INFO 26-05-28,00:12:53 (2164) Verify module "Port"&#xD;
+INFO 26-05-28,00:12:53 (13030) Running generator "plugin.tresosdb.api.verifygenerator" in mode "generate" for module ""&#xD;
+INFO 26-05-28,00:12:53 (13030) Running generator "Mcu_TS_T40D2M10I1R0" in mode "generate" for module "Mcu_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:53 (2213) Creating directory "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\output"&#xD;
+INFO 26-05-28,00:12:53 (20053) Generating file C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\output\Mcu.epc&#xD;
+INFO 26-05-28,00:12:53 (13030) Running generator "Mcu_TS_T40D2M10I1R0_GeneratorId" in mode "generate" for module "Mcu_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:53 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\src\Mcu_PBcfg.c"&#xD;
+INFO 26-05-28,00:12:53 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\src\Mcu_Cfg.c"&#xD;
+INFO 26-05-28,00:12:53 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\include\Mcu_Cfg.h"&#xD;
+INFO 26-05-28,00:12:53 (13030) Running generator "Port_TS_T40D2M10I1R0" in mode "generate" for module "Port_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:53 (20053) Generating file C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\output\Port.epc&#xD;
+INFO 26-05-28,00:12:53 (13030) Running generator "Port_TS_T40D2M10I1R0_GeneratorId" in mode "generate" for module "Port_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:53 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\src\Port_PBcfg.c"&#xD;
+INFO 26-05-28,00:12:53 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\src\Port_Cfg.c"&#xD;
+INFO 26-05-28,00:12:54 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\include\Port_Cfg.h"&#xD;
+INFO 26-05-28,00:12:54 (13030) Running generator "Dio_TS_T40D2M10I1R0" in mode "generate" for module "Dio_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:54 (20053) Generating file C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\output\Dio.epc&#xD;
+INFO 26-05-28,00:12:54 (13030) Running generator "Dio_TS_T40D2M10I1R0_GeneratorId" in mode "generate" for module "Dio_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:54 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\include\Dio_Cfg.h"&#xD;
+INFO 26-05-28,00:12:54 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\src\Dio_Cfg.c"&#xD;
+INFO 26-05-28,00:12:54 (13030) Running generator "Base_TS_T40D2M10I1R0" in mode "generate" for module "Base_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:54 (20053) Generating file C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\output\Base.epc&#xD;
+INFO 26-05-28,00:12:54 (13030) Running generator "Base_TS_T40D2M10I1R0_GeneratorId" in mode "generate" for module "Base_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:54 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\include\modules.h"&#xD;
+INFO 26-05-28,00:12:54 (13014) Generated "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Generation\Cfg_Gen-1779896846854-0\Tresos-1779898367574-0\Tresos_Gen_-1779898367629-0\include\Reg_eSys.h"&#xD;
+INFO 26-05-28,00:12:54 (13030) Running generator "Mcu_TS_T40D2M10I1R0_UniqueNGGeneratorId" in mode "generate" for module "Mcu_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:54 (13030) Running generator "Port_TS_T40D2M10I1R0_UniqueNGGeneratorId" in mode "generate" for module "Port_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:55 (13030) Running generator "Dio_TS_T40D2M10I1R0_UniqueNGGeneratorId" in mode "generate" for module "Dio_TS_T40D2M10I1R0"&#xD;
+INFO 26-05-28,00:12:55 (13030) Running generator "Base_TS_T40D2M10I1R0_UniqueNGGeneratorId" in mode "generate" for module "Base_TS_T40D2M10I1R0"&#xD;
+&#xD;
+Errors "0" Warnings "24"&#xD;
+</ConsoleOutput>
+                    </ConsoleOutputs>
+                </Phase>
+                <Phase type="GENERATION" state="SUCCESSFUL">
+                    <GeneratedFiles>
+                        <File generationinfo="FILE_IS_UP_TO_DATE">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\include</File>
+                        <File generationinfo="FILE_IS_UP_TO_DATE">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\output</File>
+                        <File generationinfo="FILE_IS_UP_TO_DATE">F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\Appl\GenData\src</File>
+                    </GeneratedFiles>
+                </Phase>
+            </Phases>
+            <Generator>
+                <Name>Tresos proxy generator</Name>
+                <Version>3.8.1</Version>
+                <MSN>Port</MSN>
+                <Definition>/TS_T40D2M10I1R0/Port</Definition>
+            </Generator>
+            <ModulConfigurations>
+                <ModuleConfiguration>
+                    <Name>Port</Name>
+                    <Definition>/TS_T40D2M10I1R0/Port</Definition>
+                    <ObjectLink>/ActiveEcuC/Port</ObjectLink>
+                    <ConfigurationVariant>VARIANT_POST_BUILD_LOADABLE</ConfigurationVariant>
+                    <SupportsPostBuildVariance>false</SupportsPostBuildVariance>
+                </ModuleConfiguration>
+            </ModulConfigurations>
+        </GenerationResult>
+    </GenerationProcessResult>
+</DaVinciExecutionReport>

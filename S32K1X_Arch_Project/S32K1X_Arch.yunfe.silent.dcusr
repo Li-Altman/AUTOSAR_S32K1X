@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Settings>
+    <Settings Name="CFG5_GUI_SETTING">
+        <Settings Name="com.vector.cfg.dom.runtimesys.ui.editor.internal.taskmapping.parts.TaskMappingGridPart">
+            <Setting Value="0,1,2," Name="nattable.BODY.BODY.columnIndexOrder"/>
+            <Setting Value="0:68,1:184,2:184," Name="nattable.BODY.BODY.columnWidth.sizes"/>
+            <Setting Value="0:68,1:184,2:184," Name="nattable.BODY.FOOT_SUMMARY_REGION.columnWidth.sizes"/>
+            <Setting Value="0:68,1:184,2:184," Name="nattable.BODY.HEAD_SUMMARY_REGION.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="0" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.app.dvcfg.views.validation.validationview.hideack">
+            <Setting Value="false" Name="buttonStateAck"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.app.dvcfg.views.validation.validationview.hideerror">
+            <Setting Value="false" Name="buttonStateError"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.app.dvcfg.views.validation.validationview.hideinfo">
+            <Setting Value="false" Name="buttonStateInfo"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.app.dvcfg.views.validation.validationview.hidewarn">
+            <Setting Value="false" Name="buttonStateWarn"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.app.views.validation.table.ValidationViewTable">
+            <Setting Value="0,1,2," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:250,1:500,2:250," Name="nattable.BODY.columnWidth.sizes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.BswM.BswMConfig">
+            <Setting Value="0,1,2," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:115,2:107," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.Can_ImxFlexcan3.Can.CanConfigSet.CanController">
+            <Setting Value="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:21,1:157,2:116,3:140,4:150,5:119,6:154,7:178,8:197,9:110,10:162,11:118,12:117,13:116,14:151,15:144,16:157,17:135," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.Can_ImxFlexcan3.Can.CanConfigSet.CanController.CanControllerBaudrateConfig">
+            <Setting Value="0,1,2,3,4,5,6,7,8,9,10,11,12," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:21,1:213,2:159,3:146,4:124,5:199,6:217,7:152,8:127,9:127,10:197,11:129,12:103," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.ComM.ComMConfigSet.ComMChannel">
+            <Setting Value="0,1,2,3,4,5,6,7,8,9," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:157,2:161,3:98,4:270,5:206,6:188,7:85,8:106,9:141," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.EcuM.EcuMConfiguration.EcuMCommonConfiguration.EcuMSleepMode">
+            <Setting Value="0,1,2,3,4,5," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:141,2:123,3:198,4:161,5:164," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.EcuM.EcuMConfiguration.EcuMCommonConfiguration.EcuMWakeupSource">
+            <Setting Value="0,1,2,3,4,5,6,7,8," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:242,2:192,3:187,4:138,5:163,6:144,7:171,8:166," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.Os.OsCore">
+            <Setting Value="0,1,2,3,4,5,6,7,8,9,10,11," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:86,2:149,3:144,4:131,5:127,6:135,7:168,8:149,9:150,10:188,11:220," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.Os.OsCounter">
+            <Setting Value="0,1,2,3,4,5,6,7," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:104,2:232,3:177,4:205,5:114,6:153,7:212," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.Os.OsCounter.OsTimeConstant">
+            <Setting Value="0,1,2," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:137,2:118," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.Os.OsResource">
+            <Setting Value="0,1,2,3,4," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:21,1:112,2:213,3:144,4:220," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.Os.OsTask">
+            <Setting Value="0,1,2,3,4,5,6,7,8,9,10,11,12," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:131,2:123,3:235,4:108,5:119,6:146,7:162,8:95,9:120,10:193,11:121,12:144," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.Rte.RteOsInteraction">
+            <Setting Value="0,1," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:139," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.TS_T40D2M10I1R0.Mcu.McuModuleConfiguration.McuClockSettingConfig">
+            <Setting Value="0,1,2,3,4," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:177,2:128,3:142,4:207," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.TS_T40D2M10I1R0.Mcu.McuModuleConfiguration.McuClockSettingConfig.McuClockReferencePoint">
+            <Setting Value="0,1,2,3," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:186,2:169,3:265," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.TS_T40D2M10I1R0.Mcu.McuModuleConfiguration.McuModeSettingConf">
+            <Setting Value="0,1,2,3," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:169,2:71,3:111," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.TS_T40D2M10I1R0.Mcu.McuModuleConfiguration.McuRamSectorSettingConf">
+            <Setting Value="0,1,2,3,4,5,6,7," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:197,2:143,3:240,4:192,5:135,6:202,7:119," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.pse.dvcfg.filereferences.EcucFileReferencesGrid">
+            <Setting Value="0," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:200," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="0" Name="nattable.sortIndexes"/>
+        </Settings>
+    </Settings>
+    <Settings Name="com.vector.cfg.consistency.internal.executer.BackgroundValidationExecuter">
+        <Setting Value="rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVz&#xA;aG9sZHhwP0AAAAAAAGB3CAAAAIAAAABedABRY29tLnZlY3Rvci5jZmcuZ2VuLkNkZF9Bc3JDZGRD&#xA;Zmc1LnZhbGlkYXRpb24uQ2RkQ29tSWZVcHBlckxheWVyQ2JrSGVhZGVyVmFsaWRhdG9yc3IADmph&#xA;dmEubGFuZy5Mb25nO4vkkMyPI98CAAFKAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU&#xA;4IsCAAB4cAAAAAABAAAAdABFY29tLnZlY3Rvci5jZmcuZ2VuLkVjdUNfQXNyRWN1Qy52YWxpZGF0&#xA;aW9uLlBkdUxlbmd0aFR5cGVFbnVtVmFsaWRhdG9yc3EAfgADAAAAAAMAAAB0AGRjb20udmVjdG9y&#xA;LmNmZy5nZW4uSWZfQXNySWZDYW4udmFsaWRhdGlvbi5NaXNjZWxsYW5lb3VzVmFsaWRhdG9ycy5D&#xA;YW5JZkNhbkRydlNldEJhdWRyYXRlQXBpVmFsaWRhdG9yc3EAfgADAAAAAAIAAAB0AGBjb20udmVj&#xA;dG9yLmNmZy5nZW4uVHBfQXNyNFRwQ2FuLnZhbGlkYXRpb24udmFsaWRhdGlvbnJ1bGVzLkFtYmln&#xA;dW91c0dsb2JhbFBkdVVzYWdlVmFsaWRhdGlvblJ1bGVzcQB+AAMAAAAAAgAAAHQAY2NvbS52ZWN0&#xA;b3IuY2ZnLmdlbi5Hd19Bc3JQZHVSQ2ZnNS52YWxpZGF0aW9uLkRlZmVycmVkUHJvY2Vzc2luZy5Q&#xA;ZHVSRW5hYmxlZERlZmVycmVkU3dpdGNoVmFsaWRhdGlvbnNxAH4AAwAAAABDAAAAdABZY29tLnZl&#xA;Y3Rvci5jZmcuZ2VuLkNjbF9Bc3I0Q29tTUNmZzUudmFsaWRhdGlvbi5wbmMuQ29tTVBuY1NpZ25h&#xA;bFJ4UmVxdWlyZXNDb21Ob3RpZmljYXRpb25zcQB+AAMAAAAAAQAAAHQAcmNvbS52ZWN0b3IuY2Zn&#xA;Lmdlbi5JZl9Bc3JJZkNhbi52YWxpZGF0aW9uLk1pc2NlbGxhbmVvdXNWYWxpZGF0b3JzLkNhbklm&#xA;Q2FuRHJ2T25lQ29udHJvbGxlck9wdGltaXphdGlvblN5bmNocm9uaXplcnNxAH4AAwAAAABGAAAA&#xA;dAB1Y29tLnZlY3Rvci5jZmcuZ2VuLklmX0FzcklmQ2FuLnZhbGlkYXRpb24uUmFtQ2hlY2suRXh0&#xA;UmFtQ2hlY2suQ2FuSWZFeHRSYW1DaGVja1VzZXJDb3JydXB0Q29udHJvbGxlckZjdEFuZFVsVmFs&#xA;aWRhdG9yc3EAfgADAAAAAAEAAAB0AGNjb20udmVjdG9yLmNmZy5nZW4uSWZfQXNySWZDYW4udmFs&#xA;aWRhdGlvbi5UeFZhbGlkYXRvcnMuVHhCdWZmZXJWYWxpZGF0b3JzLkNhbklmVHhCdWZmZXJDZmdW&#xA;YWxpZGF0b3JzcQB+AAMAAAAAAQAAAHQAZWNvbS52ZWN0b3IuY2ZnLmdlbi5TeXNTZXJ2aWNlX0Fz&#xA;cjRCc3dNQ2ZnNS52YWxpZGF0aW9uLnN3Yy5Cc3dNTW9kZU5vdGlmaWNhdGlvblBvcnRDb25uZWN0&#xA;ZWRWYWxpZGF0aW9uc3EAfgADAAAAAAEAAAB0AFZjb20udmVjdG9yLmNmZy5nZW4uRHJ2Q2FuX19i&#xA;YXNlQXNyLnZhbGlkYXRpb24uY29udHJvbGxlci5Qcm9jZXNzaW5nVmFsaWRhdG9yQ29udHJvbGxl&#xA;cnNxAH4AAwAAAAADAAAAdABCY29tLnZlY3Rvci5jZmcuZ2VuLk9zX0NvcmVHZW43LnZhbGlkYXRp&#xA;b24uT3NQdWJsaXNoZWRJbmZvVmFsaWRhdG9yc3EAfgADAAAAAEoAAAB0AENjb20udmVjdG9yLmNm&#xA;Zy5tb2RlbC5zd2N0ZW1wbGF0ZXMuaW50ZXJuYWwudmFsaWRhdGlvbi5Td2NWYWxpZGF0aW9uc3EA&#xA;fgADAAAAAlcAAAB0AFdjb20udmVjdG9yLmNmZy5nZW4uSWZfQXNySWZDYW4udmFsaWRhdGlvbi5S&#xA;eFZhbGlkYXRvcnMuQ2FuSWZTb2Z0d2FyZUZpbHRlclR5cGVWYWxpZGF0b3JzcQB+AAMAAAAAAgAA&#xA;AHQAV2NvbS52ZWN0b3IuY2ZnLm1vZGVsLnN5c2Rlc2MuaW50ZXJuYWwuY29tcG9uZW50cy52YWxp&#xA;ZGF0aW9uLkNvbXBvbmVudFBvcnRWYWxpZGF0aW9uUnVsZXNxAH4AAwAAAAADAAAAdABNY29tLnZl&#xA;Y3Rvci5jZmcuZ2VuLklsX0FzckNvbUNmZzUudmFsaWRhdGlvbi5pcGR1LkNvbUlQZHVTaWduYWxM&#xA;YXlvdXRWYWxpZGF0b3JzcQB+AAMAAAAAywAAAHQAT2NvbS52ZWN0b3IuY2ZnLmdlbi5Hd19Bc3JQ&#xA;ZHVSQ2ZnNS52YWxpZGF0aW9uLlBkdVJDb25maWd1cmF0aW9uVmFyaWFudFZhbGlkYXRpb25zcQB+&#xA;AAMAAAAAAQAAAHQATWNvbS52ZWN0b3IuY2ZnLm1vZGVsLnN5c2Rlc2MuZGF0YW1hcHBpbmcudmFs&#xA;aWRhdGlvbi5EYXRhTWFwcGluZ1ZhbGlkYXRpb25SdWxlc3EAfgADAAAAAAIAAAB0AEljb20udmVj&#xA;dG9yLmNmZy5tb2RlbC5zeXNkZXNjLnR5cGVzLnZhbGlkYXRpb24uQ29tcG9uZW50VHlwZVZhbGlk&#xA;YXRpb25SdWxlc3EAfgADAAAAAAQAAAB0AGVjb20udmVjdG9yLmNmZy5nZW4uSWZfQXNySWZDYW4u&#xA;dmFsaWRhdGlvbi5DYW5JZkNhbkRyaXZlclZhbGlkYXRvcnMuQ2FuSWZDYW5EcnYyQ2FuRHJ2TWFw&#xA;cGluZ1ZhbGlkYXRvcnNxAH4AAwAAAABAAAAAdABXY29tLnZlY3Rvci5jZmcuZ2VuLlN5c1NlcnZp&#xA;Y2VfQXNyNEVjdU0udmFsaWRhdGlvbi5maXhlZEVjdU0uRWN1TUZpeENvbnRhaW5lcnNBcmVNaXNz&#xA;aW5nc3EAfgADAAAAAAEAAAB0AExjb20udmVjdG9yLmNmZy5nZW4uRHJ2Q2FuX19iYXNlQXNyLnZh&#xA;bGlkYXRpb24uZmlsdGVyLkZpbHRlckJhc2ljQ2FuVmFsaWRhdG9yc3EAfgADAAAAAAIAAAB0AFhj&#xA;b20udmVjdG9yLmNmZy5nZW4uR3dfQXNyUGR1UkNmZzUudmFsaWRhdGlvbi5tdWx0aWNvcmUuUGR1&#xA;UlR4QnVmZmVyU3BpbmxvY2tGdWxsVmFsaWRhdG9yc3EAfgADAAAAAEEAAAB0AGFjb20udmVjdG9y&#xA;LmNmZy5nZW4uSWZfQXNySWZDYW4udmFsaWRhdGlvbi5UcmN2SGFuZGxpbmdWYWxpZGF0b3JzLkNh&#xA;bklmVW51c2VkVHJjdkNoYW5uZWxzVmFsaWRhdG9yc3EAfgADAAAAAAEAAAB0AE9jb20udmVjdG9y&#xA;LmNmZy5kb20ucnVudGltZXN5cy52YWxpZGF0aW9ucy5pbnRlcm5hbC5Tb2Z0d2FyZUNvbXBvc2l0&#xA;aW9uVmFsaWRhdG9yc3EAfgADAAAAAAEAAAB0AFRjb20udmVjdG9yLmNmZy52YWxpZGF0aW9uLmJh&#xA;c2ljcnVsZXMubXNyLmludGVybmFsLk9wdGlvbmFsU3ltYm9saWNOYW1lVmFsdWVWYWxpZGF0b3Jz&#xA;cQB+AAMAAAAAAQAAAHQASmNvbS52ZWN0b3IuY2ZnLmdlbi5DY2xfQXNyNFNtQ2FuLnZhbGlkYXRp&#xA;b24uQ2FuU01Cb3JUeENvbmZQb2xsaW5nVmFsaWRhdG9yc3EAfgADAAAAAAEAAAB0AGRjb20udmVj&#xA;dG9yLmNmZy5nZW4uR3dfQXNyUGR1UkNmZzUudmFsaWRhdGlvbi5QZHVSQnN3TW9kdWxlLlBkdVJC&#xA;c3dNb2R1bGVzQ29tbXVuaWNhdGlvblR5cGVWYWxpZGF0aW9uc3EAfgADAAAAAAEAAAB0AGdjb20u&#xA;dmVjdG9yLmNmZy5nZW4uSWZfQXNySWZDYW4udmFsaWRhdGlvbi5UeFZhbGlkYXRvcnMuVHhCdWZm&#xA;ZXJWYWxpZGF0b3JzLkNhbklmVHhCdWZmZXJTdXBwb3J0VmFsaWRhdG9yc3EAfgADAAAAAEYAAAB0&#xA;AEZjb20udmVjdG9yLmNmZy5nZW4uR3dfQXNyUGR1UkNmZzUudmFsaWRhdGlvbi5QZHVSUGR1Q2Fs&#xA;bGJhY2tWYWxpZGF0aW9uc3EAfgADAAAAAAEAAAB0AFljb20udmVjdG9yLmNmZy5nZW4uU3lzU2Vy&#xA;dmljZV9Bc3I0RWN1TS52YWxpZGF0aW9uLmNvbW1vblZhbGlkYXRpb25zLkVjdU1IYW5kbGVJZFZh&#xA;bGlkYXRvcnNxAH4AAwAAAAAJAAAAdABMY29tLnZlY3Rvci5jZmcuZ2VuLkRydkNhbl9fYmFzZUFz&#xA;ci52YWxpZGF0aW9uLmh3b2JqLkh3TWFpbGJveExheW91dFZhbGlkYXRvcnNxAH4AAwAAAADMAAAA&#xA;dABBY29tLnZlY3Rvci5jZmcudmFsaWRhdGlvbi5iYXNpY3J1bGVzLm1zci5pbnRlcm5hbC5EZWZp&#xA;bml0aW9uQ2hlY2tzcQB+AAMAAAAAAQAAAHQARmNvbS52ZWN0b3IuY2ZnLm1vZGVsLnN5c2Rlc2Mu&#xA;dHlwZXMudmFsaWRhdGlvbi5EYXRhQ29uc3RyVmFsaWRhdGlvblJ1bGVzcQB+AAMAAAAAAwAAAHQA&#xA;RGNvbS52ZWN0b3IuY2ZnLmdlbi5Hd19Bc3JQZHVSQ2ZnNS52YWxpZGF0aW9uLlBkdVJTd2l0Y2hp&#xA;bmdWYWxpZGF0aW9uc3EAfgADAAAAAEEAAAB0AEVjb20udmVjdG9yLmNmZy5kb20ucnVudGltZXN5&#xA;cy52YWxpZGF0aW9ucy5pbnRlcm5hbC5URFNDZmdOdkJsb2NrTmVlZHNzcQB+AAMAAAAAAwAAAHQA&#xA;SmNvbS52ZWN0b3IuY2ZnLmdlbi5JbF9Bc3JDb21DZmc1LnZhbGlkYXRpb24uc2lnbmFsLkNvbVNp&#xA;Z25hbFZhbHVlVmFsaWRhdG9yc3EAfgADAAAAAAEAAAB0AGFjb20udmVjdG9yLmNmZy5nZW4uR3df&#xA;QXNyUGR1UkNmZzUudmFsaWRhdGlvbi5pbmZvbW9kZWwuUGR1UlJvdXRpbmdQYXRoQ29tbXVuaWNh&#xA;dGlvblR5cGVWYWxpZGF0aW9uc3EAfgADAAAAAAEAAAB0ADxjb20udmVjdG9yLmNmZy5nZW4uUnRl&#xA;LnZhbGlkYXRpb24uQnN3TW9kdWxlSW5zdGFuY2VWYWxpZGF0b3JzcQB+AAMAAAAAAgAAAHQAVmNv&#xA;bS52ZWN0b3IuY2ZnLmdlbi5TeXNTZXJ2aWNlX0FzcjRCc3dNQ2ZnNS52YWxpZGF0aW9uLmdlbmVy&#xA;YWwuQnN3TUNvbW1vbkRhdGFWYWxpZGF0aW9uc3EAfgADAAAAAAEAAAB0ADdjb20udmVjdG9yLmNm&#xA;Zy5nZW4uUnRlLnZhbGlkYXRpb24uVmFsaWRhdG9yQ2hhaW5CdWlsZGVyc3EAfgADAAAAAAIAAAB0&#xA;AGJjb20udmVjdG9yLmNmZy5nZW4uR3dfQXNyUGR1UkNmZzUudmFsaWRhdGlvbi5tdWx0aWNvcmUu&#xA;UGR1UkJzd01vZHVsZXNPc0FwcGxpY2F0aW9uTWFwcGluZ1ZhbGlkYXRvcnNxAH4AAwAAAABBAAAA&#xA;dABIY29tLnZlY3Rvci5jZmcuZ2VuLkRydkNhbl9fYmFzZUFzci52YWxpZGF0aW9uLmJhdWRyYXRl&#xA;LkJhdWRyYXRlVmFsaWRhdG9yc3EAfgADAAAAAAYAAAB0AFFjb20udmVjdG9yLmNmZy5nZW4uR3df&#xA;QXNyUGR1UkNmZzUudmFsaWRhdGlvbi5UeEJ1ZmZlci5QZHVSVHhCdWZmZXJUYWJsZVZhbGlkYXRp&#xA;b25zcQB+AAMAAAAAQgAAAHQAXGNvbS52ZWN0b3IuY2ZnLmdlbi5Hd19Bc3JQZHVSQ2ZnNS52YWxp&#xA;ZGF0aW9uLlBkdVJCc3dNb2R1bGUuUGR1UkJzd01vZHVsZXNDYW5jZWxBcGlWYWxpZGF0aW9uc3EA&#xA;fgADAAAAAAYAAAB0AEJjb20udmVjdG9yLmNmZy5tb2RlbC5zeXNkZXNjLnZhbGlkYXRpb24uVmFs&#xA;aWRhdG9yUnVsZUZpbHRlcldyYXBwZXJzcQB+AAMAAAAAAQAAAHQAT2NvbS52ZWN0b3IuY2ZnLnZh&#xA;bGlkYXRpb24uYmFzaWNydWxlcy5tc3IuaW50ZXJuYWwuYmFzZXZhbHVlY2hlY2suQmFzZVZhbHVl&#xA;Q2hlY2tzcQB+AAMAAAAAAQAAAHQAVGNvbS52ZWN0b3IuY2ZnLmdlbi5JbF9Bc3JDb21DZmc1LnZh&#xA;bGlkYXRpb24uaXBkdS5Db21UeElQZHVUeENvbmZpcm1hdGlvblZhbGlkYXRvckFzNHNxAH4AAwAA&#xA;AAAEAAAAdAA7Y29tLnZlY3Rvci5jZmcuZ2VuLlJ0ZS52YWxpZGF0aW9uLkJzd0V4Y2x1c2l2ZUFy&#xA;ZWFWYWxpZGF0b3JzcQB+AAMAAAAAAQAAAHQAY2NvbS52ZWN0b3IuY2ZnLmdlbi5JZl9Bc3JJZkNh&#xA;bi52YWxpZGF0aW9uLk1pc2NlbGxhbmVvdXNWYWxpZGF0b3JzLkNhbklmSjE5MzlEeW5BZGRyU3Vw&#xA;cG9ydFZhbGlkYXRvcnNxAH4AAwAAAAA/AAAAdABOY29tLnZlY3Rvci5jZmcuZ2VuLkRydkNhbl9f&#xA;YmFzZUFzci52YWxpZGF0aW9uLmh3b2JqLkNhbkh3T2JqU2FtZUNhbklkVmFsaWRhdG9yc3EAfgAD&#xA;AAAAAAEAAAB0AFVjb20udmVjdG9yLmNmZy5nZW4uSWZfQXNySWZDYW4udmFsaWRhdGlvbi5SeFZh&#xA;bGlkYXRvcnMuQ2FuSWZSeEZ1bGxDYW5JZFZhbHVlVmFsaWRhdG9yc3EAfgADAAAAAEUAAAB0AGVj&#xA;b20udmVjdG9yLmNmZy5nZW4uSWZfQXNySWZDYW4udmFsaWRhdGlvbi5NaXNjZWxsYW5lb3VzVmFs&#xA;aWRhdG9ycy5DYW5JZk11bHRpcGxlQ2FuRHJ2U3VwcG9ydFZhbGlkYXRvcnNxAH4AAwAAAABFAAAA&#xA;dABSY29tLnZlY3Rvci5jZmcuZ2VuLkd3X0FzclBkdVJDZmc1LnZhbGlkYXRpb24uRGVzdFBkdS5Q&#xA;ZHVSVHhCdWZmZXJSZWZOdG8xVmFsaWRhdGlvbnNxAH4AAwAAAAADAAAAdABbY29tLnZlY3Rvci5j&#xA;ZmcuZ2VuLk5tX0FzcjRObUlmLnZhbGlkYXRpb24uTm1HbG9iYWxDb29yZGluYXRvclRpbWVBbGxO&#xA;bU9zZWtJbk5vcm1hbFZhbGlkYXRvcnNxAH4AAwAAAADLAAAAdABXY29tLnZlY3Rvci5jZmcuZ2Vu&#xA;LlN5c1NlcnZpY2VfQXNyNEJzd01DZmc1LnZhbGlkYXRpb24uZ2VuZXJhbC5Cc3dNQ29tTUVuYWJs&#xA;ZWRWYWxpZGF0aW9uc3EAfgADAAAAAEQAAAB0AFRjb20udmVjdG9yLmNmZy5nZW4uR3dfQXNyUGR1&#xA;UkNmZzUudmFsaWRhdGlvbi5tdWx0aWNvcmUuUGR1UlN1cHBvcnRNdWx0aWNvcmVWYWxpZGF0b3Jz&#xA;cQB+AAMAAAAAQAAAAHQAS2NvbS52ZWN0b3IuY2ZnLmdlbi5DY2xfQXNyNENvbU1DZmc1LnZhbGlk&#xA;YXRpb24uZ2VuZXJhbC5Db21NVXNlcklkVmFsaWRhdGlvbnNxAH4AAwAAAAAHAAAAdABSY29tLnZl&#xA;Y3Rvci5jZmcuZ2VuLkd3X0FzclBkdVJDZmc1LnZhbGlkYXRpb24uRGVzdFBkdS5QZHVSVHhCdWZm&#xA;ZXJSZWYxdG9OVmFsaWRhdGlvbnNxAH4AAwAAAAAEAAAAdABXY29tLnZlY3Rvci5jZmcuZ2VuLkd3&#xA;X0FzclBkdVJDZmc1LnZhbGlkYXRpb24uRGVzdFBkdS5QZHVSRGVzdFBkdURhdGFQcm92aXNpb25W&#xA;YWxpZGF0aW9uc3EAfgADAAAAAAEAAAB0AENjb20udmVjdG9yLmNmZy5nZW4uRHJ2Q2FuX19iYXNl&#xA;QXNyLnZhbGlkYXRpb24uQ2FuRmRTdXBwb3J0VmFsaWRhdG9yc3EAfgADAAAAAAEAAAB0AFhjb20u&#xA;dmVjdG9yLmNmZy5nZW4uU3lzU2VydmljZV9Bc3I0QnN3TUNmZzUudmFsaWRhdGlvbi5nZW5lcmFs&#xA;LkJzd01DYW5TTUVuYWJsZWRWYWxpZGF0aW9uc3EAfgADAAAAAEQAAAB0AGhjb20udmVjdG9yLmNm&#xA;Zy5nZW4uSWZfQXNySWZDYW4udmFsaWRhdGlvbi5NaXNjZWxsYW5lb3VzVmFsaWRhdG9ycy5DYW5J&#xA;Zk9uZUNvbnRyb2xsZU9wdGltaXphdGlvblZhbGlkYXRvcnNxAH4AAwAAAAABAAAAdABJY29tLnZl&#xA;Y3Rvci5jZmcuZ2VuLk9zX1BsYXRmb3JtQXJtQ29ydGV4TUdlbjcudmFsaWRhdGlvbi5Pc0FybUlz&#xA;clZhbGlkYXRvcnNxAH4AAwAAAAACAAAAdABWY29tLnZlY3Rvci5jZmcuZ2VuLkd3X0FzclBkdVJD&#xA;Zmc1LnZhbGlkYXRpb24uUGR1UkJzd01vZHVsZS5QZHVSQnN3TW9kdWxlc1JlZlZhbGlkYXRpb25z&#xA;cQB+AAMAAAAAAQAAAHQAYWNvbS52ZWN0b3IuY2ZnLmdlbi5JZl9Bc3JJZkNhbi52YWxpZGF0aW9u&#xA;LlJ4VmFsaWRhdG9ycy5DYW5JZlJ4Q29kZU1hc2tSYW5nZUNhbkhhbmRsZVR5cGVWYWxpZGF0b3Jz&#xA;cQB+AAMAAAAAAQAAAHQAS2NvbS52ZWN0b3IuY2ZnLmdlbi5JbF9Bc3JDb21DZmc1LnZhbGlkYXRp&#xA;b24uQ29tRGVmZXJyZWRGY3RQdHJDYWNoZVZhbGlkYXRvcnNxAH4AAwAAAAAFAAAAdABQY29tLnZl&#xA;Y3Rvci5jZmcuZ2VuLklsX0FzckNvbUNmZzUudmFsaWRhdGlvbi5Db21FY3VDQXRvbWljVmFyaWFi&#xA;bGVBY2Nlc3NWYWxpZGF0b3JzcQB+AAMAAAAAAQAAAHQARGNvbS52ZWN0b3IuY2ZnLm1vZGVsLnNl&#xA;cnZpY2VzLnJ1bnRpbWVzeXMub3MuaW50ZXJuYWwuT3NJc3JWYWxpZGF0aW9uc3EAfgADAAAAAAIA&#xA;AAB0AGdjb20udmVjdG9yLmNmZy5tb2RlbC5zeXNkZXNjLmludGVybmFsLmVvYy52YWxpZGF0aW9u&#xA;LlRhc2tNYXBwaW5nMkV4ZWN1dGlvbk9yZGVyQ29uc3RyYWludFZhbGlkYXRpb25SdWxlc3EAfgAD&#xA;AAAAAAQAAAB0ADxjb20udmVjdG9yLmNmZy5kb20uYmFzZS51aS5kZXQudmFsaWRhdGlvbi5EZXRB&#xA;Y3RpdmF0aW9uQ2hlY2tzcQB+AAMAAAAAAQAAAHQAS2NvbS52ZWN0b3IuY2ZnLmdlbi5JbF9Bc3JD&#xA;b21DZmc1LnZhbGlkYXRpb24uc2lnbmFsLkNvbVNpZ25hbEFjY2Vzc1ZhbGlkYXRvcnNxAH4AAwAA&#xA;AAADAAAAdABSY29tLnZlY3Rvci5jZmcuZ2VuLkRydkNhbl9fYmFzZUFzci52YWxpZGF0aW9uLmh3&#xA;b2JqLk11bHRpQmFzaWNDQU5UeFN3aXRjaFZhbGlkYXRvcnNxAH4AAwAAAAABAAAAdABIY29tLnZl&#xA;Y3Rvci5jZmcubW9kZWwuc2VydmljZXMuY29tLmVjdWMuaW50ZXJuYWwuRWN1Y0Jzd0luaXRGY3RW&#xA;YWxpZGF0aW9uc3EAfgADAAAAABAAAAB0AE9jb20udmVjdG9yLmNmZy5nZW4uSWxfQXNyQ29tQ2Zn&#xA;NS52YWxpZGF0aW9uLnNpZ25hbC5Db21TaWduYWxUaW1lb3V0VmFsaWRhdG9yQXM0c3EAfgADAAAA&#xA;AEMAAAB0AFRjb20udmVjdG9yLmNmZy5nZW4uQ29tbW9uQXNyX0NvbVZhbGlkYXRpb25MaWIudmFs&#xA;aWRhdGlvbi5oYW5kbGVpZC5IYW5kbGVJZFZhbGlkYXRpb25zcQB+AAMAAAADcQAAAHQAT2NvbS52&#xA;ZWN0b3IuY2ZnLmdlbi5JZl9Bc3JJZkNhbi52YWxpZGF0aW9uLlJ4VmFsaWRhdG9ycy5DYW5JZlJ4&#xA;UGR1Q2FuSWRWYWxpZGF0b3JzcQB+AAMAAAAAAQAAAHQAUWNvbS52ZWN0b3IuY2ZnLmdlbi5JbF9B&#xA;c3JDb21DZmc1LnZhbGlkYXRpb24uaXBkdS5Db21UeElQZHVDbGVhclVwZGF0ZUJpdFZhbGlkYXRv&#xA;cnNxAH4AAwAAAAACAAAAdABZY29tLnZlY3Rvci5jZmcudmFsaWRhdGlvbi5iYXNpY3J1bGVzLm1z&#xA;ci5pbnRlcm5hbC5tdWx0aXBsaWNpdHkuTXVsdGlwbGljaXR5Q2hlY2tQYXJhbWV0ZXJzcQB+AAMA&#xA;AAAABAAAAHQAWWNvbS52ZWN0b3IuY2ZnLmdlbi5Hd19Bc3JQZHVSQ2ZnNS52YWxpZGF0aW9uLmlu&#xA;Zm9tb2RlbC5QZHVSUGR1UGR1UkJzd01vZHVsZXNSZWZWYWxpZGF0aW9uc3EAfgADAAAAAEEAAAB0&#xA;AGhjb20udmVjdG9yLmNmZy5nZW4uR3dfQXNyUGR1UkNmZzUudmFsaWRhdGlvbi5EZXN0UGR1LlF1&#xA;ZXVlRGVwdGguUGR1UkRlc3RQZHVRdWV1ZURlcHRoRXhpc3RlbmNlVmFsaWRhdGlvbnNxAH4AAwAA&#xA;AAACAAAAdABGY29tLnZlY3Rvci5jZmcuZ2VuLk9zX0NvcmVHZW43LnZhbGlkYXRpb24uT3NDb3Jl&#xA;SXNyUHJpb3JpdGllc1ZhbGlkYXRvcnNxAH4AAwAAAABLAAAAdABDY29tLnZlY3Rvci5jZmcuZ2Vu&#xA;LkVjdUNfQXNyRWN1Qy52YWxpZGF0aW9uLkVjdUNUcFBkdUxlbmd0aFZhbGlkYXRvcnNxAH4AAwAA&#xA;AADQAAAAdABiY29tLnZlY3Rvci5jZmcubW9kZWwuc2VydmljZXMuaW50ZXJuYWwuYnN3aW50YmVo&#xA;YXZpb3Iuc3luY2hyb25pemF0aW9uLkJzd0ludGVybmFsQmVoYXZpb3JWYWxpZGF0b3JzcQB+AAMA&#xA;AAABiwAAAHQAT2NvbS52ZWN0b3IuY2ZnLmdlbi5EcnZDYW5fX2Jhc2VBc3IudmFsaWRhdGlvbi5o&#xA;d29iai5DYW5QZHVUb1J4QmFzaWNDQU5WYWxpZGF0b3JzcQB+AAMAAAAAAQAAAHQASWNvbS52ZWN0&#xA;b3IuY2ZnLmdlbi5Pc19Db3JlR2VuNy52YWxpZGF0aW9uLk9zQ29yZVNlcnZpY2VGdW5jdGlvbnNW&#xA;YWxpZGF0b3JzcQB+AAMAAAAASQAAAHQAdmNvbS52ZWN0b3IuY2ZnLmdlbi5JZl9Bc3JJZkNhbi52&#xA;YWxpZGF0aW9uLlR4VmFsaWRhdG9ycy5UeEJ1ZmZlclZhbGlkYXRvcnMuQ2FuSWZTdGF0aWNGZFR4&#xA;QnVmZmVyU3VwcG9ydFNldHRpbmdWYWxpZGF0b3JzcQB+AAMAAAAAAQAAAHQATGNvbS52ZWN0b3Iu&#xA;Y2ZnLmdlbi5Hd19Bc3JQZHVSQ2ZnNS52YWxpZGF0aW9uLm11bHRpY29yZS5QZHVSTG9ja0Z1bGxW&#xA;YWxpZGF0b3JzcQB+AAMAAAAASAAAAHQAS2NvbS52ZWN0b3IuY2ZnLmdlbi5DY2xfQXNyNFNtQ2Fu&#xA;LnZhbGlkYXRpb24uQ2FuU21DaGFuZ2VCYXVkcmF0ZVN5bmNocm9uaXplcnNxAH4AAwAAAAABAAAA&#xA;dABcY29tLnZlY3Rvci5jZmcuZ2VuLkd3X0FzclBkdVJDZmc1LnZhbGlkYXRpb24uUGR1UkJzd01v&#xA;ZHVsZS5QZHVSQnN3TW9kdWxlc0xheWVyVHlwZVZhbGlkYXRpb25zcQB+AAMAAAAAAQAAAHQAVGNv&#xA;bS52ZWN0b3IuY2ZnLmdlbi5JZl9Bc3JJZkNhbi52YWxpZGF0aW9uLlJ4VmFsaWRhdG9ycy5DYW5J&#xA;ZlJ4UGR1RGxjU2V0dGluZ1ZhbGlkYXRvcnNxAH4AAwAAAAABAAAAdABIY29tLnZlY3Rvci5jZmcu&#xA;Z2VuLkNjbF9Bc3I0U21DYW4udmFsaWRhdGlvbi5DYW5TbVNldEJhdWRyYXRlU3luY2hyb25pemVy&#xA;c3EAfgADAAAAAAEAAAB0AGVjb20udmVjdG9yLmNmZy5nZW4uSWZfQXNySWZDYW4udmFsaWRhdGlv&#xA;bi5NaXNjZWxsYW5lb3VzVmFsaWRhdG9ycy5DYW5JZkNoYW5nZUJhdWRyYXRlU3VwcG9ydFZhbGlk&#xA;YXRvcnNxAH4AAwAAAABAAAAAdABQY29tLnZlY3Rvci5jZmcuZ2VuLklsX0FzckNvbUNmZzUudmFs&#xA;aWRhdGlvbi5pcGR1LkNvbUlQZHVEeW5TaWduYWxMYXlvdXRWYWxpZGF0b3JzcQB+AAMAAAAAAQAA&#xA;AHg=" Name="ValidationRuleExecutionTimes"/>
+    </Settings>
+</Settings>

@@ -934,7 +934,7 @@
             <IarPane-34104>
                 <expressions>
                     <item>iDioWriteChannelFlg_Dbg</item>
-                    <item></item>
+                    <item />
                 </expressions>
                 <col-names>
                     <item>Expression</item>

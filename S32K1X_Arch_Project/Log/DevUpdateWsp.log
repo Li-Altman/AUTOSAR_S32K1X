@@ -1,0 +1,23 @@
+﻿27 May 2026 23:47:01 - Opening workspace 'C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\S32K1X_Arch.dcf'...
+27 May 2026 23:47:02 - Loading file PlatformTypes_AR4.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\AUTOSAR\PlatformTypes_AR4.arxml)
+27 May 2026 23:47:02 - Loading file BswM_swc.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\ServiceComponents\BswM_swc.arxml)
+27 May 2026 23:47:02 - Loading file ComM_swc.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\ServiceComponents\ComM_swc.arxml)
+27 May 2026 23:47:02 - Loading file Det_swc.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\ServiceComponents\Det_swc.arxml)
+27 May 2026 23:47:02 - Loading file EcuM_swc.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\ServiceComponents\EcuM_swc.arxml)
+27 May 2026 23:47:02 - Loading file Os_swc.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\ServiceComponents\Os_swc.arxml)
+27 May 2026 23:47:03 - Loading file DataTypes.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\DataTypes.arxml)
+27 May 2026 23:47:03 - Loading file Packages.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\Packages.arxml)
+27 May 2026 23:47:03 - Loading file PortInterfaces.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\PortInterfaces.arxml)
+27 May 2026 23:47:03 - Loading file S32K1X_Arch.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\S32K1X_Arch.arxml)
+27 May 2026 23:47:04 - Opened workspace 'C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\S32K1X_Arch.dcf' successfully.
+27 May 2026 23:47:05 - Start import
+27 May 2026 23:47:05 - Importing file (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\System\SystemExtract.arxml).
+27 May 2026 23:47:05 - Merging imported data
+27 May 2026 23:47:06 - Finished import
+27 May 2026 23:47:07 - Saving workspace 'C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\S32K1X_Arch.dcf'...
+27 May 2026 23:47:07 - Saving file DataTypes.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\DataTypes.arxml)
+27 May 2026 23:47:07 - Saving file Packages.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\Packages.arxml)
+27 May 2026 23:47:07 - Saving file S32K1X_Arch.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\S32K1X_Arch.arxml)
+27 May 2026 23:47:07 - Saved workspace 'C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\S32K1X_Arch.dcf' successfully.
+27 May 2026 23:47:07 - Closing workspace 'C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\S32K1X_Arch.dcf'...
+27 May 2026 23:47:07 - Closed workspace 'C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\S32K1X_Arch.dcf' successfully.
