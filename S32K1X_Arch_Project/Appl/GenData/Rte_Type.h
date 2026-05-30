@@ -30,6 +30,12 @@
  * Data type definitions
  *********************************************************************************************************************/
 
+# define Rte_TypeDef_BswM_ESH_Mode
+typedef uint8 BswM_ESH_Mode;
+
+# define Rte_TypeDef_BswM_ESH_RunRequest
+typedef uint8 BswM_ESH_RunRequest;
+
 # define Rte_TypeDef_ComM_InhibitionStatusType
 typedef uint8 ComM_InhibitionStatusType;
 
@@ -102,6 +108,19 @@ typedef unsigned int Rte_BitType;
 # define RTE_STATE_INIT      (2U)
 
 # ifdef RTE_CORE
+
+typedef struct
+{
+  Rte_BitType Rte_ModeSwitchAck_BswM_Switch_ESH_ModeSwitch_BswM_MDGP_ESH_Mode_Ack : 1;
+} Rte_AckFlagsType;
+
+#  define RTE_START_SEC_VAR_NOINIT_UNSPECIFIED
+#  include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+extern VAR(Rte_AckFlagsType, RTE_VAR_NOINIT) Rte_AckFlags; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+#  define RTE_STOP_SEC_VAR_NOINIT_UNSPECIFIED
+#  include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
 
 
 # endif /* defined(RTE_CORE) */

@@ -21,7 +21,7 @@
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
  *              File: CanIf_Lcfg.c
- *   Generation Time: 2026-05-28 00:12:56
+ *   Generation Time: 2026-05-31 00:04:25
  *           Project: S32K1X_Arch - Version 1.0
  *          Delivery: CBD1800257_D01
  *      Tool Version: DaVinci Configurator  5.18.37 SP1
@@ -266,6 +266,39 @@ CONST(CanIf_RxPduConfigType, CANIF_CONST) CanIf_RxPduConfig[1] = {
   { /*     0 */    0x0100u  /* Gateway_1_oN_CAN1_6d05593c_Rx, 2.0- or FD-PDU */,   0x47FFu  /* Gateway_1_oN_CAN1_6d05593c_Rx */, PduRConf_PduRSrcPdu_PduRSrcPdu_5c8e2856,  8u,                    1uL  /* PduR_CanIfRxIndication */ }   /* [PDU: Gateway_1_oN_CAN1_6d05593c_Rx, CanId: 0x100] */  /* [CanIfConf_CanIfRxPduCfg_Gateway_1_oN_CAN1_6d05593c_Rx] */
 };
 #define CANIF_STOP_SEC_CONST_UNSPECIFIED
+/*lint -save -esym(961, 19.1) */
+#include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_19.1 */
+/*lint -restore */
+
+/**********************************************************************************************************************
+  CanIf_TrcvModeIndicationFctPtr
+**********************************************************************************************************************/
+#define CANIF_START_SEC_CONST_UNSPECIFIED
+/*lint -save -esym(961, 19.1) */
+#include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_19.1 */
+/*lint -restore */
+CONST(CanIf_TrcvModeIndicationFctType, CANIF_CONST) CanIf_TrcvModeIndicationFctPtr = CanSM_TransceiverModeIndication;
+#define CANIF_STOP_SEC_CONST_UNSPECIFIED
+/*lint -save -esym(961, 19.1) */
+#include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_19.1 */
+/*lint -restore */
+
+/**********************************************************************************************************************
+  CanIf_TrcvToCtrlMap
+**********************************************************************************************************************/
+/** 
+  \var    CanIf_TrcvToCtrlMap
+  \brief  Indirection table: logical transceiver index to CAN controller index.
+*/ 
+#define CANIF_START_SEC_CONST_8BIT
+/*lint -save -esym(961, 19.1) */
+#include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_19.1 */
+/*lint -restore */
+CONST(CanIf_TrcvToCtrlMapType, CANIF_CONST) CanIf_TrcvToCtrlMap[1] = {
+  /* Index     TrcvToCtrlMap                           */
+  /*     0 */          0xFFu  /* No CAN controller */
+};
+#define CANIF_STOP_SEC_CONST_8BIT
 /*lint -save -esym(961, 19.1) */
 #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_19.1 */
 /*lint -restore */

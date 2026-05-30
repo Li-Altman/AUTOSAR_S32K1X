@@ -513,6 +513,26 @@
             "Source",
             "..",
             "../Components",
+            "../Components/CanTrcv_30_Tja1043"
+         ],
+         "SourceFile" : "Source/CanTrcv_30_Tja1043.c"
+      },
+      {
+         "IncludeDirectoryList" : [
+            "D:/AutoSAR_Learning/AUTOSARÊÓÆµ¿Î³ÌºÍ¹¤¾ß¼°×ÊÁÏ/Autosar_S32K1/Tools/ImportantTools/S32K1_SIP/MICROSAR/CBD1800257_D01_S32K1xx/Misc/RteAnalyzer/include",
+            "Source",
+            "..",
+            "../Components",
+            "../Components/TSC_SchM_CanTrcv_30_Tja1043"
+         ],
+         "SourceFile" : "Source/TSC_SchM_CanTrcv_30_Tja1043.c"
+      },
+      {
+         "IncludeDirectoryList" : [
+            "D:/AutoSAR_Learning/AUTOSARÊÓÆµ¿Î³ÌºÍ¹¤¾ß¼°×ÊÁÏ/Autosar_S32K1/Tools/ImportantTools/S32K1_SIP/MICROSAR/CBD1800257_D01_S32K1xx/Misc/RteAnalyzer/include",
+            "Source",
+            "..",
+            "../Components",
             "../Components/Com"
          ],
          "SourceFile" : "Source/Com.c"

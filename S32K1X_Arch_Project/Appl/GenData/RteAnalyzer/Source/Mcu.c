@@ -80,6 +80,8 @@
  *
  * Enumeration Types:
  * ==================
+ * BswM_ESH_Mode: Enumeration of integer in interval [0...255] with enumerators
+ * BswM_ESH_RunRequest: Enumeration of integer in interval [0...255] with enumerators
  * ComM_ModeType: Enumeration of integer in interval [0...3] with enumerators
  * EcuM_BootTargetType: Enumeration of integer in interval [0...2] with enumerators
  * EcuM_ModeType: Enumeration of integer in interval [0...3] with enumerators

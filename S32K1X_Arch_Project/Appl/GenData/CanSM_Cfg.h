@@ -21,7 +21,7 @@
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
  *              File: CanSM_Cfg.h
- *   Generation Time: 2026-05-28 00:12:56
+ *   Generation Time: 2026-05-31 00:04:24
  *           Project: S32K1X_Arch - Version 1.0
  *          Delivery: CBD1800257_D01
  *      Tool Version: DaVinci Configurator  5.18.37 SP1
@@ -61,10 +61,10 @@
 
 /* General Module Defines */
 #ifndef CANSM_DEV_ERROR_DETECT
-#define CANSM_DEV_ERROR_DETECT STD_ON
+#define CANSM_DEV_ERROR_DETECT STD_OFF
 #endif
 #ifndef CANSM_DEV_ERROR_REPORT
-#define CANSM_DEV_ERROR_REPORT STD_ON
+#define CANSM_DEV_ERROR_REPORT STD_OFF
 #endif
 #ifndef CANSM_USE_DUMMY_STATEMENT
 #define CANSM_USE_DUMMY_STATEMENT STD_ON /* /MICROSAR/EcuC/EcucGeneral/DummyStatement */

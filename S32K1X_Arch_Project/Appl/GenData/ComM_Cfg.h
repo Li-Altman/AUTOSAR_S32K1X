@@ -21,7 +21,7 @@
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
  *              File: ComM_Cfg.h
- *   Generation Time: 2026-05-28 00:12:56
+ *   Generation Time: 2026-05-31 00:04:24
  *           Project: S32K1X_Arch - Version 1.0
  *          Delivery: CBD1800257_D01
  *      Tool Version: DaVinci Configurator  5.18.37 SP1
@@ -87,10 +87,10 @@
 #endif
 
 #ifndef COMM_DEV_ERROR_DETECT
-#define COMM_DEV_ERROR_DETECT STD_ON
+#define COMM_DEV_ERROR_DETECT STD_OFF
 #endif
 #ifndef COMM_DEV_ERROR_REPORT
-#define COMM_DEV_ERROR_REPORT STD_ON
+#define COMM_DEV_ERROR_REPORT STD_OFF
 #endif
 
 #define COMM_INIT_POINTER_ENABLED                       STD_OFF

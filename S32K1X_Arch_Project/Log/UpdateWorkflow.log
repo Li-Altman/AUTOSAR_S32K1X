@@ -1,18 +1,18 @@
-2026-05-27 - 23:46:19
+2026-05-30 - 23:35:52
 Workflow 'Update workflow.' started.
               Using DaVinci Configurator  5.18.37 SP1 (x86_64).
- 23:46:19 - Action 'Validate workflow environment' started.
- 23:46:19 - Action 'Validate dpa file' started.
- 23:46:20 - Action 'Validate dpa file' successfully finished.
- 23:46:20 - Action 'SLP conformance check' started.
- 23:46:20 - Action 'SLP conformance check' successfully finished.
- 23:46:20 - Action 'Validate workflow environment' successfully finished.
- 23:46:20 - Action 'Input File Pre-Processing' started.
- 23:46:20 - Action 'Converting legacy file(s) to AUTOSAR files' started.
- 23:46:20 - Action 'Converting legacy file(s) to AUTOSAR files' started.
+ 23:35:52 - Action 'Validate workflow environment' started.
+ 23:35:52 - Action 'Validate dpa file' started.
+ 23:35:53 - Action 'Validate dpa file' successfully finished.
+ 23:35:53 - Action 'SLP conformance check' started.
+ 23:35:53 - Action 'SLP conformance check' successfully finished.
+ 23:35:53 - Action 'Validate workflow environment' successfully finished.
+ 23:35:53 - Action 'Input File Pre-Processing' started.
+ 23:35:53 - Action 'Converting legacy file(s) to AUTOSAR files' started.
+ 23:35:53 - Action 'Converting legacy file(s) to AUTOSAR files' started.
               Convert legacy file(s) to System Description.
               Used executable: D:\AutoSAR_Learning\AUTOSAR视频课程和工具及资料\Autosar_S32K1\Tools\ImportantTools\S32K1_SIP\MICROSAR\CBD1800257_D01_S32K1xx\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe.
-              Arguments: "F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\input\DBC\N_CAN1.dbc" -o "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\LegacyConverterResults\1779896780035-0\ConvertedLegacy" -r 42 -e -v 19.
+              Arguments: "F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\input\DBC\N_CAN1.dbc" -o "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\LegacyConverterResults\1780155353862-0\ConvertedLegacy" -r 42 -e -v 19.
               
               Vector Legacy Database Converter.
               Version: 1.8.24.0.
@@ -20,102 +20,87 @@ Workflow 'Update workflow.' started.
               License is restricted to the usage with CBD1800257 (D01) for MSR_Vector_SLP4.
               
               [info] SIP License found as D:\AutoSAR_Learning\AUTOSAR��Ƶ�γ̺͹��߼�����\Autosar_S32K1\Tools\ImportantTools\S32K1_SIP\MICROSAR\CBD1800257_D01_S32K1xx\SipLicense.lic.
-              [info] Command line: D:\AutoSAR_Learning\AUTOSAR��Ƶ�γ̺͹��߼�����\Autosar_S32K1\Tools\ImportantTools\S32K1_SIP\MICROSAR\CBD1800257_D01_S32K1xx\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe "F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\input\DBC\N_CAN1.dbc" -o "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\LegacyConverterResults\1779896780035-0\ConvertedLegacy" -r 42 -e -v 19.
+              [info] Command line: D:\AutoSAR_Learning\AUTOSAR��Ƶ�γ̺͹��߼�����\Autosar_S32K1\Tools\ImportantTools\S32K1_SIP\MICROSAR\CBD1800257_D01_S32K1xx\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe "F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\input\DBC\N_CAN1.dbc" -o "C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\LegacyConverterResults\1780155353862-0\ConvertedLegacy" -r 42 -e -v 19.
               [info] Converting DBC file F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project\input\DBC\N_CAN1.dbc.
               [info] Writing System Description...
               [info] Writing 2 ECU Extracts...
               
-              C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\LegacyConverterResults\1779896780035-0\ConvertedLegacy.arxml.
-              C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\LegacyConverterResults\1779896780035-0\ConvertedLegacy_BCM.arxml.
-              C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\LegacyConverterResults\1779896780035-0\ConvertedLegacy_Gateway.arxml.
-              Elapsed time: 1.060 seconds.
+              C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\LegacyConverterResults\1780155353862-0\ConvertedLegacy.arxml.
+              C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\LegacyConverterResults\1780155353862-0\ConvertedLegacy_BCM.arxml.
+              C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\LegacyConverterResults\1780155353862-0\ConvertedLegacy_Gateway.arxml.
+              Elapsed time: 0.993 seconds.
               0 Errors.
               0 Warnings.
- 23:46:21 - Action 'Converting legacy file(s) to AUTOSAR files' successfully finished.
- 23:46:21 - Action 'Converting legacy file(s) to AUTOSAR files' successfully finished.
- 23:46:21 - Action 'Input File Pre-Processing' successfully finished.
- 23:46:21 - Action 'Create copy of the Project' started.
-              Copy project 'F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project' to 'C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0'...
+ 23:35:55 - Action 'Converting legacy file(s) to AUTOSAR files' successfully finished.
+ 23:35:55 - Action 'Converting legacy file(s) to AUTOSAR files' successfully finished.
+ 23:35:55 - Action 'Input File Pre-Processing' successfully finished.
+ 23:35:55 - Action 'Create copy of the Project' started.
+              Copy project 'F:\PROJ_TEST\AutoSARWorkSpace\AUTOSAR_S32K1X\S32K1X_Arch_Project' to 'C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\Workflow\1780155355257-0'...
               Adjusting DPA file of copied project...
- 23:46:21 - Action 'Create copy of the Project' successfully finished.
- 23:46:21 - Action 'Close Project' started.
- 23:46:22 - Action 'Close Project' successfully finished.
- 23:46:26 - Action 'Prepare DaVinci Developer update data' started.
- 23:46:26 - Action 'Prepare DaVinci Developer update data' successfully finished.
- 23:46:26 - Action 'Prepare System Extract' started.
- 23:46:28 - Action 'Preprocessing System Extract' started.
- 23:46:28 - Action 'Preprocessing System Extract' successfully finished.
- 23:46:28 - Action 'Create OEM Communication Extract' started.
- 23:46:28 - Action 'Create OEM Communication Extract' successfully finished.
- 23:46:28 - Action 'Prepare System Extract' successfully finished.
- 23:46:28 - Action 'Updating the project' started.
- 23:46:30 - Action 'Create ECU configuration' started.
- 23:46:32 - Action 'Import Project Standard Configuration' started.
- 23:46:32 - Action 'Import modules' started.
- 23:46:35 - Action 'Import modules' successfully finished.
- 23:46:35 - Action 'Postprocessing' started.
- 23:46:35 - Action 'Postprocessing' successfully finished.
- 23:46:35 - Action 'Import Project Standard Configuration' successfully finished.
- 23:46:36 - Action 'Create ECU configuration' successfully finished.
- 23:46:36 - Action 'Update ECU configuration' started.
- 23:46:36 - Action 'Update ECU configuration' started.
-              No Package path available for module configuration: /ActiveEcuC/Com. Default /ActiveEcuC is used instead.
-              No Package path available for module configuration: /ActiveEcuC/Rte. Default /ActiveEcuC is used instead.
-              No Package path available for module configuration: /ActiveEcuC/EcuM. Default /ActiveEcuC is used instead.
-              No Package path available for module configuration: /ActiveEcuC/CanNm. Default /ActiveEcuC is used instead.
-              No Package path available for module configuration: /ActiveEcuC/Os. Default /ActiveEcuC is used instead.
-              No Package path available for module configuration: /ActiveEcuC/PduR. Default /ActiveEcuC is used instead.
-              No Package path available for module configuration: /ActiveEcuC/CanSM. Default /ActiveEcuC is used instead.
-              No Package path available for module configuration: /ActiveEcuC/Nm. Default /ActiveEcuC is used instead.
-              No Package path available for module configuration: /ActiveEcuC/Can. Default /ActiveEcuC is used instead.
-              No Package path available for module configuration: /ActiveEcuC/CanIf. Default /ActiveEcuC is used instead.
-              No Package path available for module configuration: /ActiveEcuC/Det. Default /ActiveEcuC is used instead.
-              No Package path available for module configuration: /ActiveEcuC/ComM. Default /ActiveEcuC is used instead.
-              No Package path available for module configuration: /ActiveEcuC/EcuC. Default /ActiveEcuC is used instead.
-              No Package path available for module configuration: /ActiveEcuC/BswM. Default /ActiveEcuC is used instead.
- 23:46:41 - Action 'Update ECU configuration' successfully finished.
- 23:46:41 - Action 'Update ECU configuration' successfully finished.
- 23:46:41 - Action 'Updating the project' successfully finished.
- 23:46:41 - Action 'Adapt project file' started.
- 23:46:41 - Action 'Adapt project file' successfully finished.
- 23:46:41 - Action 'Generate update report' started.
- 23:46:48 - Action 'Generate update report' successfully finished.
- 23:46:48 - Action 'Execute Solving Actions' started.
-              Executing all Preferred-Solving-Actions...
-              All Preferred-Solving-Actions done.
+ 23:35:55 - Action 'Create copy of the Project' successfully finished.
+ 23:35:55 - Action 'Close Project' started.
+ 23:35:56 - Action 'Close Project' successfully finished.
+ 23:36:00 - Action 'Prepare DaVinci Developer update data' started.
+ 23:36:00 - Action 'Prepare DaVinci Developer update data' successfully finished.
+ 23:36:00 - Action 'Prepare System Extract' started.
+ 23:36:00 - Action 'Preprocessing System Extract' started.
+ 23:36:00 - Action 'Preprocessing System Extract' successfully finished.
+ 23:36:00 - Action 'Create OEM Communication Extract' started.
+ 23:36:01 - Action 'Create OEM Communication Extract' successfully finished.
+ 23:36:01 - Action 'Prepare System Extract' successfully finished.
+ 23:36:01 - Action 'Updating the project' started.
+ 23:36:08 - Action 'Create ECU configuration' started.
+ 23:36:12 - Action 'Import Project Standard Configuration' started.
+ 23:36:12 - Action 'Import modules' started.
+ 23:36:16 - Action 'Import modules' successfully finished.
+ 23:36:16 - Action 'Postprocessing' started.
+ 23:36:16 - Action 'Postprocessing' successfully finished.
+ 23:36:16 - Action 'Import Project Standard Configuration' successfully finished.
+ 23:36:17 - Action 'Create ECU configuration' successfully finished.
+ 23:36:17 - Action 'Update ECU configuration' started.
+ 23:36:17 - Action 'Update ECU configuration' started.
+ 23:36:23 - Action 'Update ECU configuration' successfully finished.
+ 23:36:23 - Action 'Update ECU configuration' successfully finished.
+ 23:36:23 - Action 'Updating the project' successfully finished.
+ 23:36:23 - Action 'Adapt project file' started.
+ 23:36:23 - Action 'Adapt project file' successfully finished.
+ 23:36:23 - Action 'Generate update report' started.
+ 23:36:42 - Action 'Generate update report' successfully finished.
+ 23:36:42 - Action 'Execute Solving Actions' started.
+              Executing Auto-Solving-Actions...
+              Auto-Solving-Actions done.
               Executing update specific Preferred-Solving-Actions...
               Update specific Preferred-Solving-Actions done.
- 23:46:56 - Action 'Execute Solving Actions' successfully finished.
- 23:46:56 - Action 'Update DaVinci Developer Workspace' started.
-              27 May 2026 23:47:01 - Opening workspace 'C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\S32K1X_Arch.dcf'...
-              27 May 2026 23:47:02 - Loading file PlatformTypes_AR4.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\AUTOSAR\PlatformTypes_AR4.arxml).
-              27 May 2026 23:47:02 - Loading file BswM_swc.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\ServiceComponents\BswM_swc.arxml).
-              27 May 2026 23:47:02 - Loading file ComM_swc.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\ServiceComponents\ComM_swc.arxml).
-              27 May 2026 23:47:02 - Loading file Det_swc.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\ServiceComponents\Det_swc.arxml).
-              27 May 2026 23:47:02 - Loading file EcuM_swc.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\ServiceComponents\EcuM_swc.arxml).
-              27 May 2026 23:47:02 - Loading file Os_swc.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\ServiceComponents\Os_swc.arxml).
-              27 May 2026 23:47:03 - Loading file DataTypes.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\DataTypes.arxml).
-              27 May 2026 23:47:03 - Loading file Packages.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\Packages.arxml).
-              27 May 2026 23:47:03 - Loading file PortInterfaces.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\PortInterfaces.arxml).
-              27 May 2026 23:47:03 - Loading file S32K1X_Arch.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\S32K1X_Arch.arxml).
-              27 May 2026 23:47:04 - Opened workspace 'C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\S32K1X_Arch.dcf' successfully.
-              27 May 2026 23:47:05 - Start import.
-              27 May 2026 23:47:05 - Importing file (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\System\SystemExtract.arxml).
-              27 May 2026 23:47:05 - Merging imported data.
-              27 May 2026 23:47:06 - Finished import.
-              27 May 2026 23:47:07 - Saving workspace 'C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\S32K1X_Arch.dcf'...
-              27 May 2026 23:47:07 - Saving file DataTypes.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\DataTypes.arxml).
-              27 May 2026 23:47:07 - Saving file Packages.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\Packages.arxml).
-              27 May 2026 23:47:07 - Saving file S32K1X_Arch.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\S32K1X_Arch.arxml).
-              27 May 2026 23:47:07 - Saved workspace 'C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\S32K1X_Arch.dcf' successfully.
-              27 May 2026 23:47:07 - Closing workspace 'C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\S32K1X_Arch.dcf'...
-              27 May 2026 23:47:07 - Closed workspace 'C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-4177689\Workflow\1779896781448-0\Config\Developer\S32K1X_Arch.dcf' successfully.
+ 23:36:45 - Action 'Execute Solving Actions' successfully finished.
+ 23:36:45 - Action 'Update DaVinci Developer Workspace' started.
+              30 May 2026 23:36:59 - Opening workspace 'C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\Workflow\1780155355257-0\Config\Developer\S32K1X_Arch.dcf'...
+              30 May 2026 23:37:04 - Loading file PlatformTypes_AR4.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\Workflow\1780155355257-0\Config\AUTOSAR\PlatformTypes_AR4.arxml).
+              30 May 2026 23:37:04 - Loading file BswM_swc.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\Workflow\1780155355257-0\Config\ServiceComponents\BswM_swc.arxml).
+              30 May 2026 23:37:04 - Loading file ComM_swc.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\Workflow\1780155355257-0\Config\ServiceComponents\ComM_swc.arxml).
+              30 May 2026 23:37:04 - Loading file Det_swc.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\Workflow\1780155355257-0\Config\ServiceComponents\Det_swc.arxml).
+              30 May 2026 23:37:04 - Loading file EcuM_swc.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\Workflow\1780155355257-0\Config\ServiceComponents\EcuM_swc.arxml).
+              30 May 2026 23:37:04 - Loading file Os_swc.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\Workflow\1780155355257-0\Config\ServiceComponents\Os_swc.arxml).
+              30 May 2026 23:37:04 - Loading file Communication.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\Workflow\1780155355257-0\Update\DevData\Communication.arxml).
+              30 May 2026 23:37:04 - Loading file DataTypes.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\Workflow\1780155355257-0\Config\Developer\DataTypes.arxml).
+              30 May 2026 23:37:04 - Loading file Packages.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\Workflow\1780155355257-0\Config\Developer\Packages.arxml).
+              30 May 2026 23:37:04 - Loading file PortInterfaces.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\Workflow\1780155355257-0\Config\Developer\PortInterfaces.arxml).
+              30 May 2026 23:37:04 - Loading file S32K1X_Arch.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\Workflow\1780155355257-0\Config\Developer\S32K1X_Arch.arxml).
+              30 May 2026 23:37:06 - Opened workspace 'C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\Workflow\1780155355257-0\Config\Developer\S32K1X_Arch.dcf' successfully.
+              30 May 2026 23:37:07 - Start import.
+              30 May 2026 23:37:07 - Importing file (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\Workflow\1780155355257-0\Config\System\SystemExtract.arxml).
+              30 May 2026 23:37:07 - Merging imported data.
+              30 May 2026 23:37:08 - Finished import.
+              30 May 2026 23:37:08 - Saving workspace 'C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\Workflow\1780155355257-0\Config\Developer\S32K1X_Arch.dcf'...
+              30 May 2026 23:37:08 - Saving file DataTypes.arxml (C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\Workflow\1780155355257-0\Config\Developer\DataTypes.arxml).
+              30 May 2026 23:37:08 - Saved workspace 'C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\Workflow\1780155355257-0\Config\Developer\S32K1X_Arch.dcf' successfully.
+              30 May 2026 23:37:08 - Closing workspace 'C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\Workflow\1780155355257-0\Config\Developer\S32K1X_Arch.dcf'...
+              30 May 2026 23:37:08 - Closed workspace 'C:\Users\UsrLi\AppData\Local\Temp\DaVinci\Cfg-3200724\Workflow\1780155355257-0\Config\Developer\S32K1X_Arch.dcf' successfully.
               OK.
- 23:47:09 - Action 'Update DaVinci Developer Workspace' successfully finished.
- 23:47:09 - Action 'Update RTE configuration' started.
- 23:47:10 - Action 'Update RTE configuration' successfully finished.
- 23:47:11 - Action 'Align differences after successful update' started.
- 23:47:11 - Action 'Align differences after successful update' successfully finished.
- 23:47:11 - Action 'Clean up update data' started.
- 23:47:11 - Action 'Clean up update data' successfully finished.
-23:47:12 - Workflow 'Update workflow.' successfully finished.
+ 23:37:09 - Action 'Update DaVinci Developer Workspace' successfully finished.
+ 23:37:09 - Action 'Update RTE configuration' started.
+ 23:37:10 - Action 'Update RTE configuration' successfully finished.
+ 23:37:10 - Action 'Align differences after successful update' started.
+ 23:37:10 - Action 'Align differences after successful update' successfully finished.
+ 23:37:10 - Action 'Clean up update data' started.
+ 23:37:10 - Action 'Clean up update data' successfully finished.
+23:37:11 - Workflow 'Update workflow.' successfully finished.

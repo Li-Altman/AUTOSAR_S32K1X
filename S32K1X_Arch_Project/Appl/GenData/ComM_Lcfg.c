@@ -21,7 +21,7 @@
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
  *              File: ComM_Lcfg.c
- *   Generation Time: 2026-05-28 00:12:56
+ *   Generation Time: 2026-05-31 00:04:24
  *           Project: S32K1X_Arch - Version 1.0
  *          Delivery: CBD1800257_D01
  *      Tool Version: DaVinci Configurator  5.18.37 SP1
@@ -49,7 +49,6 @@
 #include "CanSM.h"
 
 
-#include "Det.h"
 #include "Rte_ComM.h"
 
 #if defined( COMM_LOCAL )
@@ -189,18 +188,9 @@ FUNC(void, COMM_CODE) ComM_MainFunction_0(void)
  */
 FUNC(void, COMM_CODE) ComM_RequestBusSMMode(NetworkHandleType Channel, ComM_ModeType ComMode)
 {
-  /* ----- Local Variables ---------------------------------------------- */
-  Std_ReturnType retVal;
-
   /* ----- Implementation ----------------------------------------------- */
   /* #10 Request the communication mode from the corresponding BusSM. */
-  retVal = CanSM_RequestComMode(Channel, ComMode);
-  
-  /* ----- Development Error Report --------------------------------------- */
-  if (retVal != E_OK)
-  {
-    (void)Det_ReportError( COMM_MODULE_ID, COMM_INSTANCE_ID_DET, COMM_SID_MAINFUNCTION, COMM_E_ERROR_IN_PROV_SERVICE );
-  }
+  (void)CanSM_RequestComMode(Channel, ComMode);
 } /* PRQA S 6030 */ /* MD_MSR_STCYC */
 
 
@@ -214,18 +204,9 @@ FUNC(void, COMM_CODE) ComM_RequestBusSMMode(NetworkHandleType Channel, ComM_Mode
  */
 FUNC(void, COMM_CODE) ComM_GetCurrentBusSMMode(NetworkHandleType Channel, P2VAR(ComM_ModeType, AUTOMATIC, AUTOMATIC) ComMode)
 {
-  /* ----- Local Variables ---------------------------------------------- */
-  Std_ReturnType retVal;
-
   /* ----- Implementation ----------------------------------------------- */
   /* #10 Query the current communication mode from the corresponding BusSM. */
-  retVal = CanSM_GetCurrentComMode(Channel, ComMode); /* SBSW_COMM_CALL_BUSSM_GET_CURRENT_COMMODE */
-
-  /* ----- Development Error Report --------------------------------------- */
-  if (retVal != E_OK)
-  {
-    (void)Det_ReportError( COMM_MODULE_ID, COMM_INSTANCE_ID_DET, COMM_SID_GETCURRENTCOMMODE, COMM_E_ERROR_IN_PROV_SERVICE );
-  }
+  (void)CanSM_GetCurrentComMode(Channel, ComMode); /* SBSW_COMM_CALL_BUSSM_GET_CURRENT_COMMODE */
 } /* PRQA S 6030 */ /* MD_MSR_STCYC */
 
 

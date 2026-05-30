@@ -54,7 +54,7 @@
             </ECUC-MODULE-CONFIGURATION-VALUES-REF-CONDITIONAL>
           </ECUC-VALUES>
         </ECUC-VALUE-COLLECTION>
-        <ECUC-MODULE-CONFIGURATION-VALUES UUID="9e4a43b8-64b6-4ea4-b1b6-dc8e58b09696">
+        <ECUC-MODULE-CONFIGURATION-VALUES UUID="92ad13ed-3094-4afa-b54e-69c57265cce7">
           <SHORT-NAME>Base</SHORT-NAME>
           <DEFINITION-REF DEST="ECUC-MODULE-DEF">/TS_T40D2M10I1R0/Base</DEFINITION-REF>
           <CONTAINERS>
@@ -170,7 +170,7 @@
             </ECUC-CONTAINER-VALUE>
           </CONTAINERS>
         </ECUC-MODULE-CONFIGURATION-VALUES>
-        <ECUC-MODULE-CONFIGURATION-VALUES UUID="6070cd32-918b-4c38-95f7-9d28acaf6735">
+        <ECUC-MODULE-CONFIGURATION-VALUES UUID="1c1cec6d-0432-47d2-a136-0ed4455a683f">
           <SHORT-NAME>Can</SHORT-NAME>
           <DEFINITION-REF DEST="ECUC-MODULE-DEF">/MICROSAR/Can_ImxFlexcan3/Can</DEFINITION-REF>
           <CONTAINERS>
@@ -364,7 +364,7 @@
             </ECUC-CONTAINER-VALUE>
           </CONTAINERS>
         </ECUC-MODULE-CONFIGURATION-VALUES>
-        <ECUC-MODULE-CONFIGURATION-VALUES UUID="ef487feb-e5ed-4087-a30e-0141ff4d48e8">
+        <ECUC-MODULE-CONFIGURATION-VALUES UUID="559c73c7-138c-40d8-ad12-385b5762aeb6">
           <SHORT-NAME>CanIf</SHORT-NAME>
           <DEFINITION-REF DEST="ECUC-MODULE-DEF">/MICROSAR/CanIf</DEFINITION-REF>
           <CONTAINERS>
@@ -668,7 +668,7 @@
             </ECUC-CONTAINER-VALUE>
           </CONTAINERS>
         </ECUC-MODULE-CONFIGURATION-VALUES>
-        <ECUC-MODULE-CONFIGURATION-VALUES UUID="e89fb826-aeef-4db4-aa30-4f237b3951cc">
+        <ECUC-MODULE-CONFIGURATION-VALUES UUID="6637a02a-4747-49e6-b6a1-089144821add">
           <SHORT-NAME>CanNm</SHORT-NAME>
           <DEFINITION-REF DEST="ECUC-MODULE-DEF">/AUTOSAR/EcucDefs/CanNm</DEFINITION-REF>
           <CONTAINERS>
@@ -750,7 +750,7 @@
             </ECUC-CONTAINER-VALUE>
           </CONTAINERS>
         </ECUC-MODULE-CONFIGURATION-VALUES>
-        <ECUC-MODULE-CONFIGURATION-VALUES UUID="4d1bfe88-89b3-4029-823b-74e4dbda1886">
+        <ECUC-MODULE-CONFIGURATION-VALUES UUID="7f31b87b-7e04-4169-91c2-d2c3a55e2986">
           <SHORT-NAME>CanSM</SHORT-NAME>
           <DEFINITION-REF DEST="ECUC-MODULE-DEF">/MICROSAR/CanSM</DEFINITION-REF>
           <CONTAINERS>
@@ -790,7 +790,7 @@
             </ECUC-CONTAINER-VALUE>
           </CONTAINERS>
         </ECUC-MODULE-CONFIGURATION-VALUES>
-        <ECUC-MODULE-CONFIGURATION-VALUES UUID="d2048252-b85b-4b75-a15b-2137d360b0b4">
+        <ECUC-MODULE-CONFIGURATION-VALUES UUID="36f45694-8718-41b2-a4cc-a393ee343347">
           <SHORT-NAME>Com</SHORT-NAME>
           <DEFINITION-REF DEST="ECUC-MODULE-DEF">/MICROSAR/Com</DEFINITION-REF>
           <CONTAINERS>
@@ -1041,7 +1041,7 @@
             </ECUC-CONTAINER-VALUE>
           </CONTAINERS>
         </ECUC-MODULE-CONFIGURATION-VALUES>
-        <ECUC-MODULE-CONFIGURATION-VALUES UUID="9b51a62d-5de0-4195-8484-6c8e85166e9f">
+        <ECUC-MODULE-CONFIGURATION-VALUES UUID="0aea7fdd-2d93-425a-bb20-c1921d066042">
           <SHORT-NAME>ComM</SHORT-NAME>
           <DEFINITION-REF DEST="ECUC-MODULE-DEF">/MICROSAR/ComM</DEFINITION-REF>
           <CONTAINERS>
@@ -1163,7 +1163,7 @@
             </ECUC-CONTAINER-VALUE>
           </CONTAINERS>
         </ECUC-MODULE-CONFIGURATION-VALUES>
-        <ECUC-MODULE-CONFIGURATION-VALUES UUID="70a0e327-7a5a-4781-a318-4e5b70c1893e">
+        <ECUC-MODULE-CONFIGURATION-VALUES UUID="e6ae0628-7782-432b-92ea-a92ca29e2733">
           <SHORT-NAME>Dio</SHORT-NAME>
           <DEFINITION-REF DEST="ECUC-MODULE-DEF">/TS_T40D2M10I1R0/Dio</DEFINITION-REF>
           <CONTAINERS>
@@ -1289,6 +1289,112 @@
               </ANNOTATIONS>
               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Dio/DioConfig</DEFINITION-REF>
               <SUB-CONTAINERS>
+                <ECUC-CONTAINER-VALUE UUID="72f21b60-1b58-4504-941d-7153bfcc33b2">
+                  <SHORT-NAME>DioPort_PTB</SHORT-NAME>
+                  <ANNOTATIONS>
+                    <ANNOTATION>
+                      <LABEL>
+                        <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                      </LABEL>
+                      <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                    </ANNOTATION>
+                  </ANNOTATIONS>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Dio/DioConfig/DioPort</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T40D2M10I1R0/Dio/DioConfig/DioPort/DioPortId</DEFINITION-REF>
+                      <ANNOTATIONS>
+                        <ANNOTATION>
+                          <LABEL>
+                            <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                          </LABEL>
+                          <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                        </ANNOTATION>
+                      </ANNOTATIONS>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                  <SUB-CONTAINERS>
+                    <ECUC-CONTAINER-VALUE UUID="d8b83371-9ac1-47ac-8bc4-6a7e2734c499">
+                      <SHORT-NAME>DioChannel_PTB25</SHORT-NAME>
+                      <ANNOTATIONS>
+                        <ANNOTATION>
+                          <LABEL>
+                            <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                          </LABEL>
+                          <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                        </ANNOTATION>
+                      </ANNOTATIONS>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Dio/DioConfig/DioPort/DioChannel</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T40D2M10I1R0/Dio/DioConfig/DioPort/DioChannel/DioChannelId</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>25</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="ae2a18ea-c8e0-4e33-ac98-16b4e68d13b5">
+                      <SHORT-NAME>DioChannel_PTB27</SHORT-NAME>
+                      <ANNOTATIONS>
+                        <ANNOTATION>
+                          <LABEL>
+                            <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                          </LABEL>
+                          <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                        </ANNOTATION>
+                      </ANNOTATIONS>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Dio/DioConfig/DioPort/DioChannel</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T40D2M10I1R0/Dio/DioConfig/DioPort/DioChannel/DioChannelId</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>27</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="1de8e232-65c5-41b2-aa02-67b0e9664520">
+                      <SHORT-NAME>DioChannel_PTB28</SHORT-NAME>
+                      <ANNOTATIONS>
+                        <ANNOTATION>
+                          <LABEL>
+                            <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                          </LABEL>
+                          <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                        </ANNOTATION>
+                      </ANNOTATIONS>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Dio/DioConfig/DioPort/DioChannel</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T40D2M10I1R0/Dio/DioConfig/DioPort/DioChannel/DioChannelId</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>28</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                  </SUB-CONTAINERS>
+                </ECUC-CONTAINER-VALUE>
                 <ECUC-CONTAINER-VALUE UUID="562e46f3-e587-49e3-9803-81b658c58622">
                   <SHORT-NAME>DioPort_PTE</SHORT-NAME>
                   <ANNOTATIONS>
@@ -1315,6 +1421,32 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                   <SUB-CONTAINERS>
+                    <ECUC-CONTAINER-VALUE UUID="2c4b3933-b5fa-43ba-a66e-cc6862fa5f8a">
+                      <SHORT-NAME>DioChannel_PTE16</SHORT-NAME>
+                      <ANNOTATIONS>
+                        <ANNOTATION>
+                          <LABEL>
+                            <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                          </LABEL>
+                          <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                        </ANNOTATION>
+                      </ANNOTATIONS>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Dio/DioConfig/DioPort/DioChannel</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T40D2M10I1R0/Dio/DioConfig/DioPort/DioChannel/DioChannelId</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>16</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                    </ECUC-CONTAINER-VALUE>
                     <ECUC-CONTAINER-VALUE UUID="5d9f8b2c-3b19-45cf-a8ff-a13b9ac26c8b">
                       <SHORT-NAME>DioChannel_PTE20</SHORT-NAME>
                       <ANNOTATIONS>
@@ -1364,6 +1496,32 @@
                             </ANNOTATION>
                           </ANNOTATIONS>
                           <VALUE>21</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="cf15f3f0-74df-4e22-8f9f-23ff05d4871a">
+                      <SHORT-NAME>DioChannel_PTE4</SHORT-NAME>
+                      <ANNOTATIONS>
+                        <ANNOTATION>
+                          <LABEL>
+                            <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                          </LABEL>
+                          <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                        </ANNOTATION>
+                      </ANNOTATIONS>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Dio/DioConfig/DioPort/DioChannel</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T40D2M10I1R0/Dio/DioConfig/DioPort/DioChannel/DioChannelId</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>4</VALUE>
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
@@ -1471,7 +1629,7 @@
             </ECUC-CONTAINER-VALUE>
           </CONTAINERS>
         </ECUC-MODULE-CONFIGURATION-VALUES>
-        <ECUC-MODULE-CONFIGURATION-VALUES UUID="1e21e76a-4925-4839-a3bc-80ea0f2c9756">
+        <ECUC-MODULE-CONFIGURATION-VALUES UUID="f34c8297-f086-4d47-8ed8-dc5f5d879c86">
           <SHORT-NAME>EcuC</SHORT-NAME>
           <DEFINITION-REF DEST="ECUC-MODULE-DEF">/MICROSAR/EcuC</DEFINITION-REF>
           <CONTAINERS>
@@ -1567,7 +1725,7 @@
             </ECUC-CONTAINER-VALUE>
           </CONTAINERS>
         </ECUC-MODULE-CONFIGURATION-VALUES>
-        <ECUC-MODULE-CONFIGURATION-VALUES UUID="d4c05877-2dac-4617-adf1-75d3b4331c4d">
+        <ECUC-MODULE-CONFIGURATION-VALUES UUID="2ab17bf3-c02e-4221-ae4e-fbf595cf5721">
           <SHORT-NAME>EcuM</SHORT-NAME>
           <DEFINITION-REF DEST="ECUC-MODULE-DEF">/MICROSAR/EcuM</DEFINITION-REF>
           <CONTAINERS>
@@ -1647,7 +1805,7 @@
             </ECUC-CONTAINER-VALUE>
           </CONTAINERS>
         </ECUC-MODULE-CONFIGURATION-VALUES>
-        <ECUC-MODULE-CONFIGURATION-VALUES UUID="bf0c0afd-188e-44ea-bad2-616fdf25e084">
+        <ECUC-MODULE-CONFIGURATION-VALUES UUID="f40b4800-a479-40f5-b00b-adf6780fb09b">
           <SHORT-NAME>Mcu</SHORT-NAME>
           <DEFINITION-REF DEST="ECUC-MODULE-DEF">/TS_T40D2M10I1R0/Mcu</DEFINITION-REF>
           <CONTAINERS>
@@ -8809,7 +8967,7 @@
             </ECUC-CONTAINER-VALUE>
           </CONTAINERS>
         </ECUC-MODULE-CONFIGURATION-VALUES>
-        <ECUC-MODULE-CONFIGURATION-VALUES UUID="26648c32-27dc-41d5-87c8-e2779037b927">
+        <ECUC-MODULE-CONFIGURATION-VALUES UUID="838d5428-2186-4b08-b947-72e428457ec5">
           <SHORT-NAME>Nm</SHORT-NAME>
           <DEFINITION-REF DEST="ECUC-MODULE-DEF">/MICROSAR/Nm</DEFINITION-REF>
           <CONTAINERS>
@@ -8886,7 +9044,7 @@
             </ECUC-CONTAINER-VALUE>
           </CONTAINERS>
         </ECUC-MODULE-CONFIGURATION-VALUES>
-        <ECUC-MODULE-CONFIGURATION-VALUES UUID="52c0c23b-cd99-4c7b-88dc-245100be7ea4">
+        <ECUC-MODULE-CONFIGURATION-VALUES UUID="5d51d47b-4d47-482a-8caf-ca19ad7cc29e">
           <SHORT-NAME>PduR</SHORT-NAME>
           <DEFINITION-REF DEST="ECUC-MODULE-DEF">/MICROSAR/PduR</DEFINITION-REF>
           <CONTAINERS>
@@ -8969,7 +9127,7 @@
             </ECUC-CONTAINER-VALUE>
           </CONTAINERS>
         </ECUC-MODULE-CONFIGURATION-VALUES>
-        <ECUC-MODULE-CONFIGURATION-VALUES UUID="3cdeddab-6832-4bdc-96f1-26c9f6bc554c">
+        <ECUC-MODULE-CONFIGURATION-VALUES UUID="b60ac112-1732-4c8c-ad34-b60a21251b49">
           <SHORT-NAME>Port</SHORT-NAME>
           <DEFINITION-REF DEST="ECUC-MODULE-DEF">/TS_T40D2M10I1R0/Port</DEFINITION-REF>
           <CONTAINERS>
@@ -9671,6 +9829,508 @@
                     </ECUC-CONTAINER-VALUE>
                   </SUB-CONTAINERS>
                 </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE UUID="d4cbad56-2320-4ac5-9b28-918842ef2f62">
+                  <SHORT-NAME>PTB</SHORT-NAME>
+                  <ANNOTATIONS>
+                    <ANNOTATION>
+                      <LABEL>
+                        <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                      </LABEL>
+                      <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                    </ANNOTATION>
+                  </ANNOTATIONS>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortNumberOfPortPins</DEFINITION-REF>
+                      <ANNOTATIONS>
+                        <ANNOTATION>
+                          <LABEL>
+                            <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                          </LABEL>
+                          <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                        </ANNOTATION>
+                      </ANNOTATIONS>
+                      <VALUE>3</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                  <SUB-CONTAINERS>
+                    <ECUC-CONTAINER-VALUE UUID="58635ae8-7336-47c0-905e-51ef0d1b0326">
+                      <SHORT-NAME>PortPin_PTB25_CAN0_ERR</SHORT-NAME>
+                      <ANNOTATIONS>
+                        <ANNOTATION>
+                          <LABEL>
+                            <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                          </LABEL>
+                          <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                        </ANNOTATION>
+                      </ANNOTATIONS>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinDSE</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>Low_drive_strength</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinDirection</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PORT_PIN_IN</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinDirectionChangeable</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>true</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinId</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>10</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinInitialMode</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PORT_GPIO_MODE</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinLevelValue</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PORT_PIN_LEVEL_LOW</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinMode</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>GPIO</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinModeChangeable</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>true</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinPE</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PullEnabled</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinPFE</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinPS</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PullUp</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinPcr</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>57</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="5ceed774-708c-4e97-b0ae-79aba2b1c4b6">
+                      <SHORT-NAME>PortPin_PTB27_CAN0_EN</SHORT-NAME>
+                      <ANNOTATIONS>
+                        <ANNOTATION>
+                          <LABEL>
+                            <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                          </LABEL>
+                          <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                        </ANNOTATION>
+                      </ANNOTATIONS>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinDSE</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>Low_drive_strength</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinDirection</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PORT_PIN_OUT</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinDirectionChangeable</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>true</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinId</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>11</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinInitialMode</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PORT_GPIO_MODE</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinLevelValue</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PORT_PIN_LEVEL_LOW</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinMode</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>GPIO</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinModeChangeable</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>true</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinPE</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PullDisabled</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinPFE</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinPS</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PullDown</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinPcr</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>59</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="7dd894b6-60bf-4ffc-ae54-ea5e63d2bd5f">
+                      <SHORT-NAME>PortPin_PTB28_CAN0_STB</SHORT-NAME>
+                      <ANNOTATIONS>
+                        <ANNOTATION>
+                          <LABEL>
+                            <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                          </LABEL>
+                          <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                        </ANNOTATION>
+                      </ANNOTATIONS>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinDSE</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>Low_drive_strength</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinDirection</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PORT_PIN_OUT</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinDirectionChangeable</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>true</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinId</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>12</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinInitialMode</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PORT_GPIO_MODE</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinLevelValue</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PORT_PIN_LEVEL_LOW</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinMode</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>GPIO</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinModeChangeable</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>true</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinPE</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PullDisabled</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinPFE</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinPS</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PullDown</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinPcr</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>60</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                  </SUB-CONTAINERS>
+                </ECUC-CONTAINER-VALUE>
                 <ECUC-CONTAINER-VALUE UUID="20104d6c-dabb-4ff4-9fb6-d70154ffd58b">
                   <SHORT-NAME>PTC</SHORT-NAME>
                   <ANNOTATIONS>
@@ -10037,10 +10697,168 @@
                           <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
                         </ANNOTATION>
                       </ANNOTATIONS>
-                      <VALUE>2</VALUE>
+                      <VALUE>5</VALUE>
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                   <SUB-CONTAINERS>
+                    <ECUC-CONTAINER-VALUE UUID="c82ed9fb-4c82-4406-9b90-08f40aa4448d">
+                      <SHORT-NAME>PortPin_PTE16</SHORT-NAME>
+                      <ANNOTATIONS>
+                        <ANNOTATION>
+                          <LABEL>
+                            <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                          </LABEL>
+                          <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                        </ANNOTATION>
+                      </ANNOTATIONS>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinDSE</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>Low_drive_strength</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinDirection</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PORT_PIN_IN</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinDirectionChangeable</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>true</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinId</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>13</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinInitialMode</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PORT_GPIO_MODE</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinLevelValue</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PORT_PIN_LEVEL_LOW</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinMode</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>GPIO</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinModeChangeable</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>true</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinPE</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PullDisabled</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinPFE</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinPS</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PullDown</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinPcr</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>144</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                    </ECUC-CONTAINER-VALUE>
                     <ECUC-CONTAINER-VALUE UUID="c62ef3b3-ddba-46ae-8180-c08d90dc0096">
                       <SHORT-NAME>PortPin_PTE20</SHORT-NAME>
                       <ANNOTATIONS>
@@ -10357,6 +11175,322 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="70f48525-a7a6-4b12-a979-4796705b1209">
+                      <SHORT-NAME>PortPin_PTE4_CAN0_RX</SHORT-NAME>
+                      <ANNOTATIONS>
+                        <ANNOTATION>
+                          <LABEL>
+                            <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                          </LABEL>
+                          <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                        </ANNOTATION>
+                      </ANNOTATIONS>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinDSE</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>Low_drive_strength</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinDirection</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PORT_PIN_IN</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinDirectionChangeable</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>true</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinId</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>8</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinInitialMode</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PORT_GPIO_MODE</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinLevelValue</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PORT_PIN_LEVEL_LOW</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinMode</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>CAN0_RX</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinModeChangeable</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>true</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinPE</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PullDisabled</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinPFE</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinPS</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PullDown</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinPcr</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>132</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="109a09d8-bef6-45fa-9511-09ee1a4791a7">
+                      <SHORT-NAME>PortPin_PTE5_CAN0_TX</SHORT-NAME>
+                      <ANNOTATIONS>
+                        <ANNOTATION>
+                          <LABEL>
+                            <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                          </LABEL>
+                          <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                        </ANNOTATION>
+                      </ANNOTATIONS>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinDSE</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>Low_drive_strength</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinDirection</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PORT_PIN_OUT</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinDirectionChangeable</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>true</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinId</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>9</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinInitialMode</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PORT_GPIO_MODE</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinLevelValue</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PORT_PIN_LEVEL_LOW</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinMode</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>CAN0_TX</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinModeChangeable</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>true</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinPE</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PullDisabled</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinPFE</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinPS</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>PullDown</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T40D2M10I1R0/Port/PortConfigSet/PortContainer/PortPin/PortPinPcr</DEFINITION-REF>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="FOR-ALL">Project Standard Configuration</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>DV:SystemState</ANNOTATION-ORIGIN>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <VALUE>133</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                    </ECUC-CONTAINER-VALUE>
                   </SUB-CONTAINERS>
                 </ECUC-CONTAINER-VALUE>
               </SUB-CONTAINERS>
@@ -10461,7 +11595,7 @@
             </ECUC-CONTAINER-VALUE>
           </CONTAINERS>
         </ECUC-MODULE-CONFIGURATION-VALUES>
-        <ECUC-MODULE-CONFIGURATION-VALUES UUID="416dd3f7-eddd-46b3-b85d-0847ecf83511">
+        <ECUC-MODULE-CONFIGURATION-VALUES UUID="58c69b40-ce62-46f5-b650-44df6ef74e82">
           <SHORT-NAME>Resource</SHORT-NAME>
           <DEFINITION-REF DEST="ECUC-MODULE-DEF">/TS_T40D2M10I1R0/Resource</DEFINITION-REF>
           <CONTAINERS>

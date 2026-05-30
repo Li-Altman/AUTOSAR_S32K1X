@@ -39,6 +39,7 @@
 #include "SchM_Can.h"
 #include "SchM_CanIf.h"
 #include "SchM_CanSM.h"
+#include "SchM_CanTrcv_30_Tja1043.h"
 #include "SchM_Com.h"
 #include "SchM_ComM.h"
 #include "SchM_Det.h"
@@ -90,6 +91,45 @@
 
 
 /**********************************************************************************************************************
+ * TxAck/ModeSwitchAck Flags
+ *********************************************************************************************************************/
+
+
+#define RTE_START_SEC_VAR_NOINIT_UNSPECIFIED
+#include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+VAR(Rte_AckFlagsType, RTE_VAR_NOINIT) Rte_AckFlags; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+#define RTE_STOP_SEC_VAR_NOINIT_UNSPECIFIED
+#include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+
+#define Rte_AckFlagsInit() (Rte_MemClr(&Rte_AckFlags, sizeof(Rte_AckFlagsType)))
+
+#define RTE_START_SEC_CODE
+#include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+FUNC(void, RTE_CODE) Rte_MemClr(P2VAR(void, AUTOMATIC, RTE_VAR_NOINIT) ptr, uint32_least num); /* PRQA S 0850, 3447, 3408 */ /* MD_MSR_19.8, MD_Rte_3447, MD_Rte_3408 */
+
+#define RTE_STOP_SEC_CODE
+#include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+
+#define RTE_START_SEC_VAR_NOINIT_UNSPECIFIED
+#include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+/**********************************************************************************************************************
+ * Data structures for mode management
+ *********************************************************************************************************************/
+
+VAR(BswM_ESH_Mode, RTE_VAR_NOINIT) Rte_ModeMachine_BswM_Switch_ESH_ModeSwitch_BswM_MDGP_ESH_Mode; /* PRQA S 3408 */ /* MD_Rte_3408 */
+
+#define RTE_STOP_SEC_VAR_NOINIT_UNSPECIFIED
+#include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+
+
+/**********************************************************************************************************************
  * Timer handling
  *********************************************************************************************************************/
 
@@ -130,6 +170,16 @@
 #define RTE_START_SEC_CODE
 #include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
 
+FUNC(void, RTE_CODE) Rte_MemClr(P2VAR(void, AUTOMATIC, RTE_VAR_NOINIT) ptr, uint32_least num)
+{
+  P2VAR(uint8, AUTOMATIC, RTE_VAR_NOINIT) dst = (P2VAR(uint8, AUTOMATIC, RTE_VAR_NOINIT))ptr;
+  uint32_least i;
+  for (i = 0; i < num; i++)
+  {
+    dst[i] = 0;
+  }
+}
+
 FUNC(void, RTE_CODE) SchM_Init(void)
 {
   /* activate the tasks */
@@ -143,13 +193,25 @@ FUNC(void, RTE_CODE) SchM_Init(void)
 
 FUNC(Std_ReturnType, RTE_CODE) Rte_Start(void) /* PRQA S 0850 */ /* MD_MSR_19.8 */
 {
+  /* reset Tx Ack Flags */
+  Rte_AckFlagsInit();
+  Rte_AckFlags.Rte_ModeSwitchAck_BswM_Switch_ESH_ModeSwitch_BswM_MDGP_ESH_Mode_Ack = 1;
+
   /* mode management initialization part 1 */
+
+  Rte_ModeMachine_BswM_Switch_ESH_ModeSwitch_BswM_MDGP_ESH_Mode = RTE_MODE_BswM_ESH_Mode_STARTUP;
+
+  /* activate the alarms used for TimingEvents */
+  (void)SetRelAlarm(Rte_Al_TE_BswM_BswM_MainFunction, RTE_MSEC_OsCounter(0) + (TickType)1, RTE_MSEC_OsCounter(10)); /* PRQA S 3417 */ /* MD_Rte_Os */
 
   return RTE_E_OK;
 } /* PRQA S 6050 */ /* MD_MSR_STCAL */
 
 FUNC(Std_ReturnType, RTE_CODE) Rte_Stop(void) /* PRQA S 0850 */ /* MD_MSR_19.8 */
 {
+  /* deactivate alarms */
+  (void)CancelAlarm(Rte_Al_TE_BswM_BswM_MainFunction); /* PRQA S 3417 */ /* MD_Rte_Os */
+
   return RTE_E_OK;
 }
 
@@ -164,6 +226,39 @@ FUNC(void, RTE_CODE) SchM_Deinit(void)
 FUNC(void, RTE_CODE) Rte_InitMemory(void) /* PRQA S 0850 */ /* MD_MSR_19.8 */
 {
 }
+
+
+/**********************************************************************************************************************
+ * Internal/External Rx connections
+ *********************************************************************************************************************/
+
+FUNC(Std_ReturnType, RTE_CODE) Rte_Read_BswM_Request_ESH_PostRunRequest_0_requestedMode(P2VAR(BswM_ESH_RunRequest, AUTOMATIC, RTE_BSWM_APPL_VAR) data) /* PRQA S 0850, 3673, 1505, 3206 */ /* MD_MSR_19.8, MD_Rte_Qac, MD_MSR_8.10, MD_Rte_3206 */
+{
+  *data = 0U;
+
+  return RTE_E_UNCONNECTED;
+} /* PRQA S 6010, 6030, 6050, 6080 */ /* MD_MSR_STPTH, MD_MSR_STCYC, MD_MSR_STCAL, MD_MSR_STMIF */
+
+FUNC(Std_ReturnType, RTE_CODE) Rte_Read_BswM_Request_ESH_PostRunRequest_1_requestedMode(P2VAR(BswM_ESH_RunRequest, AUTOMATIC, RTE_BSWM_APPL_VAR) data) /* PRQA S 0850, 3673, 1505, 3206 */ /* MD_MSR_19.8, MD_Rte_Qac, MD_MSR_8.10, MD_Rte_3206 */
+{
+  *data = 0U;
+
+  return RTE_E_UNCONNECTED;
+} /* PRQA S 6010, 6030, 6050, 6080 */ /* MD_MSR_STPTH, MD_MSR_STCYC, MD_MSR_STCAL, MD_MSR_STMIF */
+
+FUNC(Std_ReturnType, RTE_CODE) Rte_Read_BswM_Request_ESH_RunRequest_0_requestedMode(P2VAR(BswM_ESH_RunRequest, AUTOMATIC, RTE_BSWM_APPL_VAR) data) /* PRQA S 0850, 3673, 1505, 3206 */ /* MD_MSR_19.8, MD_Rte_Qac, MD_MSR_8.10, MD_Rte_3206 */
+{
+  *data = 0U;
+
+  return RTE_E_UNCONNECTED;
+} /* PRQA S 6010, 6030, 6050, 6080 */ /* MD_MSR_STPTH, MD_MSR_STCYC, MD_MSR_STCAL, MD_MSR_STMIF */
+
+FUNC(Std_ReturnType, RTE_CODE) Rte_Read_BswM_Request_ESH_RunRequest_1_requestedMode(P2VAR(BswM_ESH_RunRequest, AUTOMATIC, RTE_BSWM_APPL_VAR) data) /* PRQA S 0850, 3673, 1505, 3206 */ /* MD_MSR_19.8, MD_Rte_Qac, MD_MSR_8.10, MD_Rte_3206 */
+{
+  *data = 0U;
+
+  return RTE_E_UNCONNECTED;
+} /* PRQA S 6010, 6030, 6050, 6080 */ /* MD_MSR_STPTH, MD_MSR_STCYC, MD_MSR_STCAL, MD_MSR_STMIF */
 
 
 /**********************************************************************************************************************
@@ -978,6 +1073,49 @@ FUNC(void, RTE_CODE) SchM_Exit_Port_PORT_EXCLUSIVE_AREA_30(void)
 
 
 /**********************************************************************************************************************
+ * Mode Switch API (Rte_Switch)
+ *********************************************************************************************************************/
+
+FUNC(Std_ReturnType, RTE_CODE) Rte_Switch_BswM_Switch_ESH_ModeSwitch_BswM_MDGP_ESH_Mode(BswM_ESH_Mode nextMode) /* PRQA S 0850, 1505 */ /* MD_MSR_19.8, MD_MSR_8.10 */
+{
+  Std_ReturnType ret = RTE_E_OK;
+
+  BswM_ESH_Mode currentMode;
+  SuspendOSInterrupts(); /* PRQA S 3109 */ /* MD_MSR_14.3 */
+  currentMode = Rte_ModeMachine_BswM_Switch_ESH_ModeSwitch_BswM_MDGP_ESH_Mode;
+  if (nextMode >= 5U)
+  {
+    ResumeOSInterrupts(); /* PRQA S 3109 */ /* MD_MSR_14.3 */
+    ret = RTE_E_LIMIT;
+  }
+  else if (currentMode >= 5U)
+  {
+    ResumeOSInterrupts(); /* PRQA S 3109 */ /* MD_MSR_14.3 */
+    ret = RTE_E_LIMIT;
+  }
+  else
+  {
+    Rte_ModeMachine_BswM_Switch_ESH_ModeSwitch_BswM_MDGP_ESH_Mode = nextMode;
+    ResumeOSInterrupts(); /* PRQA S 3109 */ /* MD_MSR_14.3 */
+  }
+
+  return ret;
+} /* PRQA S 6050 */ /* MD_MSR_STCAL */
+
+
+/**********************************************************************************************************************
+ * Mode reading API (Rte_Mode)
+ *********************************************************************************************************************/
+
+FUNC(BswM_ESH_Mode, RTE_CODE) Rte_Mode_BswM_Notification_ESH_ModeNotification_BswM_MDGP_ESH_Mode(void) /* PRQA S 3408 */ /* MD_Rte_3408 */
+{
+  BswM_ESH_Mode curMode;
+  curMode = Rte_ModeMachine_BswM_Switch_ESH_ModeSwitch_BswM_MDGP_ESH_Mode;
+  return curMode;
+}
+
+
+/**********************************************************************************************************************
  * Task bodies for RTE controlled tasks
  *********************************************************************************************************************/
 
@@ -992,9 +1130,15 @@ TASK(RunTask_OsCore0) /* PRQA S 3408, 1503 */ /* MD_Rte_3408, MD_MSR_14.1 */
 
   for(;;)
   {
-    (void)WaitEvent(Rte_Ev_Cyclic2_RunTask_OsCore0_0_10ms | Rte_Ev_Cyclic2_RunTask_OsCore0_0_20ms); /* PRQA S 3417 */ /* MD_Rte_Os */
+    (void)WaitEvent(Rte_Ev_Cyclic2_RunTask_OsCore0_0_10ms | Rte_Ev_Cyclic2_RunTask_OsCore0_0_20ms | Rte_Ev_Run_BswM_BswM_MainFunction); /* PRQA S 3417 */ /* MD_Rte_Os */
     (void)GetEvent(RunTask_OsCore0, &ev); /* PRQA S 3417 */ /* MD_Rte_Os */
-    (void)ClearEvent(ev & (Rte_Ev_Cyclic2_RunTask_OsCore0_0_10ms | Rte_Ev_Cyclic2_RunTask_OsCore0_0_20ms)); /* PRQA S 3417 */ /* MD_Rte_Os */
+    (void)ClearEvent(ev & (Rte_Ev_Cyclic2_RunTask_OsCore0_0_10ms | Rte_Ev_Cyclic2_RunTask_OsCore0_0_20ms | Rte_Ev_Run_BswM_BswM_MainFunction)); /* PRQA S 3417 */ /* MD_Rte_Os */
+
+    if ((ev & Rte_Ev_Run_BswM_BswM_MainFunction) != (EventMaskType)0)
+    {
+      /* call runnable */
+      BswM_MainFunction();
+    }
 
     if ((ev & Rte_Ev_Cyclic2_RunTask_OsCore0_0_10ms) != (EventMaskType)0)
     {
@@ -1027,6 +1171,9 @@ TASK(RunTask_OsCore0) /* PRQA S 3408, 1503 */ /* MD_Rte_3408, MD_MSR_14.1 */
     {
       /* call runnable */
       EcuM_MainFunction();
+
+      /* call schedulable entity */
+      CanTrcv_30_Tja1043_MainFunction();
     }
   }
 } /* PRQA S 6010, 6030, 6050, 6080 */ /* MD_MSR_STPTH, MD_MSR_STCYC, MD_MSR_STCAL, MD_MSR_STMIF */
@@ -1045,7 +1192,18 @@ TASK(RunTask_OsCore0) /* PRQA S 3408, 1503 */ /* MD_Rte_3408, MD_MSR_14.1 */
      Risk:       Ambiguous identifiers can lead to compiler errors / warnings.
      Prevention: Verified during compile time. If the compiler reports an error or warning, the user has to rename the objects leading to the violation.
 
+   MD_Rte_3206:  MISRA rule: -
+     Reason:     The parameter's are not used by the code in all possible code variants.
+     Risk:       No functional risk.
+     Prevention: Not required.
+
    MD_Rte_3408:  MISRA rule: 8.8
+     Reason:     For the purpose of monitoring during calibration or debugging it is necessary to use non-static declarations.
+                 This is covered in the MISRA C compliance section of the Rte specification.
+     Risk:       No functional risk.
+     Prevention: Not required.
+
+   MD_Rte_3447:  MISRA rule: 8.8
      Reason:     For the purpose of monitoring during calibration or debugging it is necessary to use non-static declarations.
                  This is covered in the MISRA C compliance section of the Rte specification.
      Risk:       No functional risk.
@@ -1054,6 +1212,12 @@ TASK(RunTask_OsCore0) /* PRQA S 3408, 1503 */ /* MD_Rte_3408, MD_MSR_14.1 */
    MD_Rte_Os:
      Reason:     This justification is used as summary justification for all deviations caused by the MICROSAR OS
                  which is for testing of the RTE. Those deviations are no issues in the RTE code.
+     Risk:       No functional risk.
+     Prevention: Not required.
+
+   MD_Rte_Qac:
+     Reason:     This justification is used as summary justification for all deviations caused by wrong analysis tool results.
+                 The used analysis tool QAC 7.0 sometimes creates wrong messages. Those deviations are no issues in the RTE code.
      Risk:       No functional risk.
      Prevention: Not required.
 

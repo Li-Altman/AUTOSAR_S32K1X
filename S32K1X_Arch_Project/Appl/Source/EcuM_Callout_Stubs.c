@@ -21,7 +21,7 @@
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
  *              File: EcuM_Callout_Stubs.c
- *   Generation Time: 2026-05-28 00:12:56
+ *   Generation Time: 2026-05-31 00:04:24
  *           Project: S32K1X_Arch - Version 1.0
  *          Delivery: CBD1800257_D01
  *      Tool Version: DaVinci Configurator  5.18.37 SP1
@@ -68,6 +68,18 @@
 /**********************************************************************************************************************
  *  Additional configured User includes
  *********************************************************************************************************************/
+#include "BswM.h" 
+#include "CanIf.h" 
+#include "CanSM_EcuM.h" 
+#include "Can.h" 
+#include "ComM.h" 
+#include "Com.h" 
+#include "Det.h" 
+#include "PduR.h" 
+#include "Rte_Main.h" 
+#include "CanTrcv_30_Tja1043.h" 
+#include "Mcu.h" 
+#include "Port.h" 
 
 
 /**********************************************************************************************************************
@@ -224,6 +236,17 @@ FUNC(void, ECUM_CODE) EcuM_AL_Reset(EcuM_ResetType Reset)
 **********************************************************************************************************************/
 FUNC(void, ECUM_CODE) EcuM_AL_DriverInitZero(void) 
 {
+  BswM_InitMemory();
+  CanIf_InitMemory();
+  CanSM_InitMemory();
+  Can_InitMemory();
+  ComM_InitMemory();
+  Com_InitMemory();
+  Det_Init( Det_Config_Ptr );
+  Det_InitMemory();
+  PduR_InitMemory();
+  Rte_InitMemory();
+  CanTrcv_30_Tja1043_InitMemory();
 
 /**********************************************************************************************************************
  * DO NOT CHANGE THIS COMMENT!           <USERBLOCK EcuM_AL_DriverInitZero>                 DO NOT CHANGE THIS COMMENT!
@@ -241,6 +264,11 @@ return;
 **********************************************************************************************************************/
 FUNC(void, ECUM_CODE) EcuM_AL_DriverInitOne(void) 
 {
+  Mcu_Init( &McuModuleConfiguration );
+  Mcu_InitClock(McuConf_McuClockSettingConfig_McuClockSettingConfig_0);
+  while (MCU_PLL_LOCKED != Mcu_GetPllStatus());
+  Mcu_DistributePllClock();
+  Port_Init( &PortConfigSet );
 
 /**********************************************************************************************************************
  * DO NOT CHANGE THIS COMMENT!           <USERBLOCK EcuM_AL_DriverInitOne>                  DO NOT CHANGE THIS COMMENT!

@@ -11,7 +11,7 @@
  *  ---------------------------------------------------------------------------------------------------------------- *
  *             File: McData.a2l                                                                                      *
  *      Description: MICROSAR A2L file                                                                               *
- *     Generated at: 2026-05-28 00:11:38                                                                             *
+ *     Generated at: 2026-05-30 23:43:55                                                                             *
  *        Generator: MICROSAR McDataConverter, Version 1.0.13.0                                                      *
  *  ---------------------------------------------------------------------------------------------------------------- *
  *  CUSTOMER INFORMATION                                                                                             *
@@ -132,6 +132,15 @@
 /*****************************************************************************
  * GROUP                                                                     *
  *****************************************************************************/
+
+/begin GROUP 
+    CanTrcv_30_Tja1043                            /* Name */
+    ""                                 /* Long Identifier */
+    /begin REF_CHARACTERISTIC 
+    /end REF_CHARACTERISTIC
+    /begin REF_MEASUREMENT 
+    /end REF_MEASUREMENT
+/end GROUP
 
 /begin GROUP 
     BswM                                          /* Name */

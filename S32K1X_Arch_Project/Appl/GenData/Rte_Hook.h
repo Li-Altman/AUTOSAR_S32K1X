@@ -26,6 +26,16 @@
  *
  * Not configured:
  *
+ *  Rte_ReadHook_BswM_Request_ESH_PostRunRequest_0_requestedMode_Return
+ *  Rte_ReadHook_BswM_Request_ESH_PostRunRequest_0_requestedMode_Start
+ *  Rte_ReadHook_BswM_Request_ESH_PostRunRequest_1_requestedMode_Return
+ *  Rte_ReadHook_BswM_Request_ESH_PostRunRequest_1_requestedMode_Start
+ *  Rte_ReadHook_BswM_Request_ESH_RunRequest_0_requestedMode_Return
+ *  Rte_ReadHook_BswM_Request_ESH_RunRequest_0_requestedMode_Start
+ *  Rte_ReadHook_BswM_Request_ESH_RunRequest_1_requestedMode_Return
+ *  Rte_ReadHook_BswM_Request_ESH_RunRequest_1_requestedMode_Start
+ *  Rte_Runnable_BswM_BswM_MainFunction_Return
+ *  Rte_Runnable_BswM_BswM_MainFunction_Start
  *  Rte_Runnable_ComM_ComM_MainFunction_0_Return
  *  Rte_Runnable_ComM_ComM_MainFunction_0_Start
  *  Rte_Runnable_ComM_GetCurrentComMode_Return
@@ -70,6 +80,8 @@
  *  Rte_Runnable_Os_OsCore0_swc_GetCounterValue_Start
  *  Rte_Runnable_Os_OsCore0_swc_GetElapsedValue_Return
  *  Rte_Runnable_Os_OsCore0_swc_GetElapsedValue_Start
+ *  Rte_SwitchHook_BswM_Switch_ESH_ModeSwitch_BswM_MDGP_ESH_Mode_Return
+ *  Rte_SwitchHook_BswM_Switch_ESH_ModeSwitch_BswM_MDGP_ESH_Mode_Start
  *  Rte_Task_Activate
  *  Rte_Task_Dispatch
  *  Rte_Task_WaitEvent
@@ -104,6 +116,8 @@
  *  SchM_EnterHook_CanSM_CANSM_EXCLUSIVE_AREA_5_Start
  *  SchM_EnterHook_CanSM_CANSM_EXCLUSIVE_AREA_6_Return
  *  SchM_EnterHook_CanSM_CANSM_EXCLUSIVE_AREA_6_Start
+ *  SchM_EnterHook_CanTrcv_30_Tja1043_CANTRCV_30_TJA1043_EXCLUSIVE_AREA_0_Return
+ *  SchM_EnterHook_CanTrcv_30_Tja1043_CANTRCV_30_TJA1043_EXCLUSIVE_AREA_0_Start
  *  SchM_EnterHook_Can_CAN_EXCLUSIVE_AREA_0_Return
  *  SchM_EnterHook_Can_CAN_EXCLUSIVE_AREA_0_Start
  *  SchM_EnterHook_Can_CAN_EXCLUSIVE_AREA_1_Return
@@ -354,6 +368,8 @@
  *  SchM_ExitHook_CanSM_CANSM_EXCLUSIVE_AREA_5_Start
  *  SchM_ExitHook_CanSM_CANSM_EXCLUSIVE_AREA_6_Return
  *  SchM_ExitHook_CanSM_CANSM_EXCLUSIVE_AREA_6_Start
+ *  SchM_ExitHook_CanTrcv_30_Tja1043_CANTRCV_30_TJA1043_EXCLUSIVE_AREA_0_Return
+ *  SchM_ExitHook_CanTrcv_30_Tja1043_CANTRCV_30_TJA1043_EXCLUSIVE_AREA_0_Start
  *  SchM_ExitHook_Can_CAN_EXCLUSIVE_AREA_0_Return
  *  SchM_ExitHook_Can_CAN_EXCLUSIVE_AREA_0_Start
  *  SchM_ExitHook_Can_CAN_EXCLUSIVE_AREA_1_Return
@@ -576,6 +592,8 @@
  *  SchM_ExitHook_Port_PORT_EXCLUSIVE_AREA_30_Start
  *  SchM_Schedulable_CanSM_CanSM_MainFunction_Return
  *  SchM_Schedulable_CanSM_CanSM_MainFunction_Start
+ *  SchM_Schedulable_CanTrcv_30_Tja1043_CanTrcv_30_Tja1043_MainFunction_Return
+ *  SchM_Schedulable_CanTrcv_30_Tja1043_CanTrcv_30_Tja1043_MainFunction_Start
  *  SchM_Schedulable_Can_Can_MainFunction_BusOff_Return
  *  SchM_Schedulable_Can_Can_MainFunction_BusOff_Start
  *  SchM_Schedulable_Can_Can_MainFunction_Mode_Return

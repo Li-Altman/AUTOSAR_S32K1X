@@ -21,7 +21,7 @@
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
  *              File: Can_Cfg.h
- *   Generation Time: 2026-05-28 00:12:56
+ *   Generation Time: 2026-05-31 00:04:24
  *           Project: S32K1X_Arch - Version 1.0
  *          Delivery: CBD1800257_D01
  *      Tool Version: DaVinci Configurator  5.18.37 SP1
@@ -259,8 +259,8 @@
 
 /* Version and Issue detection */
 #define CAN_VERSION_INFO_API                 STD_OFF   /* CAN106_Conf */
-#define CAN_DEV_ERROR_DETECT                 STD_ON   /* CAN064_Conf */
-#define CAN_DEV_ERROR_REPORT                 STD_ON
+#define CAN_DEV_ERROR_DETECT                 STD_OFF   /* CAN064_Conf */
+#define CAN_DEV_ERROR_REPORT                 STD_OFF
 #define CAN_PROD_ERROR_DETECT                STD_OFF
 #define CAN_DEV_TIMEOUT_DETECT               STD_OFF
 #define CAN_SAFE_BSW                         STD_OFF
@@ -289,7 +289,7 @@
 /* Rx Handling */
 #define CAN_MULTIPLE_BASICCAN                STD_OFF
 #define CAN_RX_QUEUE                         STD_OFF
-#define CAN_OVERRUN_NOTIFICATION             CAN_DET
+#define CAN_OVERRUN_NOTIFICATION             CAN_NONE
 
 /* Sleep Wakeup */
 #define CAN_SLEEP_SUPPORT                    STD_OFF

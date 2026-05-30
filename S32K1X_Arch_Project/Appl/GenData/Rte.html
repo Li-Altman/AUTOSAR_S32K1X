@@ -150,6 +150,7 @@ SchM_BswM.h<br>
 SchM_Can.h<br>
 SchM_CanIf.h<br>
 SchM_CanSM.h<br>
+SchM_CanTrcv_30_Tja1043.h<br>
 SchM_Com.h<br>
 SchM_ComM.h<br>
 SchM_Det.h<br>
@@ -162,6 +163,7 @@ SchM_BswM_Type.h<br>
 SchM_Can_Type.h<br>
 SchM_CanIf_Type.h<br>
 SchM_CanSM_Type.h<br>
+SchM_CanTrcv_30_Tja1043_Type.h<br>
 SchM_Com_Type.h<br>
 SchM_ComM_Type.h<br>
 SchM_Det_Type.h<br>
@@ -179,7 +181,7 @@ Rte_Needs.ecuc.arxml<br>
 Note: This resource usage calculation assumes that the "Boolean" data type is based on uint8 base type.<br>
       Further on padding bytes for structs are not considered, which depends on the compiler settings.<br>
 <br>
-RAM   Size: 0 Bytes<br>
+RAM   Size: 2 Bytes<br>
 CONST Size: 0 Bytes<br>
 <br>
 <P ALIGN=LEFT>
@@ -210,6 +212,13 @@ CONST Size: 0 Bytes<br>
 <TD><B>Task</B></TD>
 <TD><B>OS Event</B></TD>
 <TD><B>OS Alarm</B></TD>
+</TR>
+<TR>
+<TD><B>TimingEvent</B> Cyclic 10ms</TD>
+<TD>BswM_MainFunction</TD>
+<TD>RunTask_OsCore0</TD>
+<TD>Rte_Ev_Run_BswM_BswM_MainFunction</TD>
+<TD>Rte_Al_TE_BswM_BswM_MainFunction</TD>
 </TR>
 <TR>
 <TD><B>TimingEvent</B> Cyclic 20ms</TD>
@@ -406,6 +415,13 @@ CONST Size: 0 Bytes<br>
 <TR>
 <TD><B>TimingEvent</B> Cyclic 10ms</TD>
 <TD>CanSM_MainFunction</TD>
+<TD>RunTask_OsCore0</TD>
+<TD>Rte_Ev_Cyclic2_RunTask_OsCore0_0_10ms</TD>
+<TD>Rte_Al_TE2_RunTask_OsCore0_0_10ms</TD>
+</TR>
+<TR>
+<TD><B>TimingEvent</B> Cyclic 10ms</TD>
+<TD>CanTrcv_30_Tja1043_MainFunction</TD>
 <TD>RunTask_OsCore0</TD>
 <TD>Rte_Ev_Cyclic2_RunTask_OsCore0_0_10ms</TD>
 <TD>Rte_Al_TE2_RunTask_OsCore0_0_10ms</TD>

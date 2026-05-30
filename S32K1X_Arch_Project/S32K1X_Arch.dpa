@@ -50,8 +50,8 @@
     </Input>
     <References>
         <DVWorkspace>.\Config\Developer\S32K1X_Arch.dcf</DVWorkspace>
-        <FlatMap>.\Config\System\FlatMap.arxml</FlatMap>
-        <FlatECUEX>.\Config\System\FlatExtract.arxml</FlatECUEX>
+        <FlatMap>Config\System\FlatMap.arxml</FlatMap>
+        <FlatECUEX>Config\System\FlatExtract.arxml</FlatECUEX>
         <OEMCommunicationExtract>Config\System\Communication.arxml</OEMCommunicationExtract>
         <EcucFileReferences/>
     </References>
@@ -111,12 +111,15 @@
         <Splitter File=".\Config\ECUC\S32K1X_Arch_BswM_ecuc.arxml">
             <Module Name="BswM"/>
         </Splitter>
+        <Splitter File=".\Config\ECUC\S32K1X_Arch_CanTrcv_ecuc.arxml">
+            <Module Name="CanTrcv"/>
+        </Splitter>
         <OwnFolderForEachSplitter>false</OwnFolderForEachSplitter>
     </EcucSplitter>
     <Display LastVersion="5.18.37 SP1">
-        <FileSet Id="" CS="4331d134">
+        <FileSet Id="" CS="40b8a0c7">
             <File Order="1" EcuInstance="BCM" Hash="f218b5c32270cd64da835e634e83cbae" FileCategory="legacy_communication_data">$(DpaProjectFolder)\input\DBC\N_CAN1.dbc</File>
-            <Psc Order="0" Hash="c1584e1e3b35b84599f38814e7ee709c">$(DpaProjectFolder)\input\MCAL\S32K1X_MCAL.arxml</Psc>
+            <Psc Order="0" Hash="b0efc565615aeac5d67dd5c004fb39e5">$(DpaProjectFolder)\input\MCAL\S32K1X_MCAL.arxml</Psc>
         </FileSet>
         <Merge/>
     </Display>
@@ -142,10 +145,7 @@
                     </Settings>
                 </Settings>
             </Settings>
-            <Settings Name="com.vector.cfg.gui.core.generators.GeneratedModules">
-                <Setting Value="false" Name="CanNm"/>
-                <Setting Value="false" Name="Nm"/>
-            </Settings>
+            <Settings Name="com.vector.cfg.gui.core.generators.GeneratedModules"/>
         </Generators>
         <Misc>
             <Settings Name="com.vector.cfg.gen.core.bswmdmigration.internal.service.BswImplVersionPersistor">

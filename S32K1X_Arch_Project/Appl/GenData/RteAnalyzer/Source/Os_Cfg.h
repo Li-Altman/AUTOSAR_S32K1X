@@ -30,10 +30,12 @@
 /* Alarms */
 # define Rte_Al_TE2_RunTask_OsCore0_0_10ms (0U)
 # define Rte_Al_TE2_RunTask_OsCore0_0_20ms (1U)
+# define Rte_Al_TE_BswM_BswM_MainFunction (2U)
 
 /* Events */
 # define Rte_Ev_Cyclic2_RunTask_OsCore0_0_10ms (0x01)
 # define Rte_Ev_Cyclic2_RunTask_OsCore0_0_20ms (0x02)
+# define Rte_Ev_Run_BswM_BswM_MainFunction (0x04)
 
 /* Spinlocks */
 
