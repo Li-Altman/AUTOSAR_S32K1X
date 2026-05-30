@@ -33,6 +33,12 @@
                       <d:ctr name="DioChannel_PTE21" type="IDENTIFIABLE">
                         <d:var name="DioChannelId" type="INTEGER" value="21"/>
                       </d:ctr>
+                      <d:ctr name="DioChannel_PTE16" type="IDENTIFIABLE">
+                        <d:var name="DioChannelId" type="INTEGER" value="16"/>
+                      </d:ctr>
+                      <d:ctr name="DioChannel_PTE4" type="IDENTIFIABLE">
+                        <d:var name="DioChannelId" type="INTEGER" value="4"/>
+                      </d:ctr>
                     </d:lst>
                     <d:lst name="DioChannelGroup" type="MAP"/>
                   </d:ctr>
