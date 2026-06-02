@@ -21,7 +21,7 @@
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
  *              File: CanIf_Lcfg.c
- *   Generation Time: 2026-05-31 00:04:25
+ *   Generation Time: 2026-06-02 22:56:55
  *           Project: S32K1X_Arch - Version 1.0
  *          Delivery: CBD1800257_D01
  *      Tool Version: DaVinci Configurator  5.18.37 SP1
@@ -295,8 +295,8 @@ CONST(CanIf_TrcvModeIndicationFctType, CANIF_CONST) CanIf_TrcvModeIndicationFctP
 #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_19.1 */
 /*lint -restore */
 CONST(CanIf_TrcvToCtrlMapType, CANIF_CONST) CanIf_TrcvToCtrlMap[1] = {
-  /* Index     TrcvToCtrlMap                           */
-  /*     0 */          0xFFu  /* No CAN controller */
+  /* Index     TrcvToCtrlMap                                          */
+  /*     0 */             0u  /* CAN controller handle ID (upper) */
 };
 #define CANIF_STOP_SEC_CONST_8BIT
 /*lint -save -esym(961, 19.1) */
@@ -418,6 +418,32 @@ CONST(CanIf_TxPduConfigType, CANIF_CONST) CanIf_TxPduConfig[1] = {
 CONST(CanIf_TxPduQueueIndexType, CANIF_CONST) CanIf_TxPduQueueIndex[1] = {
     /* Index    TxQueueIdx                                                                         Comment                                                                 Referable Keys */
   { /*     0 */        0uL  /* /ActiveEcuC/CanIf/CanIfInitCfg/BCM1_1_oN_CAN1_e51cf18b_Tx */ }   /* [BCM1_1_oN_CAN1_e51cf18b_Tx, BasicCAN TxPdu with Tx-buffer] */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/BCM1_1_oN_CAN1_e51cf18b_Tx, /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_N_CAN1_d616d994] */
+};
+#define CANIF_STOP_SEC_CONST_UNSPECIFIED
+/*lint -save -esym(961, 19.1) */
+#include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_19.1 */
+/*lint -restore */
+
+/**********************************************************************************************************************
+  CanIf_WakeUpConfig
+**********************************************************************************************************************/
+/** 
+  \var    CanIf_WakeUpConfig
+  \brief  Wake-up source configuration
+  \details
+  Element                Description
+  Controller             CAN controller handle ID
+  WakeUpSource           Wake-up source identifier
+  WakeUpTargetAddress    Logical handle ID of target (CAN controller / transceiver)
+  WakeUpTargetModule     Target for wake-up source: CAN controller / transceiver
+*/ 
+#define CANIF_START_SEC_CONST_UNSPECIFIED
+/*lint -save -esym(961, 19.1) */
+#include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_19.1 */
+/*lint -restore */
+CONST(CanIf_WakeUpConfigType, CANIF_CONST) CanIf_WakeUpConfig[1] = {
+    /* Index    Controller  WakeUpSource  WakeUpTargetAddress  WakeUpTargetModule              Comment */
+  { /*     0 */         0u,         32uL,                  0u, CANIF_WAKEUPREQUEST_TRCV }   /* [Only CanTrcvWakeupSource ] */
 };
 #define CANIF_STOP_SEC_CONST_UNSPECIFIED
 /*lint -save -esym(961, 19.1) */
