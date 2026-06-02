@@ -72,6 +72,8 @@
  * EcuM_TimeType: Integer in interval [0...4294967295]
  * EcuM_UserType: Integer in interval [0...255]
  * NetworkHandleType: Integer in interval [0...255]
+ * Sig_Light_1_Ctrl: Integer in interval [0...255]
+ * Sig_Light_1_Sts: Integer in interval [0...255]
  * TimeInMicrosecondsType: Integer in interval [0...4294967295]
  * boolean: Boolean (standard type)
  * uint16: Integer in interval [0...65535] (standard type)

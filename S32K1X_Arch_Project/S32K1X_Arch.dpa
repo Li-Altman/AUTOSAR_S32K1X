@@ -251,5 +251,7 @@
         <AmdGenerateDebugData>false</AmdGenerateDebugData>
         <AutomaticSyncSystemDescription>false</AutomaticSyncSystemDescription>
     </Miscellaneous>
-    <SwctGeneration/>
+    <SwctGeneration>
+        <Component Name="ECU_APPM" GenerationEnabled="true"/>
+    </SwctGeneration>
 </ProjectAssistant>

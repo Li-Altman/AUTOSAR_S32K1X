@@ -21,7 +21,7 @@
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
  *              File: Os_Link_Core0_Stacks.icf
- *   Generation Time: 2026-05-28 00:12:56
+ *   Generation Time: 2026-06-02 23:25:45
  *           Project: S32K1X_Arch - Version 1.0
  *          Delivery: CBD1800257_D01
  *      Tool Version: DaVinci Configurator  5.18.37 SP1
@@ -47,6 +47,9 @@ block OS_STACK_OSCORE0_ISR_CORE_VAR_NOINIT_BLOCK with alignment = 32 { section .
 
 /* Stack: OsCore0_Kernel (1024 Byte) */
 block OS_STACK_OSCORE0_KERNEL_VAR_NOINIT_BLOCK with alignment = 32 { section .OS_STACK_OSCORE0_KERNEL_VAR_NOINIT },
+
+/* Stack: OsCore0_Task_Prio25 (2048 Byte) */
+block OS_STACK_OSCORE0_TASK_PRIO25_VAR_NOINIT_BLOCK with alignment = 32 { section .OS_STACK_OSCORE0_TASK_PRIO25_VAR_NOINIT },
 
 /* Stack: OsCore0_Task_Prio4294967295 (1024 Byte) */
 block OS_STACK_OSCORE0_TASK_PRIO4294967295_VAR_NOINIT_BLOCK with alignment = 32 { section .OS_STACK_OSCORE0_TASK_PRIO4294967295_VAR_NOINIT },

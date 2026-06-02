@@ -1,15 +1,15 @@
 /**********************************************************************************************************************
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
- *          File:  Com.c
+ *          File:  ECU_APPM.c
  *        Config:  S32K1X_Arch.dpa
- *    BSW Module:  Com
+ *     SW-C Type:  ECU_APPM
  *
  *     Generator:  MICROSAR RTE Generator Version 4.19.0
  *                 RTE Core Version 1.19.0
  *       License:  CBD1800257
  *
- *   Description:  C-Code implementation template for BSW Module <Com>
+ *   Description:  C-Code implementation template for SW-C <ECU_APPM>
  *********************************************************************************************************************/
 
 
@@ -42,8 +42,27 @@
  * DO NOT CHANGE THIS COMMENT!           << End of version logging area >>                  DO NOT CHANGE THIS COMMENT!
  *********************************************************************************************************************/
 
-#include "SchM_Com.h"
-#include "TSC_SchM_Com.h"
+/**********************************************************************************************************************
+ *
+ * AUTOSAR Modelling Object Descriptions
+ *
+ **********************************************************************************************************************
+ *
+ * Data Types:
+ * ===========
+ * ComM_ModeType
+ *   
+ *
+ * Sig_Light_1_Ctrl
+ *   
+ *
+ * Sig_Light_1_Sts
+ *   
+ *
+ *********************************************************************************************************************/
+
+#include "Rte_ECU_APPM.h" /* PRQA S 0857 */ /* MD_MSR_1.1_857 */
+#include "TSC_ECU_APPM.h"
 
 
 /**********************************************************************************************************************
@@ -51,6 +70,8 @@
  *********************************************************************************************************************/
 
 #include "string.h"
+
+static void ECU_APPM_TestDefines(void);
 
 
 /**********************************************************************************************************************
@@ -66,95 +87,218 @@
  *
  * Primitive Types:
  * ================
- * ComM_InhibitionStatusType: Integer in interval [0...255]
- * ComM_UserHandleType: Integer in interval [0...255]
- * CounterType: Integer in interval [0...255]
- * EcuM_TimeType: Integer in interval [0...4294967295]
- * EcuM_UserType: Integer in interval [0...255]
- * NetworkHandleType: Integer in interval [0...255]
  * Sig_Light_1_Ctrl: Integer in interval [0...255]
  * Sig_Light_1_Sts: Integer in interval [0...255]
- * TimeInMicrosecondsType: Integer in interval [0...4294967295]
- * boolean: Boolean (standard type)
- * uint16: Integer in interval [0...65535] (standard type)
- * uint32: Integer in interval [0...4294967295] (standard type)
  * uint8: Integer in interval [0...255] (standard type)
  *
  * Enumeration Types:
  * ==================
- * BswM_ESH_Mode: Enumeration of integer in interval [0...255] with enumerators
- * BswM_ESH_RunRequest: Enumeration of integer in interval [0...255] with enumerators
  * ComM_ModeType: Enumeration of integer in interval [0...3] with enumerators
- * EcuM_BootTargetType: Enumeration of integer in interval [0...2] with enumerators
- * EcuM_ModeType: Enumeration of integer in interval [0...3] with enumerators
- * EcuM_ShutdownCauseType: Enumeration of integer in interval [0...3] with enumerators
- * EcuM_StateType: Enumeration of integer in interval [0...144] with enumerators
+ *   COMM_NO_COMMUNICATION (0U)
+ *   COMM_SILENT_COMMUNICATION (1U)
+ *   COMM_FULL_COMMUNICATION (2U)
  *
  *********************************************************************************************************************/
 
 
-#define COM_START_SEC_CODE
-#include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+#define ECU_APPM_START_SEC_CODE
+#include "ECU_APPM_MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
 
 /**********************************************************************************************************************
  *
- * Schedulable Entity Name: Com_MainFunctionRx
+ * Runnable Entity Name: ECU_APPM_Runnable
+ *
+ *---------------------------------------------------------------------------------------------------------------------
+ *
+ * Executed if at least one of the following trigger conditions occurred:
+ *   - triggered on TimingEvent every 10ms
+ *
+ **********************************************************************************************************************
+ *
+ * Input Interfaces:
+ * =================
+ *   Explicit S/R API:
+ *   -----------------
+ *   Std_ReturnType Rte_Read_Sig_Light_1_Ctrl_Sig_Light_1_Ctrl(Sig_Light_1_Ctrl *data)
+ *
+ * Output Interfaces:
+ * ==================
+ *   Explicit S/R API:
+ *   -----------------
+ *   Std_ReturnType Rte_Write_Sig_Light_1_Sts_Sig_Light_1_Sts(Sig_Light_1_Sts data)
+ *
+ * Service Calls:
+ * ==============
+ *   Service Invocation:
+ *   -------------------
+ *   Std_ReturnType Rte_Call_UR_CN_N_CAN1_e2dd2bfb_GetCurrentComMode(ComM_ModeType *ComMode)
+ *     Synchronous Service Invocation. Timeout: None
+ *     Returned Application Errors: RTE_E_ComM_UserRequest_E_NOT_OK
+ *   Std_ReturnType Rte_Call_UR_CN_N_CAN1_e2dd2bfb_GetMaxComMode(ComM_ModeType *ComMode)
+ *     Synchronous Service Invocation. Timeout: None
+ *     Returned Application Errors: RTE_E_ComM_UserRequest_E_NOT_OK
+ *   Std_ReturnType Rte_Call_UR_CN_N_CAN1_e2dd2bfb_GetRequestedComMode(ComM_ModeType *ComMode)
+ *     Synchronous Service Invocation. Timeout: None
+ *     Returned Application Errors: RTE_E_ComM_UserRequest_E_NOT_OK
+ *   Std_ReturnType Rte_Call_UR_CN_N_CAN1_e2dd2bfb_RequestComMode(ComM_ModeType ComMode)
+ *     Synchronous Service Invocation. Timeout: None
+ *     Returned Application Errors: RTE_E_ComM_UserRequest_E_MODE_LIMITATION, RTE_E_ComM_UserRequest_E_NOT_OK
  *
  *********************************************************************************************************************/
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!           << Start of documentation area >>                  DO NOT CHANGE THIS COMMENT!
+ * Symbol: ECU_APPM_Runnable_doc
+ *********************************************************************************************************************/
 
-FUNC(void, COM_CODE) Com_MainFunctionRx(void) /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!           << End of documentation area >>                    DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+
+FUNC(void, ECU_APPM_CODE) ECU_APPM_Runnable(void) /* PRQA S 0850 */ /* MD_MSR_19.8 */
 {
 /**********************************************************************************************************************
  * DO NOT CHANGE THIS COMMENT!           << Start of runnable implementation >>             DO NOT CHANGE THIS COMMENT!
- * Symbol: Com_MainFunctionRx
+ * Symbol: ECU_APPM_Runnable
  *********************************************************************************************************************/
 
-  TSC_Com_SchM_Enter_Com_COM_EXCLUSIVE_AREA_BOTH();
-  TSC_Com_SchM_Exit_Com_COM_EXCLUSIVE_AREA_BOTH();
-  TSC_Com_SchM_Enter_Com_COM_EXCLUSIVE_AREA_RX();
-  TSC_Com_SchM_Exit_Com_COM_EXCLUSIVE_AREA_RX();
-  TSC_Com_SchM_Enter_Com_COM_EXCLUSIVE_AREA_TX();
-  TSC_Com_SchM_Exit_Com_COM_EXCLUSIVE_AREA_TX();
+  Std_ReturnType fct_status;
+  boolean fct_error = 0;
+
+  Sig_Light_1_Ctrl Read_Sig_Light_1_Ctrl_Sig_Light_1_Ctrl;
+
+  ComM_ModeType Call_UR_CN_N_CAN1_e2dd2bfb_GetCurrentComMode_ComMode = 0U;
+  ComM_ModeType Call_UR_CN_N_CAN1_e2dd2bfb_GetMaxComMode_ComMode = 0U;
+  ComM_ModeType Call_UR_CN_N_CAN1_e2dd2bfb_GetRequestedComMode_ComMode = 0U;
+
+  /*************************************************
+  * Direct Function Accesses
+  *************************************************/
+
+  fct_status = TSC_ECU_APPM_Rte_Read_Sig_Light_1_Ctrl_Sig_Light_1_Ctrl(&Read_Sig_Light_1_Ctrl_Sig_Light_1_Ctrl);
+  switch (fct_status)
+  {
+    case RTE_E_OK:
+      fct_error = 0;
+      break;
+    case RTE_E_UNCONNECTED:
+      fct_error = 1;
+      break;
+    case RTE_E_NEVER_RECEIVED:
+      fct_error = 1;
+      break;
+    case RTE_E_INVALID:
+      fct_error = 1;
+      break;
+    case RTE_E_MAX_AGE_EXCEEDED:
+      fct_error = 1;
+      break;
+  }
+
+  fct_status = TSC_ECU_APPM_Rte_Write_Sig_Light_1_Sts_Sig_Light_1_Sts(Rte_InitValue_Sig_Light_1_Sts_Sig_Light_1_Sts);
+  switch (fct_status)
+  {
+    case RTE_E_OK:
+      fct_error = 0;
+      break;
+  }
+
+  fct_status = TSC_ECU_APPM_Rte_Call_UR_CN_N_CAN1_e2dd2bfb_GetCurrentComMode(&Call_UR_CN_N_CAN1_e2dd2bfb_GetCurrentComMode_ComMode);
+  switch (fct_status)
+  {
+    case RTE_E_OK:
+      fct_error = 0;
+      break;
+    case RTE_E_UNCONNECTED:
+      fct_error = 1;
+      break;
+    case RTE_E_TIMEOUT:
+      fct_error = 1;
+      break;
+    case RTE_E_ComM_UserRequest_E_NOT_OK:
+      fct_error = 1;
+      break;
+  }
+
+  fct_status = TSC_ECU_APPM_Rte_Call_UR_CN_N_CAN1_e2dd2bfb_GetMaxComMode(&Call_UR_CN_N_CAN1_e2dd2bfb_GetMaxComMode_ComMode);
+  switch (fct_status)
+  {
+    case RTE_E_OK:
+      fct_error = 0;
+      break;
+    case RTE_E_UNCONNECTED:
+      fct_error = 1;
+      break;
+    case RTE_E_TIMEOUT:
+      fct_error = 1;
+      break;
+    case RTE_E_ComM_UserRequest_E_NOT_OK:
+      fct_error = 1;
+      break;
+  }
+
+  fct_status = TSC_ECU_APPM_Rte_Call_UR_CN_N_CAN1_e2dd2bfb_GetRequestedComMode(&Call_UR_CN_N_CAN1_e2dd2bfb_GetRequestedComMode_ComMode);
+  switch (fct_status)
+  {
+    case RTE_E_OK:
+      fct_error = 0;
+      break;
+    case RTE_E_UNCONNECTED:
+      fct_error = 1;
+      break;
+    case RTE_E_TIMEOUT:
+      fct_error = 1;
+      break;
+    case RTE_E_ComM_UserRequest_E_NOT_OK:
+      fct_error = 1;
+      break;
+  }
+
+  fct_status = TSC_ECU_APPM_Rte_Call_UR_CN_N_CAN1_e2dd2bfb_RequestComMode(0U);
+  switch (fct_status)
+  {
+    case RTE_E_OK:
+      fct_error = 0;
+      break;
+    case RTE_E_UNCONNECTED:
+      fct_error = 1;
+      break;
+    case RTE_E_TIMEOUT:
+      fct_error = 1;
+      break;
+    case RTE_E_ComM_UserRequest_E_MODE_LIMITATION:
+      fct_error = 1;
+      break;
+    case RTE_E_ComM_UserRequest_E_NOT_OK:
+      fct_error = 1;
+      break;
+  }
+
+  ECU_APPM_TestDefines();
+
 
 /**********************************************************************************************************************
  * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
  *********************************************************************************************************************/
 }
 
-/**********************************************************************************************************************
- *
- * Schedulable Entity Name: Com_MainFunctionTx
- *
- *********************************************************************************************************************/
 
-FUNC(void, COM_CODE) Com_MainFunctionTx(void) /* PRQA S 0850 */ /* MD_MSR_19.8 */
-{
-/**********************************************************************************************************************
- * DO NOT CHANGE THIS COMMENT!           << Start of runnable implementation >>             DO NOT CHANGE THIS COMMENT!
- * Symbol: Com_MainFunctionTx
- *********************************************************************************************************************/
-
-  TSC_Com_SchM_Enter_Com_COM_EXCLUSIVE_AREA_BOTH();
-  TSC_Com_SchM_Exit_Com_COM_EXCLUSIVE_AREA_BOTH();
-  TSC_Com_SchM_Enter_Com_COM_EXCLUSIVE_AREA_RX();
-  TSC_Com_SchM_Exit_Com_COM_EXCLUSIVE_AREA_RX();
-  TSC_Com_SchM_Enter_Com_COM_EXCLUSIVE_AREA_TX();
-  TSC_Com_SchM_Exit_Com_COM_EXCLUSIVE_AREA_TX();
-
-/**********************************************************************************************************************
- * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
- *********************************************************************************************************************/
-}
-
-
-#define COM_STOP_SEC_CODE
-#include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+#define ECU_APPM_STOP_SEC_CODE
+#include "ECU_APPM_MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
 
 
 /**********************************************************************************************************************
  * DO NOT CHANGE THIS COMMENT!           << Start of function definition area >>            DO NOT CHANGE THIS COMMENT!
  *********************************************************************************************************************/
 
+static void ECU_APPM_TestDefines(void)
+{
+  /* Enumeration Data Types */
+
+  ComM_ModeType Test_ComM_ModeType_V_1 = COMM_NO_COMMUNICATION;
+  ComM_ModeType Test_ComM_ModeType_V_2 = COMM_SILENT_COMMUNICATION;
+  ComM_ModeType Test_ComM_ModeType_V_3 = COMM_FULL_COMMUNICATION;
+}
 
 /**********************************************************************************************************************
  * DO NOT CHANGE THIS COMMENT!           << End of function definition area >>              DO NOT CHANGE THIS COMMENT!

@@ -26,6 +26,23 @@
  * They are presented as a comment in the corresponding object definition containing a list of all legal values.
  *********************************************************************************************************************/
 
+   TASK OsTask_APP_10ms_1 {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 25:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+   }:"@RO@@NR@";
+
+   ALARM Rte_Al_TE_ECU_APPM_ECU_APPM_Runnable {
+      COUNTER = OsCounter;
+      ACTION = ACTIVATETASK
+      {
+         TASK = OsTask_APP_10ms_1;
+      }:"@ROC@";
+      AUTOSTART = FALSE:"@RO@";
+   }:"@RO@@NR@";
+
    TASK RunTask_OsCore0 {
       ACTIVATION = 1:"@RO@";
       PRIORITY = 20:"@RO@";

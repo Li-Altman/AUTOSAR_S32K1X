@@ -26,6 +26,16 @@
  *
  * Not configured:
  *
+ *  Rte_CallHook_ECU_APPM_UR_CN_N_CAN1_e2dd2bfb_GetCurrentComMode_Return
+ *  Rte_CallHook_ECU_APPM_UR_CN_N_CAN1_e2dd2bfb_GetCurrentComMode_Start
+ *  Rte_CallHook_ECU_APPM_UR_CN_N_CAN1_e2dd2bfb_GetMaxComMode_Return
+ *  Rte_CallHook_ECU_APPM_UR_CN_N_CAN1_e2dd2bfb_GetMaxComMode_Start
+ *  Rte_CallHook_ECU_APPM_UR_CN_N_CAN1_e2dd2bfb_GetRequestedComMode_Return
+ *  Rte_CallHook_ECU_APPM_UR_CN_N_CAN1_e2dd2bfb_GetRequestedComMode_Start
+ *  Rte_CallHook_ECU_APPM_UR_CN_N_CAN1_e2dd2bfb_RequestComMode_Return
+ *  Rte_CallHook_ECU_APPM_UR_CN_N_CAN1_e2dd2bfb_RequestComMode_Start
+ *  Rte_ComHook_Sig_Light_1_Ctrl_oGateway_1_oN_CAN1_1104c004_Rx_SigRx
+ *  Rte_ComHook_Sig_Light_1_Sts_oBCM1_1_oN_CAN1_e6c4aa46_Tx_SigTx
  *  Rte_ReadHook_BswM_Request_ESH_PostRunRequest_0_requestedMode_Return
  *  Rte_ReadHook_BswM_Request_ESH_PostRunRequest_0_requestedMode_Start
  *  Rte_ReadHook_BswM_Request_ESH_PostRunRequest_1_requestedMode_Return
@@ -34,6 +44,8 @@
  *  Rte_ReadHook_BswM_Request_ESH_RunRequest_0_requestedMode_Start
  *  Rte_ReadHook_BswM_Request_ESH_RunRequest_1_requestedMode_Return
  *  Rte_ReadHook_BswM_Request_ESH_RunRequest_1_requestedMode_Start
+ *  Rte_ReadHook_ECU_APPM_Sig_Light_1_Ctrl_Sig_Light_1_Ctrl_Return
+ *  Rte_ReadHook_ECU_APPM_Sig_Light_1_Ctrl_Sig_Light_1_Ctrl_Start
  *  Rte_Runnable_BswM_BswM_MainFunction_Return
  *  Rte_Runnable_BswM_BswM_MainFunction_Start
  *  Rte_Runnable_ComM_ComM_MainFunction_0_Return
@@ -60,6 +72,8 @@
  *  Rte_Runnable_ComM_ResetInhibitCounter_Start
  *  Rte_Runnable_ComM_SetECUGroupClassification_Return
  *  Rte_Runnable_ComM_SetECUGroupClassification_Start
+ *  Rte_Runnable_ECU_APPM_ECU_APPM_Runnable_Return
+ *  Rte_Runnable_ECU_APPM_ECU_APPM_Runnable_Start
  *  Rte_Runnable_EcuM_EcuM_MainFunction_Return
  *  Rte_Runnable_EcuM_EcuM_MainFunction_Start
  *  Rte_Runnable_EcuM_GetBootTarget_Return
@@ -86,6 +100,8 @@
  *  Rte_Task_Dispatch
  *  Rte_Task_WaitEvent
  *  Rte_Task_WaitEventRet
+ *  Rte_WriteHook_ECU_APPM_Sig_Light_1_Sts_Sig_Light_1_Sts_Return
+ *  Rte_WriteHook_ECU_APPM_Sig_Light_1_Sts_Sig_Light_1_Sts_Start
  *  SchM_EnterHook_BswM_BSWM_EXCLUSIVE_AREA_0_Return
  *  SchM_EnterHook_BswM_BSWM_EXCLUSIVE_AREA_0_Start
  *  SchM_EnterHook_CanIf_CANIF_EXCLUSIVE_AREA_0_Return

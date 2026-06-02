@@ -33,6 +33,7 @@
 #include "Rte_BswM.h"
 #include "Rte_ComM.h"
 #include "Rte_Det.h"
+#include "Rte_ECU_APPM.h"
 #include "Rte_EcuM.h"
 #include "Rte_Os_OsCore0_swc.h"
 #include "SchM_BswM.h"
@@ -50,6 +51,13 @@
 #include "SchM_Port.h"
 
 #include "Rte_Hook.h"
+
+#include "Com.h"
+#if defined(IL_ASRCOM_VERSION)
+# define RTE_USE_COM_TXSIGNAL_RDACCESS
+#endif
+
+#include "Rte_Cbk.h"
 
 /* AUTOSAR 3.x compatibility */
 #if !defined (RTE_LOCAL)
@@ -202,6 +210,7 @@ FUNC(Std_ReturnType, RTE_CODE) Rte_Start(void) /* PRQA S 0850 */ /* MD_MSR_19.8 
   Rte_ModeMachine_BswM_Switch_ESH_ModeSwitch_BswM_MDGP_ESH_Mode = RTE_MODE_BswM_ESH_Mode_STARTUP;
 
   /* activate the alarms used for TimingEvents */
+  (void)SetRelAlarm(Rte_Al_TE_ECU_APPM_ECU_APPM_Runnable, RTE_MSEC_OsCounter(0) + (TickType)1, RTE_MSEC_OsCounter(10)); /* PRQA S 3417 */ /* MD_Rte_Os */
   (void)SetRelAlarm(Rte_Al_TE_BswM_BswM_MainFunction, RTE_MSEC_OsCounter(0) + (TickType)1, RTE_MSEC_OsCounter(10)); /* PRQA S 3417 */ /* MD_Rte_Os */
 
   return RTE_E_OK;
@@ -210,6 +219,7 @@ FUNC(Std_ReturnType, RTE_CODE) Rte_Start(void) /* PRQA S 0850 */ /* MD_MSR_19.8 
 FUNC(Std_ReturnType, RTE_CODE) Rte_Stop(void) /* PRQA S 0850 */ /* MD_MSR_19.8 */
 {
   /* deactivate alarms */
+  (void)CancelAlarm(Rte_Al_TE_ECU_APPM_ECU_APPM_Runnable); /* PRQA S 3417 */ /* MD_Rte_Os */
   (void)CancelAlarm(Rte_Al_TE_BswM_BswM_MainFunction); /* PRQA S 3417 */ /* MD_Rte_Os */
 
   return RTE_E_OK;
@@ -226,6 +236,20 @@ FUNC(void, RTE_CODE) SchM_Deinit(void)
 FUNC(void, RTE_CODE) Rte_InitMemory(void) /* PRQA S 0850 */ /* MD_MSR_19.8 */
 {
 }
+
+
+/**********************************************************************************************************************
+ * Internal/External Tx connections
+ *********************************************************************************************************************/
+
+FUNC(Std_ReturnType, RTE_CODE) Rte_Write_ECU_APPM_Sig_Light_1_Sts_Sig_Light_1_Sts(Sig_Light_1_Sts data) /* PRQA S 0850, 1505 */ /* MD_MSR_19.8, MD_MSR_8.10 */
+{
+  Std_ReturnType ret = RTE_E_OK;
+
+  ret |= Com_SendSignal(ComConf_ComSignal_Sig_Light_1_Sts_oBCM1_1_oN_CAN1_e6c4aa46_Tx, (&data)); /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+  return ret;
+} /* PRQA S 6010, 6030, 6050 */ /* MD_MSR_STPTH, MD_MSR_STCYC, MD_MSR_STCAL */
 
 
 /**********************************************************************************************************************
@@ -1118,6 +1142,21 @@ FUNC(BswM_ESH_Mode, RTE_CODE) Rte_Mode_BswM_Notification_ESH_ModeNotification_Bs
 /**********************************************************************************************************************
  * Task bodies for RTE controlled tasks
  *********************************************************************************************************************/
+
+/**********************************************************************************************************************
+ * Task:     OsTask_APP_10ms_1
+ * Priority: 25
+ * Schedule: FULL
+ * Alarm:    Cycle Time 0.01 s Alarm Offset 0 s
+ *********************************************************************************************************************/
+TASK(OsTask_APP_10ms_1) /* PRQA S 3408, 1503 */ /* MD_Rte_3408, MD_MSR_14.1 */
+{
+
+  /* call runnable */
+  ECU_APPM_Runnable();
+
+  (void)TerminateTask(); /* PRQA S 3417 */ /* MD_Rte_Os */
+} /* PRQA S 6010, 6030, 6050, 6080 */ /* MD_MSR_STPTH, MD_MSR_STCYC, MD_MSR_STCAL, MD_MSR_STMIF */
 
 /**********************************************************************************************************************
  * Task:     RunTask_OsCore0

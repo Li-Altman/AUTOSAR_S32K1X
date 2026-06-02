@@ -63,6 +63,12 @@ typedef uint32 EcuM_TimeType;
 # define Rte_TypeDef_EcuM_UserType
 typedef uint8 EcuM_UserType;
 
+# define Rte_TypeDef_Sig_Light_1_Ctrl
+typedef uint8 Sig_Light_1_Ctrl;
+
+# define Rte_TypeDef_Sig_Light_1_Sts
+typedef uint8 Sig_Light_1_Sts;
+
 # define Rte_TypeDef_TimeInMicrosecondsType
 typedef uint32 TimeInMicrosecondsType;
 

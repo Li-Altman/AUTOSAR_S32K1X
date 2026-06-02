@@ -21,7 +21,7 @@
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
  *              File: Os_Compiler_Cfg.h
- *   Generation Time: 2026-05-28 00:12:56
+ *   Generation Time: 2026-06-02 23:25:45
  *           Project: S32K1X_Arch - Version 1.0
  *          Delivery: CBD1800257_D01
  *      Tool Version: DaVinci Configurator  5.18.37 SP1
@@ -38,6 +38,7 @@
 
 # define OS_CANBUSOFFISR_0_CODE
 # define OS_CANMAILBOXISR_0_CODE
+# define OS_OSTASK_APP_10MS_1_CODE
 # define OS_RUNTASK_OSCORE0_CODE
 
 

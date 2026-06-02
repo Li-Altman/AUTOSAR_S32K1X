@@ -23,5 +23,9 @@
 # define _COM_CFG_H_
 
 
+# define ComConf_ComSignal_Sig_Light_1_Ctrl_oGateway_1_oN_CAN1_1104c004_Rx 0
+
+# define ComConf_ComSignal_Sig_Light_1_Sts_oBCM1_1_oN_CAN1_e6c4aa46_Tx 1
+
 
 #endif /* _COM_CFG_H_ */

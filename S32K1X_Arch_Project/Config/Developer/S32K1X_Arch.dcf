@@ -15,5 +15,10 @@
 	</FILEREF>
 	<FILEREF>
 		<ARXML>ECUProjects\S32K1X_Arch.arxml</ARXML>
+		<DVG>ECUProjects\S32K1X_Arch.dvg</DVG>
+	</FILEREF>
+	<FILEREF>
+		<ARXML>ComponentTypes/ECU_APPM.arxml</ARXML>
+		<DVG>ComponentTypes/ECU_APPM.dvg</DVG>
 	</FILEREF>
 </DCF>

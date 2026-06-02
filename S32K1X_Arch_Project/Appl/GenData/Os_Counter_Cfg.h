@@ -21,7 +21,7 @@
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
  *              File: Os_Counter_Cfg.h
- *   Generation Time: 2026-05-31 00:04:24
+ *   Generation Time: 2026-06-02 23:25:45
  *           Project: S32K1X_Arch - Version 1.0
  *          Delivery: CBD1800257_D01
  *      Tool Version: DaVinci Configurator  5.18.37 SP1
@@ -45,7 +45,7 @@
  *********************************************************************************************************************/
 
 /*! Number of counter jobs: OsCounter */
-# define OS_CFG_NUM_COUNTER_OSCOUNTER_JOBS     (3uL)
+# define OS_CFG_NUM_COUNTER_OSCOUNTER_JOBS     (4uL)
 
 
 /**********************************************************************************************************************

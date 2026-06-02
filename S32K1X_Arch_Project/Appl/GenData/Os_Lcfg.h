@@ -21,7 +21,7 @@
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
  *              File: Os_Lcfg.h
- *   Generation Time: 2026-05-28 00:12:56
+ *   Generation Time: 2026-06-02 23:25:45
  *           Project: S32K1X_Arch - Version 1.0
  *          Delivery: CBD1800257_D01
  *      Tool Version: DaVinci Configurator  5.18.37 SP1
@@ -75,6 +75,18 @@
 /**********************************************************************************************************************
  *  GLOBAL FUNCTION PROTOTYPES
  *********************************************************************************************************************/
+
+# define OS_START_SEC_OsTask_APP_10ms_1_CODE
+# include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+/**********************************************************************************************************************
+ *  OsTask_APP_10ms_1()
+ *********************************************************************************************************************/
+extern FUNC(void, OS_OSTASK_APP_10MS_1_CODE) Os_Task_OsTask_APP_10ms_1(void);
+
+# define OS_STOP_SEC_OsTask_APP_10ms_1_CODE
+# include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
 
 # define OS_START_SEC_RunTask_OsCore0_CODE
 # include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */

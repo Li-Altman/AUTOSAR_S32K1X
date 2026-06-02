@@ -8,7 +8,7 @@
  *  -------------------------------------------------------------------------------------------------------------------
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
- *          File:  Os_Cfg.h
+ *          File:  Rte_ECU_APPM_Type.h
  *        Config:  S32K1X_Arch.dpa
  *   ECU-Project:  BCM
  *
@@ -16,38 +16,42 @@
  *                 RTE Core Version 1.19.0
  *       License:  CBD1800257
  *
- *   Description:  Os definitions
+ *   Description:  Application types header file for SW-C <ECU_APPM>
  *********************************************************************************************************************/
 
-#ifndef _OS_CFG_H_
-# define _OS_CFG_H_
+/* double include prevention */
+#ifndef _RTE_ECU_APPM_TYPE_H
+# define _RTE_ECU_APPM_TYPE_H
 
-/* Os definitions */
+# ifdef __cplusplus
+extern "C"
+{
+# endif /* __cplusplus */
 
-/* Tasks */
-# define OsTask_APP_10ms_1 (0U)
-# define RunTask_OsCore0 (1U)
+# include "Rte_Type.h"
 
-/* Alarms */
-# define Rte_Al_TE_ECU_APPM_ECU_APPM_Runnable (0U)
-# define Rte_Al_TE2_RunTask_OsCore0_0_10ms (1U)
-# define Rte_Al_TE2_RunTask_OsCore0_0_20ms (2U)
-# define Rte_Al_TE_BswM_BswM_MainFunction (3U)
+# ifndef RTE_CORE
 
-/* Events */
-# define Rte_Ev_Cyclic2_RunTask_OsCore0_0_10ms (0x01)
-# define Rte_Ev_Cyclic2_RunTask_OsCore0_0_20ms (0x02)
-# define Rte_Ev_Run_BswM_BswM_MainFunction (0x04)
+/**********************************************************************************************************************
+ * Range, Invalidation, Enumeration and Bit Field Definitions
+ *********************************************************************************************************************/
 
-/* Spinlocks */
+#  ifndef COMM_NO_COMMUNICATION
+#   define COMM_NO_COMMUNICATION (0U)
+#  endif
 
-/* Resources */
+#  ifndef COMM_SILENT_COMMUNICATION
+#   define COMM_SILENT_COMMUNICATION (1U)
+#  endif
 
-/* ScheduleTables */
+#  ifndef COMM_FULL_COMMUNICATION
+#   define COMM_FULL_COMMUNICATION (2U)
+#  endif
 
-/* Cores */
+# endif /* RTE_CORE */
 
-/* Trusted Functions */
+# ifdef __cplusplus
+} /* extern "C" */
+# endif /* __cplusplus */
 
-
-#endif /* _OS_CFG_H_ */
+#endif /* _RTE_ECU_APPM_TYPE_H */

@@ -21,7 +21,7 @@
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
  *              File: Os_Types_Lcfg.h
- *   Generation Time: 2026-05-31 00:04:25
+ *   Generation Time: 2026-06-02 23:25:45
  *           Project: S32K1X_Arch - Version 1.0
  *          Delivery: CBD1800257_D01
  *      Tool Version: DaVinci Configurator  5.18.37 SP1
@@ -60,6 +60,7 @@
 
 /* Task identifiers. */
 #define IdleTask_OsCore0 IdleTask_OsCore0
+#define OsTask_APP_10ms_1 OsTask_APP_10ms_1
 #define RunTask_OsCore0 RunTask_OsCore0
 
 /* Category 2 ISR identifiers. */
@@ -72,6 +73,7 @@
 #define Rte_Al_TE2_RunTask_OsCore0_0_10ms Rte_Al_TE2_RunTask_OsCore0_0_10ms
 #define Rte_Al_TE2_RunTask_OsCore0_0_20ms Rte_Al_TE2_RunTask_OsCore0_0_20ms
 #define Rte_Al_TE_BswM_BswM_MainFunction Rte_Al_TE_BswM_BswM_MainFunction
+#define Rte_Al_TE_ECU_APPM_ECU_APPM_Runnable Rte_Al_TE_ECU_APPM_ECU_APPM_Runnable
 
 /* Counter identifiers. */
 #define OsCounter OsCounter
@@ -129,8 +131,9 @@ typedef enum
 typedef enum
 {
   IdleTask_OsCore0 = 0,
-  RunTask_OsCore0 = 1,
-  OS_TASKID_COUNT = 2,
+  OsTask_APP_10ms_1 = 1,
+  RunTask_OsCore0 = 2,
+  OS_TASKID_COUNT = 3,
   INVALID_TASK = OS_TASKID_COUNT
 } TaskType;
 
@@ -151,7 +154,8 @@ typedef enum
   Rte_Al_TE2_RunTask_OsCore0_0_10ms = 0,
   Rte_Al_TE2_RunTask_OsCore0_0_20ms = 1,
   Rte_Al_TE_BswM_BswM_MainFunction = 2,
-  OS_ALARMID_COUNT = 3
+  Rte_Al_TE_ECU_APPM_ECU_APPM_Runnable = 3,
+  OS_ALARMID_COUNT = 4
 } AlarmType;
 
 /*! Counter identifiers. */
